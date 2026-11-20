@@ -111,7 +111,7 @@ flowchart LR
 * **Diagnóstico de Lead com 1 Clique:** Avaliação de fraquezas na presença digital, reputação Google e ganchos comerciais de alta resposta.
 * **Gerador de Abordagens Humanizadas:** Geração dinâmica de 3 opções de abordagem personalizadas no WhatsApp calibradas pela skill `humanizer`.
 * **Sugestões de Respostas Comerciais:** Contorno de objeções em tempo real na aba de conversas do WhatsApp Studio.
-* **Provedor Anthropic / GhostCLI:** Proxy nativo com suporte a chave de API segura, medição de latência e verificação de status online.
+* **Provedor Anthropic:** Proxy nativo com suporte a chave de API segura, medição de latência e verificação de status online.
 
 ---
 

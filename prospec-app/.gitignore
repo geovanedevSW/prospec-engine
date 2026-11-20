@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+deployments/*/node_modules/
+
+# Production builds
+dist/
+deployments/*/dist/
+
+# Environment variables & secrets (CRITICAL)
+.env
+.env.*
+.env.local
+!.env.example
+
+# Local SQLite databases & runtime data
+data/*.sqlite
+data/*.sqlite-journal
+data/*.sqlite-wal
+data/*.sqlite-shm
+data/*.db
+data/*.db-journal
+*.sqlite
+*.db
+
+# Test reports & artifacts
+test-results/
+screenshots-test/
+playwright-report/
+blob-report/
+coverage/
+
+# Scratch & temporary files
+scratch/
+temp/
+*.log
+npm-debug.log*
+
+# OS & Editor files
+.DS_Store
+Thumbs.db

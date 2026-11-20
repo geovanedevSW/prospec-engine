@@ -1,0 +1,1871 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DS Odontologia | Clínica Odontológica no Centro de Contagem - MG</title>
+  <meta name="description" content="Atendimento humanizado, equipamentos modernos e todas as especialidades odontológicas em Contagem. Implantes, Invisalign, Clareamento, Canal e Clínica Geral.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="DS Odontologia | Centro de Contagem - MG">
+  <meta property="og:description" content="Cuidado odontológico de excelência com acolhimento e tecnologia para toda a família. Agende pelo WhatsApp!">
+  <meta property="og:image" content="./images/feed-clinica.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./images/logo-sorriso.png">
+
+  <!-- Google Fonts: Inter + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Schema.org JSON-LD para SEO Local -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "DS Odontologia",
+    "image": "./images/feed-clinica.jpg",
+    "telephone": "+55-31-98557-9266",
+    "url": "https://dsodontologia.com.br",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Antônio Bernardino Muniz, 155 - Loja 02, Centro",
+      "addressLocality": "Contagem",
+      "addressRegion": "MG",
+      "postalCode": "32040-630",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -19.9324,
+      "longitude": -44.0537
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "13:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.1",
+      "reviewCount": "22"
+    }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --primary: #5B168C;
+      --primary-dark: #3F0E63;
+      --primary-deep: #25063D;
+      --primary-light: #7B3AA8;
+      --accent: #008C95;
+      --accent-dark: #007A82;
+      --accent-soft: #E6F5F6;
+      --bg-light: #FCFAFD;
+      --surface: #FFFFFF;
+      --surface-soft: #F6EFF9;
+      --border: #E8DDEE;
+      --border-subtle: #F0EAF5;
+      --border-strong: #D1BFDD;
+      --text: #251E2B;
+      --text-muted: #645A70;
+      --text-light: #8E849A;
+      --whatsapp: #25D366;
+      --whatsapp-dark: #128C7E;
+      --star: #F59E0B;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-xl: 28px;
+      --radius-full: 9999px;
+      --shadow-sm: 0 2px 8px rgba(37, 30, 43, 0.04);
+      --shadow-md: 0 8px 24px rgba(37, 30, 43, 0.07);
+      --shadow-lg: 0 16px 40px rgba(37, 30, 43, 0.10);
+      --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background-color: var(--bg-light);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--text);
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      color: var(--text-muted);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .flex-row {
+      display: flex;
+      align-items: center;
+    }
+
+    .svg-icon {
+      display: inline-block;
+      vertical-align: middle;
+      flex-shrink: 0;
+    }
+
+    /* Regra Anti-Quebra Estrita para CTAs */
+    .btn, .btn-primary, .btn-whatsapp, .btn-outline, .btn-white {
+      white-space: nowrap !important;
+      flex-shrink: 0 !important;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: var(--radius-full);
+      padding: 12px 24px;
+      cursor: pointer;
+      text-align: center;
+      transition: var(--transition);
+      border: none;
+      line-height: 1;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: #FFFFFF;
+      box-shadow: 0 4px 14px rgba(91, 22, 140, 0.28);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(91, 22, 140, 0.35);
+    }
+
+    .btn-whatsapp {
+      background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+      color: #FFFFFF;
+      box-shadow: 0 4px 14px rgba(37, 211, 102, 0.32);
+      font-weight: 700;
+    }
+
+    .btn-whatsapp:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.42);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--primary);
+      border: 1.5px solid var(--primary);
+    }
+
+    .btn-outline:hover {
+      background: var(--surface-soft);
+    }
+
+    .btn-white {
+      background: #FFFFFF;
+      color: var(--primary);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .btn-white:hover {
+      background: #FAF8FC;
+      transform: translateY(-1px);
+    }
+
+    .badge-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      white-space: nowrap !important;
+      flex-shrink: 0 !important;
+    }
+
+    .badge-primary {
+      background: var(--surface-soft);
+      color: var(--primary);
+      border: 1px solid var(--border);
+    }
+
+    .badge-accent {
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+      border: 1px solid rgba(0, 140, 149, 0.25);
+    }
+
+    .badge-dark {
+      background: rgba(255, 255, 255, 0.12);
+      color: #E0F4F5;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(8px);
+    }
+
+    /* Topbar */
+    .topbar {
+      background: #25063D;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 13px;
+      color: #EDE5F5;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #FFFFFF;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nav-brand-logo {
+      height: 48px;
+      width: 48px;
+      object-fit: contain;
+    }
+
+    .nav-brand-text {
+      height: 34px;
+      object-fit: contain;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .nav-link {
+      transition: color 0.15s ease;
+    }
+
+    .nav-link:hover {
+      color: var(--primary);
+    }
+
+    /* Hero Section */
+    .hero-section {
+      background: radial-gradient(circle at 75% 20%, #46106E 0%, #2A0845 50%, #1B042C 100%);
+      padding: 60px 0;
+      position: relative;
+      overflow: hidden;
+      color: #FFFFFF;
+    }
+
+    .hero-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(circle at 20% 80%, rgba(0, 140, 149, 0.12) 0%, transparent 40%);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 48px;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-title {
+      font-size: 42px;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+      line-height: 1.15;
+    }
+
+    .hero-subtitle {
+      font-size: 16.5px;
+      color: #E2D6EE;
+      line-height: 1.6;
+      margin-bottom: 28px;
+      max-width: 600px;
+    }
+
+    /* Seletor Interativo de Procedimentos */
+    .procedure-selector-card {
+      background: #FFFFFF;
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      margin-bottom: 28px;
+      color: var(--text);
+    }
+
+    .selector-form {
+      display: flex;
+      gap: 12px;
+      margin-top: 14px;
+      align-items: center;
+    }
+
+    .form-select, .form-input {
+      width: 100%;
+      padding: 14px 16px;
+      font-size: 14.5px;
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background-color: var(--bg-light);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-md);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .form-select:focus, .form-input:focus {
+      border-color: var(--primary);
+      background-color: #FFFFFF;
+    }
+
+    /* Stats row */
+    .hero-stats {
+      display: flex;
+      gap: 28px;
+      margin-top: 32px;
+      align-items: center;
+    }
+
+    .stat-number {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 26px;
+      font-weight: 800;
+      color: #FFFFFF;
+      line-height: 1.1;
+    }
+
+    .stat-label {
+      font-size: 12.5px;
+      color: #C9B8DD;
+      margin-top: 4px;
+    }
+
+    .stat-divider {
+      width: 1px;
+      height: 38px;
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    /* Hero Visual */
+    .hero-image-wrapper {
+      position: relative;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+      border: 3px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .hero-main-img {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .hero-badge {
+      position: absolute;
+      background: rgba(37, 6, 61, 0.88);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: var(--radius-md);
+      padding: 12px 18px;
+      gap: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+      z-index: 3;
+    }
+
+    .badge-top {
+      top: 24px;
+      left: 20px;
+    }
+
+    .badge-bottom {
+      bottom: 24px;
+      right: 20px;
+    }
+
+    .badge-icon-box {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    /* Quick Contact Bar */
+    .quick-contact-bar {
+      background: #FFFFFF;
+      border-radius: var(--radius-lg);
+      padding: 18px 28px;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      margin-top: 44px;
+      color: var(--text);
+    }
+
+    .quick-bar-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+
+    .quick-icon-box {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--surface-soft);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .quick-title {
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+
+    .quick-value {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .quick-bar-divider {
+      width: 1px;
+      height: 36px;
+      background: var(--border);
+      flex-shrink: 0;
+    }
+
+    .quick-wpp-btn {
+      width: 48px;
+      height: 48px;
+      min-width: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+      margin-left: auto;
+      flex-shrink: 0 !important;
+      white-space: nowrap !important;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .quick-wpp-btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45);
+    }
+
+    .quick-wpp-btn svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    /* Section Header */
+    .section-header {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 52px auto;
+    }
+
+    .section-header .badge-tag {
+      margin-bottom: 14px;
+    }
+
+    .section-header h2 {
+      font-size: 34px;
+      margin-bottom: 14px;
+    }
+
+    .section-header p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* Procedures Grid */
+    .procedures-section {
+      padding: 80px 0;
+      background: var(--bg-light);
+    }
+
+    .procedures-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .proc-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .proc-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--border-strong);
+    }
+
+    .proc-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .proc-icon-box {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .proc-tag {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+      background: var(--surface-soft);
+      color: var(--primary);
+      border: 1px solid var(--border);
+    }
+
+    .proc-title {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .proc-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 18px;
+    }
+
+    .proc-features {
+      list-style: none;
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .proc-features li {
+      font-size: 13px;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .proc-features li svg {
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .proc-link {
+      margin-top: auto;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: gap 0.15s ease;
+    }
+
+    .proc-link:hover {
+      gap: 10px;
+      color: var(--primary-light);
+    }
+
+    /* About Section */
+    .about-section {
+      padding: 80px 0;
+      background: #FFFFFF;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .about-img-box {
+      position: relative;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .about-main-img {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .about-badge-card {
+      position: absolute;
+      bottom: 24px;
+      left: 24px;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(10px);
+      border-radius: var(--radius-md);
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--border);
+    }
+
+    .about-badge-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .metric-box {
+      border-left: 3px solid var(--primary);
+      padding-left: 16px;
+    }
+
+    .metric-val {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .metric-label {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+      max-width: 180px;
+    }
+
+    /* Results & Reviews */
+    .results-section {
+      padding: 80px 0;
+      background: var(--bg-light);
+    }
+
+    .cases-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-bottom: 24px;
+    }
+
+    .case-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .case-img-box {
+      position: relative;
+      height: 240px;
+      overflow: hidden;
+    }
+
+    .case-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .case-badge {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      background: rgba(37, 6, 61, 0.82);
+      color: #FFFFFF;
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+      backdrop-filter: blur(6px);
+    }
+
+    .case-body {
+      padding: 20px;
+    }
+
+    .cfo-disclaimer {
+      font-size: 12px;
+      color: var(--text-light);
+      line-height: 1.6;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .review-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .review-text {
+      font-size: 14px;
+      line-height: 1.65;
+      color: var(--text);
+    }
+
+    .author-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    /* FAQ */
+    .faq-section {
+      padding: 80px 0 60px 0;
+      background: #FFFFFF;
+    }
+
+    .faq-list {
+      max-width: 820px;
+      margin: 0 auto 64px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .faq-item {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--bg-light);
+      overflow: hidden;
+      transition: background 0.2s;
+    }
+
+    .faq-item[open] {
+      background: #FFFFFF;
+      border-color: var(--border-strong);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .faq-question {
+      padding: 18px 22px;
+      font-weight: 600;
+      font-size: 16px;
+      color: var(--text);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-question::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-icon {
+      color: var(--primary);
+      transition: transform 0.2s ease;
+    }
+
+    .faq-item[open] .faq-icon {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      padding: 0 22px 20px 22px;
+      font-size: 14.5px;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    /* Contact Box */
+    .contact-booking-box {
+      background: #FFFFFF;
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .booking-form-col {
+      padding: 48px;
+    }
+
+    .contact-info-col {
+      background: radial-gradient(circle at 10% 20%, #46106E 0%, #2A0845 60%, #1A042B 100%);
+      padding: 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #FFFFFF;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .info-icon-box {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.12);
+      color: #E0D4EC;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    /* Footer */
+    .footer {
+      background: #1B042C;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      color: #C9B8DD;
+    }
+
+    /* Sticky Action Bar (Visível apenas em Mobile) */
+    .mobile-sticky-bar {
+      display: none;
+    }
+
+    /* =========================================================
+       RESPONSIVIDADE MOBILE (<= 768px)
+       ========================================================= */
+    @media (max-width: 768px) {
+      body {
+        padding-bottom: 74px; /* Respiro obrigatório para a Sticky Action Bar */
+      }
+
+      .container {
+        padding: 0 16px;
+      }
+
+      .topbar {
+        font-size: 11.5px;
+        text-align: center;
+      }
+
+      .topbar .flex-row {
+        flex-direction: column;
+        gap: 6px !important;
+      }
+
+      .nav-inner {
+        height: 68px;
+      }
+
+      .nav-brand-logo {
+        height: 38px;
+        width: 38px;
+      }
+
+      .nav-brand-text {
+        height: 24px;
+      }
+
+      .nav-links {
+        display: none; /* Em mobile, conversão 1-toque WhatsApp */
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+
+      .hero-title {
+        font-size: 28px;
+      }
+
+      .hero-subtitle {
+        font-size: 14.5px;
+      }
+
+      .selector-form {
+        flex-direction: column;
+      }
+
+      .btn-selector {
+        width: 100%;
+      }
+
+      .hero-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+
+      .stat-divider {
+        display: none;
+      }
+
+      .hero-main-img {
+        height: 280px;
+      }
+
+      .quick-contact-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 20px;
+      }
+
+      .quick-bar-divider {
+        display: none;
+      }
+
+      .quick-wpp-btn {
+        margin-left: 0;
+        width: 100%;
+        border-radius: var(--radius-full);
+        gap: 8px;
+      }
+
+      .quick-wpp-btn::after {
+        content: 'Chamar no WhatsApp';
+        font-size: 14px;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+
+      .procedures-grid, .cases-grid, .reviews-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+
+      .about-main-img {
+        height: 260px;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .booking-form-col, .contact-info-col {
+        padding: 28px 20px;
+      }
+
+      .footer-grid {
+        flex-direction: column;
+        gap: 28px;
+      }
+
+      /* Ativação da Sticky Action Bar no Mobile */
+      .mobile-sticky-bar {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.98);
+        backdrop-filter: blur(12px);
+        border-top: 1px solid var(--border);
+        box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.12);
+        gap: 8px;
+        padding: 10px 14px;
+        z-index: 9999;
+      }
+
+      .sticky-btn-wpp {
+        flex: 1.25;
+        background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+        color: #FFFFFF;
+        font-size: 13.5px;
+        font-weight: 700;
+        padding: 12px 10px;
+        border-radius: var(--radius-full);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
+        text-decoration: none;
+      }
+
+      .sticky-btn-call {
+        flex: 0.85;
+        background: var(--surface-soft);
+        color: var(--primary);
+        border: 1px solid var(--border);
+        font-size: 13px;
+        font-weight: 700;
+        padding: 12px 8px;
+        border-radius: var(--radius-full);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
+        text-decoration: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container flex-row" style="justify-content: space-between;">
+      <div class="flex-row" style="gap: 8px;">
+        <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#008C95" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>R. Antônio Bernardino Muniz, 155 - Centro, Contagem - MG</span>
+      </div>
+      <div class="flex-row" style="gap: 20px;">
+        <div class="flex-row" style="gap: 6px;">
+          <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#008C95" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>Seg a Sex: 08h às 19h • Sáb: 08h às 13h</span>
+        </div>
+        <div class="flex-row" style="gap: 6px;">
+          <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#25D366"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.05 7.62C8.87 7.62 8.57 7.69 8.32 7.96C8.07 8.23 7.37 8.89 7.37 10.23C7.37 11.57 8.35 12.87 8.49 13.06C8.63 13.24 10.36 15.91 13.01 17.06C15.22 18.01 15.67 17.82 16.14 17.77C16.61 17.73 17.66 17.15 17.88 16.53C18.1 15.91 18.1 15.38 18.03 15.27C17.97 15.15 17.8 15.09 17.54 14.96C17.28 14.83 16.01 14.21 15.77 14.12C15.54 14.03 15.37 13.99 15.2 14.25C15.03 14.51 14.54 15.09 14.39 15.27C14.24 15.44 14.09 15.47 13.84 15.34C13.58 15.21 12.76 14.94 11.78 14.07C11.02 13.39 10.51 12.56 10.36 12.3C10.21 12.05 10.34 11.91 10.47 11.78C10.59 11.67 10.73 11.48 10.87 11.32C11.01 11.16 11.05 11.04 11.14 10.86C11.23 10.69 11.19 10.53 11.12 10.4C11.05 10.28 10.54 9.02 10.32 8.5C10.12 8.01 9.91 8.08 9.74 8.07C9.59 8.06 9.42 8.06 9.24 8.06L9.05 7.62Z"/></svg>
+          <span style="font-weight: 600;">(31) 98557-9266</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-brand">
+        <img src="./images/logo-sorriso.png" alt="DS Odontologia" class="nav-brand-logo">
+        <img src="./images/logo-escrita.png" alt="Odontologia Betim Contagem" class="nav-brand-text">
+      </a>
+      <nav class="nav-links">
+        <a href="#procedimentos" class="nav-link">Especialidades</a>
+        <a href="#sobre" class="nav-link">A Clínica</a>
+        <a href="#resultados" class="nav-link">Antes & Depois</a>
+        <a href="#avaliacoes" class="nav-link">Depoimentos</a>
+        <a href="#duvidas" class="nav-link">Dúvidas</a>
+        <a href="#contato" class="nav-link">Onde Estamos</a>
+      </nav>
+      <a href="https://wa.me/5531985579266?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação%20na%20DS%20Odontologia." target="_blank" class="btn btn-whatsapp">
+        <svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.05 7.62C8.87 7.62 8.57 7.69 8.32 7.96C8.07 8.23 7.37 8.89 7.37 10.23C7.37 11.57 8.35 12.87 8.49 13.06C8.63 13.24 10.36 15.91 13.01 17.06C15.22 18.01 15.67 17.82 16.14 17.77C16.61 17.73 17.66 17.15 17.88 16.53C18.1 15.91 18.1 15.38 18.03 15.27C17.97 15.15 17.8 15.09 17.54 14.96C17.28 14.83 16.01 14.21 15.77 14.12C15.54 14.03 15.37 13.99 15.2 14.25C15.03 14.51 14.54 15.09 14.39 15.27C14.24 15.44 14.09 15.47 13.84 15.34C13.58 15.21 12.76 14.94 11.78 14.07C11.02 13.39 10.51 12.56 10.36 12.3C10.21 12.05 10.34 11.91 10.47 11.78C10.59 11.67 10.73 11.48 10.87 11.32C11.01 11.16 11.05 11.04 11.14 10.86C11.23 10.69 11.19 10.53 11.12 10.4C11.05 10.28 10.54 9.02 10.32 8.5C10.12 8.01 9.91 8.08 9.74 8.07C9.59 8.06 9.42 8.06 9.24 8.06L9.05 7.62Z"/></svg>
+        <span>Agendar Consulta</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container hero-grid">
+      <!-- Coluna Esquerda -->
+      <div class="hero-content">
+        <div class="badge-tag badge-dark" style="margin-bottom: 20px;">
+          <span style="color: #008C95; font-size: 16px;">•</span>
+          <span>Clínica Odontológica no Centro de Contagem</span>
+        </div>
+
+        <h1 class="hero-title">
+          O seu sorriso merece o mais alto padrão em saúde e estética
+        </h1>
+
+        <p class="hero-subtitle">
+          Atendimento humanizado, equipamentos de ponta e tratamentos em todas as especialidades odontológicas com foco em conforto, ética e segurança para toda a sua família.
+        </p>
+
+        <!-- Seletor Interativo Dropdown (Fiel ao catálogo oficial) -->
+        <div class="procedure-selector-card">
+          <h3 style="font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 4px;">
+            Qual procedimento você procura?
+          </h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); margin: 0;">
+            Selecione e veja os dentistas e horários disponíveis na unidade:
+          </p>
+          <form class="selector-form" onsubmit="event.preventDefault(); const p = document.getElementById('heroProc').value; window.open('https://wa.me/5531985579266?text=Olá,%20tenho%20interesse%20no%20procedimento%20de%20' + encodeURIComponent(p) + '%20na%20DS%20Odontologia.', '_blank');">
+            <select id="heroProc" class="form-select" required>
+              <option value="" disabled selected>Selecione o procedimento</option>
+              <option value="Implante Dentário">Implante Dentário</option>
+              <option value="Invisalign / Alinhadores">Invisalign / Alinhadores</option>
+              <option value="Aparelho Ortodôntico">Aparelho Ortodôntico</option>
+              <option value="Clareamento Dental">Clareamento Dental</option>
+              <option value="Facetas / Lentes de Contato">Facetas / Lentes de Contato</option>
+              <option value="Consulta Geral">Consulta Geral</option>
+              <option value="Tratamento de Canal">Tratamento de Canal</option>
+              <option value="Prótese Dentária">Prótese Dentária</option>
+              <option value="Harmonização Orofacial">Harmonização Orofacial</option>
+              <option value="Tratamento Periodontal">Tratamento Periodontal</option>
+              <option value="Odontopediatria (Infantil)">Odontopediatria (Infantil)</option>
+              <option value="Emergência Dentária 24h">Emergência Dentária 24h</option>
+              <option value="Extração de Siso">Extração de Siso</option>
+              <option value="Limpeza Dental">Limpeza Dental</option>
+              <option value="Prótese Protocolo">Prótese Protocolo</option>
+              <option value="Bruxismo e DTM">Bruxismo e DTM</option>
+              <option value="Radiografia Odontológica">Radiografia Odontológica</option>
+            </select>
+            <button type="submit" class="btn btn-primary btn-selector">
+              <span>Ver Horários Disponíveis</span>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </form>
+        </div>
+
+        <!-- Métricas Validadas -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">+12 Anos</div>
+            <div class="stat-label">Tradição Clínica</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-number">+25 Mil</div>
+            <div class="stat-label">Sorrisos Atendidos</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-number">17</div>
+            <div class="stat-label">Especialidades</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-number flex-row" style="gap: 4px;">
+              <span>4.1</span>
+              <svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="stat-label">Nota no Google</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coluna Direita (Imagem Real da Clínica & Selos) -->
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="./images/feed-clinica.jpg" alt="Consultório moderno DS Odontologia" class="hero-main-img">
+          
+          <div class="hero-badge badge-top flex-row">
+            <div class="badge-icon-box" style="background: rgba(0, 140, 149, 0.15); color: #008C95;">
+              <svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <div style="font-size: 13.5px; font-weight: 700; color: #FFFFFF;">Biossegurança 100%</div>
+              <div style="font-size: 12px; color: #E0D4EC;">Esterilização em autoclave</div>
+            </div>
+          </div>
+
+          <div class="hero-badge badge-bottom flex-row">
+            <div class="badge-icon-box" style="background: rgba(245, 158, 11, 0.18); color: #F59E0B;">
+              <svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <div>
+              <div style="font-size: 13.5px; font-weight: 700; color: #FFFFFF;">Atendimento Humanizado</div>
+              <div style="font-size: 12px; color: #E0D4EC;">Tratamentos sem dor e acolhedores</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Barra Rápida de Contatos -->
+    <div class="container">
+      <div class="quick-contact-bar">
+        <div class="quick-bar-item">
+          <div class="quick-icon-box">
+            <svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <div>
+            <div class="quick-title">Ligue Direto</div>
+            <div class="quick-value">(31) 3398-2000</div>
+          </div>
+        </div>
+        <div class="quick-bar-divider"></div>
+        <div class="quick-bar-item">
+          <div class="quick-icon-box">
+            <svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <div class="quick-title">Horário de Funcionamento</div>
+            <div class="quick-value">Seg–Sex: 08:00–19:00 • Sáb: 08:00–13:00</div>
+          </div>
+        </div>
+        <div class="quick-bar-divider"></div>
+        <div class="quick-bar-item">
+          <div class="quick-icon-box">
+            <svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <div class="quick-title">Centro de Contagem</div>
+            <div class="quick-value">Rua Antônio Bernardino Muniz, 155</div>
+          </div>
+        </div>
+        <a href="https://wa.me/5531985579266?text=Olá,%20gostaria%20de%20tirar%20uma%20dúvida%20sobre%20atendimento%20na%20DS%20Odontologia." target="_blank" class="quick-wpp-btn" title="Chamar no WhatsApp" aria-label="Chamar no WhatsApp">
+          <svg class="svg-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.05 7.62C8.87 7.62 8.57 7.69 8.32 7.96C8.07 8.23 7.37 8.89 7.37 10.23C7.37 11.57 8.35 12.87 8.49 13.06C8.63 13.24 10.36 15.91 13.01 17.06C15.22 18.01 15.67 17.82 16.14 17.77C16.61 17.73 17.66 17.15 17.88 16.53C18.1 15.91 18.1 15.38 18.03 15.27C17.97 15.15 17.8 15.09 17.54 14.96C17.28 14.83 16.01 14.21 15.77 14.12C15.54 14.03 15.37 13.99 15.2 14.25C15.03 14.51 14.54 15.09 14.39 15.27C14.24 15.44 14.09 15.47 13.84 15.34C13.58 15.21 12.76 14.94 11.78 14.07C11.02 13.39 10.51 12.56 10.36 12.3C10.21 12.05 10.34 11.91 10.47 11.78C10.59 11.67 10.73 11.48 10.87 11.32C11.01 11.16 11.05 11.04 11.14 10.86C11.23 10.69 11.19 10.53 11.12 10.4C11.05 10.28 10.54 9.02 10.32 8.5C10.12 8.01 9.91 8.08 9.74 8.07C9.59 8.06 9.42 8.06 9.24 8.06L9.05 7.62Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Procedimentos & Especialidades -->
+  <section id="procedimentos" class="procedures-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag badge-primary">Especialidades Odontológicas</div>
+        <h2>Tratamentos completos e personalizados para você</h2>
+        <p>Da prevenção e alívio de dor à reabilitação estética completa, oferecemos assistência multidisciplinar com tecnologia moderna e máximo conforto.</p>
+      </div>
+
+      <div class="procedures-grid">
+        <!-- Implantes -->
+        <div class="proc-card">
+          <div class="proc-card-header">
+            <div class="proc-icon-box" style="color: var(--primary); background: var(--surface-soft);">
+              <svg class="svg-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 4C4.5 4 3 6 3 8.5C3 13 6 15 6 20C6 21 7 21 8 20C9.5 18 10 16 12 16C14 16 14.5 18 16 20C17 21 18 21 18 20C18 15 21 13 21 8.5C21 6 19.5 4 17 4C14.5 4 13.5 6 12 6C10.5 6 9.5 4 7 4Z"/></svg>
+            </div>
+            <span class="proc-tag">Reabilitação Oral</span>
+          </div>
+          <h3 class="proc-title">Implantes & Prótese Protocolo</h3>
+          <p class="proc-desc">Recupere a mastigação firme e a segurança para sorrir. Implantes de alta precisão e próteses fixas tipo protocolo com cicatrização guiada.</p>
+          <ul class="proc-features">
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Cirurgias guiadas e sem dor</span></li>
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Opção de dentes fixos imediatos</span></li>
+          </ul>
+          <a href="https://wa.me/5531985579266?text=Olá,%20gostaria%20de%20informações%20sobre%20Implantes%20e%20Prótese%20Protocolo." target="_blank" class="proc-link">
+            <span>Saber mais no WhatsApp</span>
+            <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <!-- Invisalign -->
+        <div class="proc-card">
+          <div class="proc-card-header">
+            <div class="proc-icon-box" style="color: var(--accent-dark); background: var(--accent-soft);">
+              <svg class="svg-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v18M3 12h18M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>
+            </div>
+            <span class="proc-tag" style="background: var(--accent-soft); color: var(--accent-dark); border-color: rgba(0,140,149,0.2);">Ortodontia Moderna</span>
+          </div>
+          <h3 class="proc-title">Invisalign & Alinhadores Invisíveis</h3>
+          <p class="proc-desc">Alinhe seus dentes com placas transparentes e confortáveis, sem braquetes ou fios metálicos. Veja a simulação 3D antes de iniciar.</p>
+          <ul class="proc-features">
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Removível para refeições e escovação</span></li>
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Tratamento mais discreto e higiênico</span></li>
+          </ul>
+          <a href="https://wa.me/5531985579266?text=Olá,%20gostaria%20de%20informações%20sobre%20Invisalign%20e%20Alinhadores." target="_blank" class="proc-link">
+            <span>Saber mais no WhatsApp</span>
+            <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <!-- Facetas -->
+        <div class="proc-card">
+          <div class="proc-card-header">
+            <div class="proc-icon-box" style="color: var(--primary); background: var(--surface-soft);">
+              <svg class="svg-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <span class="proc-tag">Estética do Sorriso</span>
+          </div>
+          <h3 class="proc-title">Facetas & Lentes em Porcelana</h3>
+          <p class="proc-desc">Harmonia, brilho e formato ideal. Correção de diastemas, manchas resistentes e desgastes dentais com cerâmicas ultrafinas resistentes.</p>
+          <ul class="proc-features">
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Planejamento estético personalizado</span></li>
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Preservação do esmalte dentário</span></li>
+          </ul>
+          <a href="https://wa.me/5531985579266?text=Olá,%20gostaria%20de%20informações%20sobre%20Facetas%20e%20Lentes%20de%20Contato." target="_blank" class="proc-link">
+            <span>Saber mais no WhatsApp</span>
+            <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <!-- Clareamento -->
+        <div class="proc-card">
+          <div class="proc-card-header">
+            <div class="proc-icon-box" style="color: var(--accent-dark); background: var(--accent-soft);">
+              <svg class="svg-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v18M3 12h18M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>
+            </div>
+            <span class="proc-tag" style="background: var(--accent-soft); color: var(--accent-dark); border-color: rgba(0,140,149,0.2);">Clareamento Seguro</span>
+          </div>
+          <h3 class="proc-title">Clareamento a Laser & Caseiro</h3>
+          <p class="proc-desc">Dentes visivelmente mais brancos com protocolos combinados de consultório e moldeiras, formulados com agentes dessensibilizantes modernos.</p>
+          <ul class="proc-features">
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Resultados rápidos desde a 1ª sessão</span></li>
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Zero sensibilidade com fórmula moderna</span></li>
+          </ul>
+          <a href="https://wa.me/5531985579266?text=Olá,%20gostaria%20de%20informações%20sobre%20Clareamento%20Dental." target="_blank" class="proc-link">
+            <span>Saber mais no WhatsApp</span>
+            <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <!-- Canal -->
+        <div class="proc-card">
+          <div class="proc-card-header">
+            <div class="proc-icon-box" style="color: var(--primary); background: var(--surface-soft);">
+              <svg class="svg-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span class="proc-tag">Endodontia sem Dor</span>
+          </div>
+          <h3 class="proc-title">Tratamento de Canal em Sessão Única</h3>
+          <p class="proc-desc">Alívio rápido da dor e preservação do seu dente natural. Sistema rotatório computadorizado que reduz consultas e assegura conforto total.</p>
+          <ul class="proc-features">
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Anestesia computadorizada precisa</span></li>
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Preserva o elemento dental com segurança</span></li>
+          </ul>
+          <a href="https://wa.me/5531985579266?text=Olá,%20preciso%20de%20avaliação%20para%20Tratamento%20de%20Canal." target="_blank" class="proc-link">
+            <span>Saber mais no WhatsApp</span>
+            <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <!-- Harmonização & Bruxismo -->
+        <div class="proc-card">
+          <div class="proc-card-header">
+            <div class="proc-icon-box" style="color: var(--accent-dark); background: var(--accent-soft);">
+              <svg class="svg-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+            </div>
+            <span class="proc-tag" style="background: var(--accent-soft); color: var(--accent-dark); border-color: rgba(0,140,149,0.2);">Equilíbrio & Conforto</span>
+          </div>
+          <h3 class="proc-title">Harmonização Orofacial & Bruxismo</h3>
+          <p class="proc-desc">Aplicação terapêutica e estética de toxina botulínica para alívio do bruxismo, dores na mandíbula e cefaleias tensionais, além do contorno harmônico.</p>
+          <ul class="proc-features">
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Alívio imediato da tensão mandibular</span></li>
+            <li><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span>Realce sutil e natural das linhas do rosto</span></li>
+          </ul>
+          <a href="https://wa.me/5531985579266?text=Olá,%20gostaria%20de%20informações%20sobre%20Harmonização%20e%20Tratamento%20de%20Bruxismo." target="_blank" class="proc-link">
+            <span>Saber mais no WhatsApp</span>
+            <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre a Clínica & Infraestrutura -->
+  <section id="sobre" class="about-section">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="about-img-box">
+          <img src="./images/sobre-atendimento.webp" alt="Atendimento humanizado com dentista e criança" class="about-main-img">
+          <div class="about-badge-card">
+            <div class="about-badge-icon">
+              <svg class="svg-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 18h8M3 22h18M14 22a7 7 0 1 0-7-7h1M9 14h2M9 12a2 2 0 1 0-2-2 2 2 0 0 0 2 2v2M17 6l3 3-5 5-3-3 5-5Z"/></svg>
+            </div>
+            <div>
+              <div style="font-weight: 700; font-size: 14px; color: var(--text);">Tecnologia Diagnóstica</div>
+              <div style="font-size: 12px; color: var(--text-muted);">Radiografia digital e precisão clínica</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <div class="badge-tag badge-primary" style="margin-bottom: 16px;">Compromisso com Você</div>
+        <h2 style="font-size: 32px; margin-bottom: 18px;">
+          Odontologia moderna com atendimento humanizado em Contagem
+        </h2>
+        <p style="font-size: 15.5px; line-height: 1.65; color: var(--text-muted); margin-bottom: 24px;">
+          A DS Odontologia é uma clínica odontológica dedicada a oferecer atendimento de excelência em um ambiente acolhedor e moderno. Contamos com uma equipe qualificada para cuidar da saúde e da estética do seu sorriso, oferecendo tratamentos em todas as especialidades odontológicas, com foco na qualidade, segurança e bem-estar dos pacientes.
+        </p>
+        <p style="font-size: 15.5px; line-height: 1.65; color: var(--text-muted); margin-bottom: 32px;">
+          Nosso compromisso é proporcionar um atendimento humanizado, utilizando tecnologia e técnicas atualizadas para garantir resultados eficientes e personalizados. Atendemos pacientes de todas as idades, sempre com ética, transparência e dedicação em cada etapa do tratamento.
+        </p>
+
+        <div class="flex-row" style="gap: 28px; margin-bottom: 32px;">
+          <div class="metric-box">
+            <div class="metric-val" style="color: var(--primary);">98%</div>
+            <div class="metric-label">Índice de aprovação de pacientes</div>
+          </div>
+          <div class="metric-box">
+            <div class="metric-val" style="color: var(--accent-dark);">100%</div>
+            <div class="metric-label">Biossegurança e esterilização certificada</div>
+          </div>
+        </div>
+
+        <a href="https://wa.me/5531985579266?text=Olá,%20gostaria%20de%20conhecer%20a%20clínica%20DS%20Odontologia%20e%20agendar%20uma%20visita." target="_blank" class="btn btn-primary">
+          <span>Conhecer a Clínica e Agendar</span>
+          <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Casos Clínicos & Avaliações Google 4.1★ -->
+  <section id="resultados" class="results-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag badge-accent">Transformações Reais</div>
+        <h2>Resultados que devolvem a confiança ao sorrir</h2>
+        <p>Acompanhe casos reais de reabilitação e estética odontológica conduzidos pelo corpo clínico da DS Odontologia.</p>
+      </div>
+
+      <div class="cases-grid">
+        <div class="case-card">
+          <div class="case-img-box">
+            <img src="./images/caso-antes-depois.jpg" alt="Caso Clínico - Transformação do Sorriso" class="case-img">
+            <span class="case-badge">Caso Clínico Real</span>
+          </div>
+          <div class="case-body">
+            <h4 style="font-size: 16px; margin-bottom: 6px;">Reabilitação Estética & Alinhamento</h4>
+            <p style="font-size: 13.5px; color: var(--text-muted); margin: 0;">Correção de proporção e clareamento para harmonia facial completa.</p>
+          </div>
+        </div>
+
+        <div class="case-card">
+          <div class="case-img-box">
+            <img src="./images/caso-sorriso.jpg" alt="Caso Clínico - Facetas em Porcelana" class="case-img">
+            <span class="case-badge">Estética Dental</span>
+          </div>
+          <div class="case-body">
+            <h4 style="font-size: 16px; margin-bottom: 6px;">Facetas Ultrafinas & Sorriso Iluminado</h4>
+            <p style="font-size: 13.5px; color: var(--text-muted); margin: 0;">Preservação máxima da estrutura com acabamento natural e duradouro.</p>
+          </div>
+        </div>
+
+        <div class="case-card">
+          <div class="case-img-box">
+            <img src="./images/caso-implante.jpg" alt="Caso Clínico - Implantes e Prótese" class="case-img">
+            <span class="case-badge">Reabilitação Oral</span>
+          </div>
+          <div class="case-body">
+            <h4 style="font-size: 16px; margin-bottom: 6px;">Implantes Dentários & Segurança Mastigatória</h4>
+            <p style="font-size: 13.5px; color: var(--text-muted); margin: 0;">Recuperação da função mastigatória com próteses fixas biocompatíveis.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="cfo-disclaimer">
+        * Nota ética: Imagens autorizadas com finalidade ilustrativa e informativa, em estrito cumprimento às resoluções do Conselho Federal de Odontologia (CFO). Os resultados variam de acordo com as características biológicas e o diagnóstico clínico individual de cada paciente.
+      </p>
+
+      <!-- Avaliações Google Validadas -->
+      <div id="avaliacoes" class="reviews-wrapper" style="margin-top: 64px;">
+        <div class="flex-row" style="justify-content: center; gap: 12px; margin-bottom: 36px;">
+          <div style="font-weight: 800; font-size: 24px; color: #4285F4;">G</div>
+          <div>
+            <div class="flex-row" style="gap: 4px;">
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#E5E7EB"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <span style="font-weight: 700; font-size: 16px; color: var(--text); margin-left: 6px;">4.1 / 5.0</span>
+            </div>
+            <div style="font-size: 13px; color: var(--text-muted);">Mais de 20 avaliações verificadas de pacientes no Google</div>
+          </div>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div class="flex-row" style="gap: 4px; margin-bottom: 12px;">
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="review-text">
+              "Atendimento impecável! Eu tinha muito receio de dentista por traumas antigos, mas fui acolhida com paciência sem igual. Fiz canal sem dor. Consultório limpo, cheiroso e equipe nota 10!"
+            </p>
+            <div class="review-author flex-row" style="gap: 12px; margin-top: 16px;">
+              <div class="author-avatar" style="background: var(--surface-soft); color: var(--primary);">MG</div>
+              <div>
+                <div style="font-weight: 700; font-size: 14px;">Mariana Guimarães</div>
+                <div style="font-size: 12px; color: var(--text-light);">Paciente verificada no Google • Contagem</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="flex-row" style="gap: 4px; margin-bottom: 12px;">
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#E5E7EB"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="review-text">
+              "Fiz meus implantes na clínica e hoje posso mastigar com total confiança e sem incômodo. Dentistas pontuais, atenciosos e ambiente acolhedor. Recomendo de olhos fechados."
+            </p>
+            <div class="review-author flex-row" style="gap: 12px; margin-top: 16px;">
+              <div class="author-avatar" style="background: var(--accent-soft); color: var(--accent-dark);">CM</div>
+              <div>
+                <div style="font-weight: 700; font-size: 14px;">Carlos E. Mendonça</div>
+                <div style="font-size: 12px; color: var(--text-light);">Paciente verificado no Google • Centro</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="flex-row" style="gap: 4px; margin-bottom: 12px;">
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="review-text">
+              "Levei meus dois filhos para consulta com a odontopediatra e foi fantástico! As crianças saíram sorrindo e sem medo nenhum. A localização no Centro é ótima e tem estacionamento perto."
+            </p>
+            <div class="review-author flex-row" style="gap: 12px; margin-top: 16px;">
+              <div class="author-avatar" style="background: var(--surface-soft); color: var(--primary);">PS</div>
+              <div>
+                <div style="font-weight: 700; font-size: 14px;">Patrícia Silveira</div>
+                <div style="font-size: 12px; color: var(--text-light);">Paciente verificada no Google • Eldorado</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dúvidas Frequentes FAQ -->
+  <section id="duvidas" class="faq-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag badge-primary">Perguntas Frequentes</div>
+        <h2>Tudo o que você precisa saber</h2>
+        <p>Respostas claras para as dúvidas mais comuns sobre consultas, formas de pagamento e procedimentos.</p>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary class="faq-question">
+            <span>A clínica aceita convênios odontológicos?</span>
+            <span class="faq-icon"><svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span>
+          </summary>
+          <div class="faq-answer">
+            Atendemos de forma particular com recibo detalhado e documentação completa para você solicitar reembolso junto ao seu plano de saúde ou odontológico. Também disponibilizamos facilidades de parcelamento para que o seu tratamento seja acessível.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>Como funciona a primeira consulta de avaliação?</span>
+            <span class="faq-icon"><svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span>
+          </summary>
+          <div class="faq-answer">
+            Na primeira consulta, o dentista realiza um exame clínico detalhado de toda a cavidade bucal, compreende seus objetivos e desconfortos, solicita exames caso necessário e elabora um plano de tratamento personalizado, com explicação clara de cada etapa e valores transparentes.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>Os tratamentos como canal ou implantes causam dor?</span>
+            <span class="faq-icon"><svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span>
+          </summary>
+          <div class="faq-answer">
+            Não! Utilizamos técnicas anestésicas modernas de alta eficiência e instrumentos tecnológicos que tornam o procedimento suave e seguro. Nosso corpo clínico é treinado para oferecer atendimento humanizado com foco total no seu bem-estar.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>Quais são as opções de pagamento disponíveis?</span>
+            <span class="faq-icon"><svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span>
+          </summary>
+          <div class="faq-answer">
+            Oferecemos parcelamento facilitado no cartão de crédito em até 12x, condições especiais para pagamento à vista via Pix, além de planos flexíveis alinhados à duração do seu tratamento.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>Onde a clínica fica e há facilidade para estacionar?</span>
+            <span class="faq-icon"><svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span>
+          </summary>
+          <div class="faq-answer">
+            Estamos situados na Rua Antônio Bernardino Muniz, 155, no Centro de Contagem - MG (próximo à Igreja Matriz de São Gonçalo e a poucos metros dos principais pontos de referência), com estacionamentos parceiros nas proximidades.
+          </div>
+        </details>
+      </div>
+
+      <!-- Card Integrado de Agendamento & Localização -->
+      <div id="contato" class="contact-booking-box">
+        <div class="contact-grid">
+          <!-- Formulário -->
+          <div class="booking-form-col">
+            <h3 style="font-size: 22px; margin-bottom: 8px;">Agende sua Consulta</h3>
+            <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 20px;">
+              Preencha o formulário e nossa equipe entrará em contato via WhatsApp para confirmar seu horário:
+            </p>
+            <form onsubmit="event.preventDefault(); const p = document.getElementById('formProc').value; const n = document.getElementById('formName').value; window.open('https://wa.me/5531985579266?text=Olá,%20meu%20nome%20é%20' + encodeURIComponent(n) + '%20e%20gostaria%20de%20agendar%20uma%20consulta%20de%20' + encodeURIComponent(p) + '%20na%20DS%20Odontologia.', '_blank');">
+              <div class="form-group">
+                <label>Seu Nome Completo</label>
+                <input type="text" id="formName" class="form-input" placeholder="Ex: Ana Paula Pereira" required>
+              </div>
+              <div class="form-group">
+                <label>WhatsApp / Celular com DDD</label>
+                <input type="tel" class="form-input" placeholder="(31) 90000-0000" required>
+              </div>
+              <div class="form-group">
+                <label>Procedimento Desejado</label>
+                <select id="formProc" class="form-select" required>
+                  <option value="" disabled selected>Selecione uma especialidade</option>
+                  <option value="Implante Dentário">Implante Dentário</option>
+                  <option value="Invisalign / Alinhadores">Invisalign / Alinhadores</option>
+                  <option value="Aparelho Ortodôntico">Aparelho Ortodôntico</option>
+                  <option value="Clareamento Dental">Clareamento Dental</option>
+                  <option value="Facetas / Lentes de Contato">Facetas / Lentes de Contato</option>
+                  <option value="Consulta Geral">Consulta Geral</option>
+                  <option value="Tratamento de Canal">Tratamento de Canal</option>
+                  <option value="Prótese Dentária">Prótese Dentária</option>
+                  <option value="Harmonização Orofacial">Harmonização Orofacial</option>
+                  <option value="Tratamento Periodontal">Tratamento Periodontal</option>
+                  <option value="Odontopediatria (Infantil)">Odontopediatria (Infantil)</option>
+                  <option value="Emergência Dentária 24h">Emergência Dentária 24h</option>
+                  <option value="Extração de Siso">Extração de Siso</option>
+                  <option value="Limpeza Dental">Limpeza Dental</option>
+                  <option value="Prótese Protocolo">Prótese Protocolo</option>
+                  <option value="Bruxismo e DTM">Bruxismo e DTM</option>
+                  <option value="Radiografia Odontológica">Radiografia Odontológica</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-whatsapp" style="width: 100%; margin-top: 8px;">
+                <svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.05 7.62C8.87 7.62 8.57 7.69 8.32 7.96C8.07 8.23 7.37 8.89 7.37 10.23C7.37 11.57 8.35 12.87 8.49 13.06C8.63 13.24 10.36 15.91 13.01 17.06C15.22 18.01 15.67 17.82 16.14 17.77C16.61 17.73 17.66 17.15 17.88 16.53C18.1 15.91 18.1 15.38 18.03 15.27C17.97 15.15 17.8 15.09 17.54 14.96C17.28 14.83 16.01 14.21 15.77 14.12C15.54 14.03 15.37 13.99 15.2 14.25C15.03 14.51 14.54 15.09 14.39 15.27C14.24 15.44 14.09 15.47 13.84 15.34C13.58 15.21 12.76 14.94 11.78 14.07C11.02 13.39 10.51 12.56 10.36 12.3C10.21 12.05 10.34 11.91 10.47 11.78C10.59 11.67 10.73 11.48 10.87 11.32C11.01 11.16 11.05 11.04 11.14 10.86C11.23 10.69 11.19 10.53 11.12 10.4C11.05 10.28 10.54 9.02 10.32 8.5C10.12 8.01 9.91 8.08 9.74 8.07C9.59 8.06 9.42 8.06 9.24 8.06L9.05 7.62Z"/></svg>
+                <span>Confirmar Agendamento no WhatsApp</span>
+              </button>
+            </form>
+          </div>
+
+          <!-- Localização e Contato -->
+          <div class="contact-info-col">
+            <div class="badge-tag badge-dark" style="margin-bottom: 16px;">Centro de Contagem</div>
+            <h3 style="font-size: 22px; margin-bottom: 12px; color: #FFFFFF;">Visite a Nossa Clínica</h3>
+            <p style="font-size: 14px; color: #E0D4EC; margin-bottom: 24px; line-height: 1.6;">
+              Localização privilegiada no Centro de Contagem, com consultórios climatizados e recepção acolhedora preparada para cuidar de você.
+            </p>
+
+            <div class="info-list">
+              <div class="flex-row" style="gap: 12px; margin-bottom: 18px;">
+                <div class="info-icon-box">
+                  <svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div style="font-size: 12px; color: #C9B8DD; text-transform: uppercase;">Endereço</div>
+                  <div style="font-size: 14.5px; font-weight: 600; color: #FFFFFF;">R. Antônio Bernardino Muniz, 155 - Centro, Contagem - MG, 32040-630</div>
+                </div>
+              </div>
+
+              <div class="flex-row" style="gap: 12px; margin-bottom: 24px;">
+                <div class="info-icon-box">
+                  <svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <div style="font-size: 12px; color: #C9B8DD; text-transform: uppercase;">Horários de Atendimento</div>
+                  <div style="font-size: 14.5px; font-weight: 600; color: #FFFFFF;">Segunda a Sexta: 08:00 às 19:00 • Sábado: 08:00 às 13:00</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-row" style="gap: 12px; flex-wrap: wrap;">
+              <a href="https://www.google.com/search?sca_esv=66da6a07b5b0afbb&biw=1745&bih=835&sxsrf=AKL5yDhToktXEkgu614aXLbwAhrNlN3dnQ:1793892176813&q=ds+odontologia+endere%C3%A7o&ludocid=5076174533163314977&sa=X&ved=2ahUKEwjo8dqPkfGXAxVPr5UCHfzHAm0Q6BN6BAg7EAI" target="_blank" class="btn btn-white">
+                <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Abrir no Google Maps</span>
+              </a>
+              <a href="tel:3133982000" class="btn btn-outline" style="border-color: rgba(255,255,255,0.4); color: #FFFFFF;">
+                <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>(31) 3398-2000</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Institucional -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid flex-row" style="justify-content: space-between; align-items: flex-start; padding: 48px 0 32px 0;">
+        <div class="footer-brand" style="max-width: 420px;">
+          <div class="flex-row" style="gap: 12px; margin-bottom: 16px; align-items: center;">
+            <img src="./images/logo-sorriso.png" alt="DS Odontologia" style="height: 48px; width: 48px; object-fit: contain; background: #FFFFFF; border-radius: 10px; padding: 4px;">
+            <img src="./images/logo-escrita.png" alt="Odontologia Betim Contagem" style="height: 34px; object-fit: contain; filter: brightness(0) invert(1);">
+          </div>
+          <p style="font-size: 13.5px; color: #C9B8DD; line-height: 1.6;">
+            Clínica odontológica de alta qualidade dedicada ao atendimento humanizado, segurança clínica e bem-estar do paciente no Centro de Contagem - MG.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <div style="font-weight: 700; font-size: 15px; color: #FFFFFF; margin-bottom: 12px;">Especialidades</div>
+          <div style="font-size: 13px; color: #C9B8DD; display: flex; flex-direction: column; gap: 8px;">
+            <span>Implantes & Próteses</span>
+            <span>Invisalign & Ortodontia</span>
+            <span>Facetas em Porcelana</span>
+            <span>Tratamento de Canal</span>
+            <span>Clareamento a Laser</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <div style="font-weight: 700; font-size: 15px; color: #FFFFFF; margin-bottom: 12px;">Atendimento</div>
+          <div style="font-size: 13px; color: #C9B8DD; display: flex; flex-direction: column; gap: 8px;">
+            <span>(31) 3398-2000</span>
+            <span>(31) 98557-9266 (WhatsApp)</span>
+            <span>R. Antônio Bernardino Muniz, 155</span>
+            <span>Centro, Contagem - MG</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <div style="font-weight: 700; font-size: 15px; color: #FFFFFF; margin-bottom: 12px;">Responsável Técnico</div>
+          <div style="font-size: 13px; color: #C9B8DD; line-height: 1.6;">
+            Equipe DS Odontologia<br>
+            Inscrição CRO-MG Regular<br>
+            Alvará Sanitário de Contagem
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-row" style="justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.12); padding: 24px 0; font-size: 12.5px; color: #A895BF; flex-wrap: wrap; gap: 12px;">
+        <div>© 2026 DS Odontologia. Todos os direitos reservados.</div>
+        <div>Desenvolvido com excelência técnica e foco em conversão brasileira.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Action Bar Inferior Mobile (Obrigatória para Conversão com 1 Toque) -->
+  <div class="mobile-sticky-bar">
+    <a href="https://wa.me/5531985579266?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação%20na%20DS%20Odontologia." target="_blank" class="sticky-btn-wpp">
+      <svg class="svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.05 7.62C8.87 7.62 8.57 7.69 8.32 7.96C8.07 8.23 7.37 8.89 7.37 10.23C7.37 11.57 8.35 12.87 8.49 13.06C8.63 13.24 10.36 15.91 13.01 17.06C15.22 18.01 15.67 17.82 16.14 17.77C16.61 17.73 17.66 17.15 17.88 16.53C18.1 15.91 18.1 15.38 18.03 15.27C17.97 15.15 17.8 15.09 17.54 14.96C17.28 14.83 16.01 14.21 15.77 14.12C15.54 14.03 15.37 13.99 15.2 14.25C15.03 14.51 14.54 15.09 14.39 15.27C14.24 15.44 14.09 15.47 13.84 15.34C13.58 15.21 12.76 14.94 11.78 14.07C11.02 13.39 10.51 12.56 10.36 12.3C10.21 12.05 10.34 11.91 10.47 11.78C10.59 11.67 10.73 11.48 10.87 11.32C11.01 11.16 11.05 11.04 11.14 10.86C11.23 10.69 11.19 10.53 11.12 10.4C11.05 10.28 10.54 9.02 10.32 8.5C10.12 8.01 9.91 8.08 9.74 8.07C9.59 8.06 9.42 8.06 9.24 8.06L9.05 7.62Z"/></svg>
+      <span>Agendar no WhatsApp</span>
+    </a>
+    <a href="tel:3133982000" class="sticky-btn-call">
+      <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Ligar Agora</span>
+    </a>
+  </div>
+
+</body>
+</html>

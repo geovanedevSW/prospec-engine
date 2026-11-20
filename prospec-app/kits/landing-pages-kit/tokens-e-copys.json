@@ -1,0 +1,4177 @@
+{
+  "title": "Landing pages para negócios locais",
+  "research_date": "2026-11-03",
+  "locale": "pt-BR",
+  "method": "Pesquisa nas páginas oficiais dos templates. Sínteses da estrutura descrita pelos autores; sem auditoria visual integral, extração de CSS ou medição de conversão. Paletas, tokens e copys são propostas autorais. Referências podem ser sites completos; as sequências de landing page são adaptações.",
+  "niches": [
+    {
+      "id": "beleza",
+      "name": "Beleza, cabelo e estética",
+      "leads_informed": 652
+    },
+    {
+      "id": "saude",
+      "name": "Saúde, odontologia e clínicas",
+      "leads_informed": 442
+    },
+    {
+      "id": "auto",
+      "name": "Automotivo e oficinas",
+      "leads_informed": 346
+    },
+    {
+      "id": "fitness",
+      "name": "Fitness, esportes e lutas",
+      "leads_informed": 231
+    },
+    {
+      "id": "pets",
+      "name": "Pet shop, veterinária e rações",
+      "leads_informed": 214
+    },
+    {
+      "id": "residencial",
+      "name": "Serviços residenciais e técnicos",
+      "leads_informed": 156
+    },
+    {
+      "id": "comercio",
+      "name": "Gastronomia e outros comércios",
+      "leads_informed": 92
+    }
+  ],
+  "sources": [
+    {
+      "id": "R01",
+      "name": "Barber Co",
+      "url": "https://www.framer.com/marketplace/templates/barber-co/",
+      "niche": "Beleza",
+      "observed": "Menu de serviços com duração e preço; profissionais com ação de reserva; localização e horários.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R02",
+      "name": "Barb Styling",
+      "url": "https://webflow.com/templates/html/barbstyling-barber-website-template",
+      "niche": "Beleza",
+      "observed": "Galeria, formulário de agendamento, equipe e serviços em composição minimalista.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R03",
+      "name": "Aura Skin",
+      "url": "https://www.framer.com/marketplace/templates/aura-skin/",
+      "niche": "Beleza",
+      "observed": "Direção editorial com marfim, camadas escuras e menu de tratamentos.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R04",
+      "name": "Nailsy 128",
+      "url": "https://webflow.com/templates/html/nailsy-128-beauty-website-template",
+      "niche": "Beleza",
+      "observed": "Quatro alternativas de abertura, galeria, serviços e preços; ponto de partida para nail design.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R05",
+      "name": "Brightwell Lite",
+      "url": "https://www.framer.com/marketplace/templates/brightwell-lite/",
+      "niche": "Saúde",
+      "observed": "Página única com abertura dividida, cuidados, apresentação, avaliações e agendamento.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R06",
+      "name": "Contour DS",
+      "url": "https://www.framer.com/marketplace/templates/contour-ds/",
+      "niche": "Saúde",
+      "observed": "Abertura fotográfica ampla, faixa informativa, perfil profissional e sequência da primeira visita.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R07",
+      "name": "Luma Dentist",
+      "url": "https://www.framer.com/marketplace/templates/luma-dentist/",
+      "niche": "Saúde",
+      "observed": "Jornada de paciente com serviços, profissionais, pagamentos e expectativas da primeira visita.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R08",
+      "name": "Stride Physiotherapy",
+      "url": "https://www.framer.com/marketplace/templates/stride-physiotherapy/",
+      "niche": "Saúde",
+      "observed": "Organização por condições e tratamentos, foco visível e proposta de leitura acessível.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R09",
+      "name": "Autrix",
+      "url": "https://webflow.com/templates/html/autrix-website-template",
+      "niche": "Automotivo",
+      "observed": "Página única com serviços, equipe, preços, avaliações e solicitação de atendimento.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R10",
+      "name": "CarifyPro",
+      "url": "https://webflow.com/templates/html/carifypro-website-template",
+      "niche": "Automotivo",
+      "observed": "Serviços de manutenção e diagnóstico, credenciais, localização e formulário.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R11",
+      "name": "BootLab",
+      "url": "https://webflow.com/templates/html/bootlab-website-template",
+      "niche": "Automotivo",
+      "observed": "Serviços, detalhamento de preços, projetos e pedidos de orçamento.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R12",
+      "name": "FORGE Strength Club",
+      "url": "https://www.framer.com/marketplace/templates/forge-strength-club/",
+      "niche": "Fitness",
+      "observed": "Direção escura e tipografia condensada; modalidades, profissionais, horários e planos.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R13",
+      "name": "54 Mirrors",
+      "url": "https://www.framer.com/marketplace/templates/54-mirrors/",
+      "niche": "Fitness",
+      "observed": "Estúdio boutique com aulas, instrutores, preços e agenda; identidade expressiva.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R14",
+      "name": "Southpaw",
+      "url": "https://www.framer.com/marketplace/templates/southpaw/",
+      "niche": "Fitness",
+      "observed": "Conteúdo voltado à primeira aula: modalidade, professor, o que levar e o que esperar.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R15",
+      "name": "Pawwell",
+      "url": "https://www.framer.com/marketplace/templates/pawwell/",
+      "niche": "Pets",
+      "observed": "Colagem fotográfica, serviços com preços, processo de atendimento e agendamento.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R16",
+      "name": "Pawline Vet Clinic",
+      "url": "https://www.framer.com/marketplace/templates/pawline-vet-clinic/",
+      "niche": "Pets",
+      "observed": "Serviços, equipe, primeira visita, localização e separação da rota de emergência.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R17",
+      "name": "Tubwell",
+      "url": "https://www.framer.com/marketplace/templates/tubwell/",
+      "niche": "Pets",
+      "observed": "Preços por porte, serviços de banho e tosa e solicitação de horário.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R18",
+      "name": "MAINLINE Plumbing",
+      "url": "https://www.framer.com/marketplace/templates/mainline-plumbing/",
+      "niche": "Residenciais",
+      "observed": "Contato por telefone, serviços e área atendida como informação de decisão.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R19",
+      "name": "Groundwork",
+      "url": "https://www.framer.com/marketplace/templates/groundwork/",
+      "niche": "Residenciais",
+      "observed": "Serviços e áreas com páginas próprias, barra de ligação no celular e formulário curto.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R20",
+      "name": "SteadyHome",
+      "url": "https://www.framer.com/marketplace/templates/steadyhome/",
+      "niche": "Residenciais",
+      "observed": "Apresentação da equipe, serviços e contato com abordagem visual acolhedora.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R21",
+      "name": "Novanta",
+      "url": "https://www.framer.com/marketplace/templates/novanta/",
+      "niche": "Gastronomia",
+      "observed": "Fotografia ampla em superfícies escuras; cardápio, personalização de pedido e reservas.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R22",
+      "name": "Bakery / Sunday Crumb",
+      "url": "https://www.framer.com/marketplace/templates/bakery/",
+      "niche": "Gastronomia",
+      "observed": "Azul cobalto e creme, linguagem gráfica lúdica, produtos, preços e encomendas.",
+      "verification": "Página oficial consultada"
+    },
+    {
+      "id": "R23",
+      "name": "Trattoria & Pizzeria",
+      "url": "https://www.framer.com/marketplace/templates/trattoria-pizzeria/",
+      "niche": "Gastronomia",
+      "observed": "Cardápio por categorias, narrativa de restaurante e reserva de mesa.",
+      "verification": "Página oficial consultada"
+    }
+  ],
+  "themes": [
+    {
+      "id": "B01",
+      "niche": "beleza",
+      "name": "Barbearia de bairro clássica",
+      "target": "Barbearias tradicionais; atendimento recorrente",
+      "fonts": {
+        "display": "Libre Baskerville",
+        "body": "Inter"
+      },
+      "shape": "heritage",
+      "references": [
+        "R01"
+      ],
+      "copy": {
+        "headline": "Seu corte de sempre. Ou um novo que combine com você.",
+        "subheadline": "Corte e barba em {bairro}, com serviços, valores e profissionais para você escolher antes de marcar.",
+        "primary_cta": "Escolher meu horário",
+        "secondary_cta": "Ver cortes e valores",
+        "objection_answer": "Prefere um barbeiro específico? Informe sua preferência ao pedir o horário.",
+        "microcopy": "O horário fica reservado após a confirmação da equipe."
+      },
+      "layout": [
+        "Foto horizontal da barbearia + título lateral",
+        "Menu de serviços em linhas, com duração e preço",
+        "Profissionais e trabalhos",
+        "Avaliações reais",
+        "Horários, endereço e agendamento"
+      ],
+      "proof": [
+        "Fotos reais de cortes",
+        "Nomes dos barbeiros",
+        "Preços e duração confirmados"
+      ],
+      "photography": "Interior da loja com luz quente; retratos e detalhes dos cortes, sem poses de banco de imagem.",
+      "avoid": "Não usar dourado em texto pequeno, brasões genéricos ou vídeo obrigatório na abertura.",
+      "tokens": {
+        "color": {
+          "background": "#F4EBDD",
+          "surface": "#FFFCF6",
+          "text": "#29221D",
+          "text_muted": "#605851",
+          "border_decorative": "#CDC5B9",
+          "border_control": "#8C847B",
+          "primary": "#533C2D",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#493528",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#B8935E",
+          "focus": "#533C2D",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1120,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 112,
+          "section_padding_mobile_px": 64,
+          "card_radius_px": 4,
+          "button_radius_px": 4,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 64,
+          "h1_mobile_px": 38,
+          "h1_line_height": 1.12,
+          "h1_tracking": "0.01em",
+          "h1_weight": 400,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 13.256,
+        "text/surface": 15.294,
+        "muted/background": 5.901,
+        "muted/surface": 6.808,
+        "on-primary/primary": 10.234,
+        "on-primary-hover/primary-hover": 11.518,
+        "control-border/background": 3.117,
+        "control-border/surface": 3.597,
+        "focus/background": 8.662,
+        "focus/surface": 9.993
+      }
+    },
+    {
+      "id": "B02",
+      "niche": "beleza",
+      "name": "Barbearia urbana",
+      "target": "Barbearias contemporâneas; degradê e estilos autorais",
+      "fonts": {
+        "display": "Barlow Condensed",
+        "body": "DM Sans"
+      },
+      "shape": "poster",
+      "references": [
+        "R02",
+        "R01"
+      ],
+      "copy": {
+        "headline": "Degradê na régua. Horário combinado.",
+        "subheadline": "Veja os cortes da {marca}, escolha o serviço e consulte a agenda em {bairro}.",
+        "primary_cta": "Marcar meu corte",
+        "secondary_cta": "Explorar os cortes",
+        "objection_answer": "Ainda não sabe qual corte pedir? Mostre uma referência ao profissional.",
+        "microcopy": "Abra o WhatsApp e diga qual serviço você quer."
+      },
+      "layout": [
+        "Título grande + foto vertical recortada",
+        "Galeria numerada de cortes",
+        "Faixa de serviços e valores",
+        "Barbeiros",
+        "Agenda e mapa"
+      ],
+      "proof": [
+        "Portfólio próprio",
+        "Especialidades de cada barbeiro",
+        "Dias de funcionamento"
+      ],
+      "photography": "Enquadramentos próximos, luz neutra e diversidade real de cabelos atendidos.",
+      "avoid": "Não transformar a galeria em carrossel automático ou esconder os preços atrás do contato.",
+      "tokens": {
+        "color": {
+          "background": "#151515",
+          "surface": "#232323",
+          "text": "#F5F5F0",
+          "text_muted": "#B9B9B5",
+          "border_decorative": "#40403F",
+          "border_control": "#81817E",
+          "primary": "#C9EF58",
+          "on_primary": "#151515",
+          "primary_hover": "#CFF16C",
+          "on_primary_hover": "#151515",
+          "accent": "#B6C3CE",
+          "focus": "#C9EF58",
+          "error": "#FFB4AA",
+          "success": "#B5DBB4"
+        },
+        "layout": {
+          "container_max_px": 1280,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 4,
+          "button_radius_px": 2,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 88,
+          "h1_mobile_px": 48,
+          "h1_line_height": 1.06,
+          "h1_tracking": "-0.02em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "none",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 16.697,
+        "text/surface": 14.371,
+        "muted/background": 9.278,
+        "muted/surface": 7.985,
+        "on-primary/primary": 13.888,
+        "on-primary-hover/primary-hover": 14.306,
+        "control-border/background": 4.674,
+        "control-border/surface": 4.023,
+        "focus/background": 13.888,
+        "focus/surface": 11.953
+      }
+    },
+    {
+      "id": "B03",
+      "niche": "beleza",
+      "name": "Editorial acolhedor",
+      "target": "Salões, cabeleireiros, esteticistas, laser, spa, massoterapia e bronzeamento",
+      "fonts": {
+        "display": "DM Serif Display",
+        "body": "Manrope"
+      },
+      "shape": "editorial",
+      "references": [
+        "R03",
+        "R02"
+      ],
+      "copy": {
+        "headline": "Um cuidado que começa por ouvir você.",
+        "subheadline": "Conheça os serviços da {marca}, veja quem vai atender você e encontre um horário em {bairro}.",
+        "primary_cta": "Consultar horários",
+        "secondary_cta": "Conhecer os serviços",
+        "objection_answer": "Na primeira conversa, a equipe explica as opções e os cuidados de cada serviço.",
+        "microcopy": "Conte qual serviço você procura. A equipe confirma os próximos passos."
+      },
+      "layout": [
+        "Retrato assimétrico + texto com respiro",
+        "Serviços por objetivo, em lista editorial",
+        "Profissional e ambiente",
+        "Como funciona a primeira visita",
+        "Dúvidas e consulta de horários"
+      ],
+      "proof": [
+        "Identificação e formação reais",
+        "Fotos do espaço",
+        "Escopo de cada serviço"
+      ],
+      "photography": "Pele com textura, materiais do espaço e atendimento real com autorização.",
+      "avoid": "Não prometer resultado garantido, ausência de dor ou tratamento adequado antes de avaliação.",
+      "tokens": {
+        "color": {
+          "background": "#F7F1E9",
+          "surface": "#FFFCF8",
+          "text": "#352825",
+          "text_muted": "#695E5A",
+          "border_decorative": "#D2CBC4",
+          "border_control": "#928883",
+          "primary": "#70433D",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#633B36",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#D9C4AD",
+          "focus": "#70433D",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 128,
+          "section_padding_mobile_px": 72,
+          "card_radius_px": 8,
+          "button_radius_px": 6,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 72,
+          "h1_mobile_px": 42,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.02em",
+          "h1_weight": 400,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 12.631,
+        "text/surface": 13.858,
+        "muted/background": 5.587,
+        "muted/surface": 6.13,
+        "on-primary/primary": 8.206,
+        "on-primary-hover/primary-hover": 9.505,
+        "control-border/background": 3.082,
+        "control-border/surface": 3.382,
+        "focus/background": 7.312,
+        "focus/surface": 8.023
+      }
+    },
+    {
+      "id": "B04",
+      "niche": "beleza",
+      "name": "Beauty pop",
+      "target": "Nails, manicure, sobrancelhas, cílios e cosméticos",
+      "fonts": {
+        "display": "Space Grotesk",
+        "body": "DM Sans"
+      },
+      "shape": "playful",
+      "references": [
+        "R04"
+      ],
+      "copy": {
+        "headline": "Qual vai ser a sua próxima cor?",
+        "subheadline": "Inspire-se nos trabalhos da {marca}, compare as técnicas e consulte os horários em {bairro}.",
+        "primary_cta": "Quero agendar",
+        "secondary_cta": "Ver técnicas e valores",
+        "objection_answer": "Não sabe qual técnica escolher? Pergunte sobre duração, manutenção e indicação.",
+        "microcopy": "Envie a técnica desejada e, se quiser, uma foto de referência."
+      },
+      "layout": [
+        "Close de trabalho + título curto",
+        "Galeria em mosaico com legenda da técnica",
+        "Menu de técnicas e manutenção",
+        "Profissional e cuidados",
+        "Agenda e localização"
+      ],
+      "proof": [
+        "Trabalhos próprios com técnica identificada",
+        "Informações de manutenção",
+        "Valores atualizados"
+      ],
+      "photography": "Close nítido de unhas e detalhes; fundos simples, sem filtro que altere o resultado.",
+      "avoid": "Para cílios e sobrancelhas, substituir a headline por uma versão específica do banco de copys.",
+      "tokens": {
+        "color": {
+          "background": "#FFF5F8",
+          "surface": "#FFFFFF",
+          "text": "#3A1F31",
+          "text_muted": "#6F5967",
+          "border_decorative": "#DACCD2",
+          "border_control": "#9B8893",
+          "primary": "#9C285F",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#892354",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#C9C1F2",
+          "focus": "#9C285F",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 20,
+          "button_radius_px": 12,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 60,
+          "h1_mobile_px": 38,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 13.849,
+        "text/surface": 14.786,
+        "muted/background": 5.959,
+        "muted/surface": 6.362,
+        "on-primary/primary": 7.286,
+        "on-primary-hover/primary-hover": 8.634,
+        "control-border/background": 3.104,
+        "control-border/surface": 3.314,
+        "focus/background": 6.824,
+        "focus/surface": 7.286
+      }
+    },
+    {
+      "id": "S01",
+      "niche": "saude",
+      "name": "Clínico claro",
+      "target": "Dentistas, clínicas odontológicas e radiologia",
+      "fonts": {
+        "display": "Manrope",
+        "body": "Inter"
+      },
+      "shape": "clinical",
+      "references": [
+        "R05",
+        "R07"
+      ],
+      "copy": {
+        "headline": "Seu próximo cuidado com a saúde bucal começa aqui.",
+        "subheadline": "Conheça os profissionais, os atendimentos disponíveis e como funciona a primeira consulta na {marca}.",
+        "primary_cta": "Solicitar uma consulta",
+        "secondary_cta": "Ver os atendimentos",
+        "objection_answer": "Quer entender como funciona antes de marcar? Fale com a recepção.",
+        "microcopy": "Solicitação de horário. A recepção confirma a disponibilidade."
+      },
+      "layout": [
+        "Abertura dividida com profissional real",
+        "Atendimentos em lista curta",
+        "Como é a primeira consulta",
+        "Equipe e identificação profissional",
+        "Localização, dúvidas e solicitação"
+      ],
+      "proof": [
+        "Identificação profissional verificável",
+        "Fotos reais da clínica",
+        "Explicação da primeira consulta"
+      ],
+      "photography": "Profissional olhando para a câmera e ambiente iluminado; evitar boca perfeita de banco de imagem.",
+      "avoid": "Não anunciar cura, ausência de dor ou avaliação gratuita sem confirmar condições e adequação da oferta.",
+      "tokens": {
+        "color": {
+          "background": "#F2F8FC",
+          "surface": "#FFFFFF",
+          "text": "#173244",
+          "text_muted": "#526776",
+          "border_decorative": "#C8D2D9",
+          "border_control": "#7E8F9A",
+          "primary": "#125A83",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#104F73",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#C4E4ED",
+          "focus": "#125A83",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1160,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 12,
+          "button_radius_px": 8,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 56,
+          "h1_mobile_px": 36,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 12.441,
+        "text/surface": 13.324,
+        "muted/background": 5.507,
+        "muted/surface": 5.898,
+        "on-primary/primary": 7.458,
+        "on-primary-hover/primary-hover": 8.794,
+        "control-border/background": 3.121,
+        "control-border/surface": 3.342,
+        "focus/background": 6.963,
+        "focus/surface": 7.458
+      }
+    },
+    {
+      "id": "S02",
+      "niche": "saude",
+      "name": "Consultório humano",
+      "target": "Dentistas autônomos, prótese e clínicas boutique",
+      "fonts": {
+        "display": "Lora",
+        "body": "DM Sans"
+      },
+      "shape": "editorial",
+      "references": [
+        "R06"
+      ],
+      "copy": {
+        "headline": "Entenda as opções antes de decidir pelo tratamento.",
+        "subheadline": "Na {marca}, você conhece o profissional, o atendimento e as etapas da consulta antes de agendar.",
+        "primary_cta": "Conversar com a recepção",
+        "secondary_cta": "Conhecer o profissional",
+        "objection_answer": "O plano e os valores do tratamento são definidos após avaliação individual.",
+        "microcopy": "A recepção ajuda com horários e informações sobre a consulta."
+      },
+      "layout": [
+        "Foto ampla da clínica + faixa de endereço e contato",
+        "Perguntas frequentes de quem chega",
+        "Perfil do profissional",
+        "Etapas da primeira visita",
+        "Formas de atendimento e contato"
+      ],
+      "proof": [
+        "Formação e registro verdadeiros",
+        "Descrição das etapas",
+        "Políticas de atendimento claras"
+      ],
+      "photography": "Retratos próximos e arquitetura real; materiais naturais sem excesso de luxo.",
+      "avoid": "Não usar bronze sobre bege para textos pequenos nem importar regras de atendimento estrangeiras do template.",
+      "tokens": {
+        "color": {
+          "background": "#F6F0E7",
+          "surface": "#FFFDFA",
+          "text": "#342B25",
+          "text_muted": "#686059",
+          "border_decorative": "#D1CBC2",
+          "border_control": "#8F8880",
+          "primary": "#73553E",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#654B37",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#C2AE93",
+          "focus": "#73553E",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 128,
+          "section_padding_mobile_px": 72,
+          "card_radius_px": 8,
+          "button_radius_px": 6,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 72,
+          "h1_mobile_px": 42,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.02em",
+          "h1_weight": 400,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 12.209,
+        "text/surface": 13.622,
+        "muted/background": 5.442,
+        "muted/surface": 6.072,
+        "on-primary/primary": 6.779,
+        "on-primary-hover/primary-hover": 8.031,
+        "control-border/background": 3.089,
+        "control-border/surface": 3.446,
+        "focus/background": 5.984,
+        "focus/surface": 6.676
+      }
+    },
+    {
+      "id": "S03",
+      "niche": "saude",
+      "name": "Saúde com calma",
+      "target": "Psicologia, nutrição, oftalmologia, podologia e clínicas especializadas",
+      "fonts": {
+        "display": "Newsreader",
+        "body": "Source Sans 3"
+      },
+      "shape": "calm",
+      "references": [
+        "R07",
+        "R08"
+      ],
+      "copy": {
+        "headline": "Encontre atendimento em {especialidade} em {bairro}.",
+        "subheadline": "Veja a formação de {profissional}, as modalidades de atendimento e como solicitar sua primeira consulta.",
+        "primary_cta": "Consultar disponibilidade",
+        "secondary_cta": "Como funciona a consulta",
+        "objection_answer": "Você pode tirar dúvidas sobre o atendimento antes de escolher um horário.",
+        "microcopy": "Para marcar, informe apenas seus dados de contato e a disponibilidade."
+      },
+      "layout": [
+        "Retrato + especialidade em destaque",
+        "Para quem é o atendimento, sem diagnóstico automático",
+        "Abordagem e formação",
+        "Modalidades, horários e condições",
+        "Dúvidas e contato"
+      ],
+      "proof": [
+        "Formação e atuação confirmadas",
+        "Modalidade real: presencial ou online",
+        "Endereço e horários"
+      ],
+      "photography": "Profissional e espaço com luz suave; imagens sem dramatização de sintomas.",
+      "avoid": "Não solicitar histórico clínico detalhado no formulário inicial nem afirmar melhora em prazo fixo.",
+      "tokens": {
+        "color": {
+          "background": "#F2F6F0",
+          "surface": "#FFFFFF",
+          "text": "#253C32",
+          "text_muted": "#5C6E65",
+          "border_decorative": "#CBD3CC",
+          "border_control": "#819088",
+          "primary": "#3A624F",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#335646",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#D3DDC6",
+          "focus": "#3A624F",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1080,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 104,
+          "section_padding_mobile_px": 64,
+          "card_radius_px": 8,
+          "button_radius_px": 8,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 60,
+          "h1_mobile_px": 36,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.015em",
+          "h1_weight": 400,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 10.85,
+        "text/surface": 11.857,
+        "muted/background": 4.961,
+        "muted/surface": 5.422,
+        "on-primary/primary": 6.908,
+        "on-primary-hover/primary-hover": 8.202,
+        "control-border/background": 3.061,
+        "control-border/surface": 3.345,
+        "focus/background": 6.321,
+        "focus/surface": 6.908
+      }
+    },
+    {
+      "id": "S04",
+      "niche": "saude",
+      "name": "Movimento e reabilitação",
+      "target": "Fisioterapia, reabilitação e atendimento esportivo",
+      "fonts": {
+        "display": "Atkinson Hyperlegible",
+        "body": "Inter"
+      },
+      "shape": "clinical",
+      "references": [
+        "R08"
+      ],
+      "copy": {
+        "headline": "Voltar a se mover começa por entender o que você precisa.",
+        "subheadline": "Avaliação em fisioterapia em {bairro}, com explicação das etapas e acompanhamento definido para cada caso.",
+        "primary_cta": "Solicitar avaliação",
+        "secondary_cta": "Conhecer a equipe",
+        "objection_answer": "A indicação e a frequência das sessões dependem da avaliação profissional.",
+        "microcopy": "A equipe confirma o horário e orienta o que levar."
+      },
+      "layout": [
+        "Foto de atendimento real + título",
+        "Áreas de atuação por necessidade",
+        "O que acontece na avaliação",
+        "Profissionais e estrutura",
+        "Acesso, dúvidas e horários"
+      ],
+      "proof": [
+        "Profissionais identificados",
+        "Estrutura fotografada",
+        "Processo explicado"
+      ],
+      "photography": "Movimentos reais de pessoas diversas; contexto de atendimento em vez de pose atlética.",
+      "avoid": "Evitar mapas que pareçam diagnosticar, animação obrigatória e promessas de recuperação.",
+      "tokens": {
+        "color": {
+          "background": "#F5F8F5",
+          "surface": "#FFFFFF",
+          "text": "#203B32",
+          "text_muted": "#5A6E67",
+          "border_decorative": "#CDD4D0",
+          "border_control": "#80908A",
+          "primary": "#22684F",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#1E5C46",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#DCECA9",
+          "focus": "#22684F",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1160,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 12,
+          "button_radius_px": 8,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 56,
+          "h1_mobile_px": 36,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 11.326,
+        "text/surface": 12.117,
+        "muted/background": 5.084,
+        "muted/surface": 5.439,
+        "on-primary/primary": 6.643,
+        "on-primary-hover/primary-hover": 7.852,
+        "control-border/background": 3.128,
+        "control-border/surface": 3.347,
+        "focus/background": 6.209,
+        "focus/surface": 6.643
+      }
+    },
+    {
+      "id": "A01",
+      "niche": "auto",
+      "name": "Oficina técnica",
+      "target": "Mecânica geral, motos, autopeças e manutenção preventiva",
+      "fonts": {
+        "display": "Barlow",
+        "body": "Inter"
+      },
+      "shape": "technical",
+      "references": [
+        "R10",
+        "R09"
+      ],
+      "copy": {
+        "headline": "Saiba o que seu carro precisa antes de autorizar o serviço.",
+        "subheadline": "Mecânica em {bairro}. Conte o que está acontecendo e consulte como funciona a avaliação na {marca}.",
+        "primary_cta": "Solicitar avaliação",
+        "secondary_cta": "Ver serviços da oficina",
+        "objection_answer": "Peça a explicação do serviço e do orçamento antes de aprovar a execução.",
+        "microcopy": "Informe modelo, ano e o que percebeu no veículo."
+      },
+      "layout": [
+        "Título + foto real da bancada",
+        "Serviços por sistema do veículo",
+        "Como funcionam avaliação, orçamento e aprovação",
+        "Equipe e oficina",
+        "Localização e contato"
+      ],
+      "proof": [
+        "Fotos da oficina",
+        "Processo de aprovação confirmado",
+        "Especialidades e equipamentos reais"
+      ],
+      "photography": "Mecânico em trabalho, ferramentas e oficina organizada; não usar apenas carros de luxo.",
+      "avoid": "Não prometer diagnóstico grátis, menor preço ou reparo no mesmo dia sem confirmação.",
+      "tokens": {
+        "color": {
+          "background": "#F0F4F8",
+          "surface": "#FFFFFF",
+          "text": "#1E2D40",
+          "text_muted": "#576372",
+          "border_decorative": "#C8CED5",
+          "border_control": "#838D98",
+          "primary": "#174D80",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#144471",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#EEB94D",
+          "focus": "#174D80",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 80,
+          "section_padding_mobile_px": 48,
+          "card_radius_px": 6,
+          "button_radius_px": 6,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 60,
+          "h1_mobile_px": 38,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 12.629,
+        "text/surface": 13.957,
+        "muted/background": 5.535,
+        "muted/surface": 6.117,
+        "on-primary/primary": 8.715,
+        "on-primary-hover/primary-hover": 10.024,
+        "control-border/background": 3.051,
+        "control-border/surface": 3.372,
+        "focus/background": 7.885,
+        "focus/surface": 8.715
+      }
+    },
+    {
+      "id": "A02",
+      "niche": "auto",
+      "name": "Auto center direto",
+      "target": "Pneus, baterias, alinhamento, acessórios e serviços rápidos",
+      "fonts": {
+        "display": "Archivo",
+        "body": "DM Sans"
+      },
+      "shape": "utility",
+      "references": [
+        "R09",
+        "R11"
+      ],
+      "copy": {
+        "headline": "Pneu, bateria ou revisão? Comece pela informação certa.",
+        "subheadline": "Veja os serviços da {marca} em {bairro} e consulte opções compatíveis com o seu veículo.",
+        "primary_cta": "Consultar serviço ou peça",
+        "secondary_cta": "Como chegar",
+        "objection_answer": "A equipe confirma disponibilidade, aplicação e valor antes do atendimento.",
+        "microcopy": "Tenha em mãos modelo e ano. Para pneus, envie também a medida."
+      },
+      "layout": [
+        "Serviços e contato na primeira tela",
+        "Categorias por necessidade",
+        "Opções e condições de atendimento",
+        "Avaliações verificáveis",
+        "Mapa e horário"
+      ],
+      "proof": [
+        "Marcas realmente atendidas",
+        "Informações de compatibilidade",
+        "Endereço e expediente"
+      ],
+      "photography": "Equipe, produtos e instalação real; boa luz para ler especificações.",
+      "avoid": "Não publicar preço sem medida, aplicação ou condições; não fingir estoque em tempo real.",
+      "tokens": {
+        "color": {
+          "background": "#FFFAEF",
+          "surface": "#FFFFFF",
+          "text": "#30291B",
+          "text_muted": "#686154",
+          "border_decorative": "#D8D2C7",
+          "border_control": "#958F83",
+          "primary": "#8E3F0D",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#7D370B",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#F3CA59",
+          "focus": "#8E3F0D",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 72,
+          "section_padding_mobile_px": 48,
+          "card_radius_px": 6,
+          "button_radius_px": 6,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 56,
+          "h1_mobile_px": 36,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.02em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 13.829,
+        "text/surface": 14.397,
+        "muted/background": 5.887,
+        "muted/surface": 6.129,
+        "on-primary/primary": 7.325,
+        "on-primary-hover/primary-hover": 8.666,
+        "control-border/background": 3.087,
+        "control-border/surface": 3.214,
+        "focus/background": 7.036,
+        "focus/surface": 7.325
+      }
+    },
+    {
+      "id": "A03",
+      "niche": "auto",
+      "name": "Detailing de precisão",
+      "target": "Estética automotiva, lanternagem, pintura e car detailing",
+      "fonts": {
+        "display": "Space Grotesk",
+        "body": "Manrope"
+      },
+      "shape": "precision",
+      "references": [
+        "R11"
+      ],
+      "copy": {
+        "headline": "O cuidado aparece nos detalhes.",
+        "subheadline": "Conheça os trabalhos de {servico} da {marca} e solicite uma avaliação para o seu veículo em {bairro}.",
+        "primary_cta": "Avaliar meu veículo",
+        "secondary_cta": "Ver trabalhos realizados",
+        "objection_answer": "A indicação e o valor dependem do estado do veículo e do serviço escolhido.",
+        "microcopy": "Envie o modelo e fotos do veículo para iniciar a conversa."
+      },
+      "layout": [
+        "Foto ampla de detalhe + título contido",
+        "Projetos com descrição do serviço",
+        "Diferenças entre os pacotes",
+        "Processo e cuidados",
+        "Avaliação e localização"
+      ],
+      "proof": [
+        "Fotos próprias com contexto",
+        "Descrição do que cada pacote inclui",
+        "Materiais e procedimentos reais"
+      ],
+      "photography": "Reflexos controlados, pintura e acabamento reais; ângulos comparáveis nos projetos.",
+      "avoid": "Não escurecer fotos a ponto de esconder o trabalho; não usar brilho artificial para simular resultado.",
+      "tokens": {
+        "color": {
+          "background": "#11191B",
+          "surface": "#1D282B",
+          "text": "#F0F5F4",
+          "text_muted": "#B4BAB9",
+          "border_decorative": "#3B4344",
+          "border_control": "#7C8383",
+          "primary": "#79D6C2",
+          "on_primary": "#11191B",
+          "primary_hover": "#89DBC9",
+          "on_primary_hover": "#11191B",
+          "accent": "#B8C3CC",
+          "focus": "#79D6C2",
+          "error": "#FFB4AA",
+          "success": "#B5DBB4"
+        },
+        "layout": {
+          "container_max_px": 1280,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 112,
+          "section_padding_mobile_px": 64,
+          "card_radius_px": 4,
+          "button_radius_px": 4,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 72,
+          "h1_mobile_px": 42,
+          "h1_line_height": 1.06,
+          "h1_tracking": "-0.035em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "none",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 16.181,
+        "text/surface": 13.715,
+        "muted/background": 9.048,
+        "muted/surface": 7.669,
+        "on-primary/primary": 10.359,
+        "on-primary-hover/primary-hover": 11.063,
+        "control-border/background": 4.608,
+        "control-border/surface": 3.906,
+        "focus/background": 10.359,
+        "focus/surface": 8.781
+      }
+    },
+    {
+      "id": "A04",
+      "niche": "auto",
+      "name": "Resgate local",
+      "target": "Guincho, reboque e assistência automotiva",
+      "fonts": {
+        "display": "Archivo",
+        "body": "Inter"
+      },
+      "shape": "emergency",
+      "references": [
+        "R09",
+        "R18"
+      ],
+      "copy": {
+        "headline": "Precisa de guincho em {cidade}? Fale com a equipe.",
+        "subheadline": "Informe onde o veículo está e para onde precisa ir. Confirme a disponibilidade, o valor e a previsão de chegada.",
+        "primary_cta": "Ligar para solicitar guincho",
+        "secondary_cta": "Enviar localização no WhatsApp",
+        "objection_answer": "A equipe informa a previsão de chegada conforme sua localização e a disponibilidade.",
+        "microcopy": "Envie localização, tipo de veículo e destino."
+      },
+      "layout": [
+        "Telefone e área atendida em primeiro plano",
+        "Tipos de veículo atendidos",
+        "O que informar na ligação",
+        "Fotos da operação",
+        "Condições e contato"
+      ],
+      "proof": [
+        "Telefone funcional",
+        "Área realmente atendida",
+        "Fotos do guincho e empresa"
+      ],
+      "photography": "Guincho identificado em operação real, sem cenas de acidentes usadas como pressão.",
+      "avoid": "Só mostrar 24h se houver atendimento real; não gerar previsão de chegada fictícia.",
+      "tokens": {
+        "color": {
+          "background": "#FFF8EF",
+          "surface": "#FFFFFF",
+          "text": "#282A30",
+          "text_muted": "#626264",
+          "border_decorative": "#D6D1CB",
+          "border_control": "#918F8E",
+          "primary": "#9E321B",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#8B2C18",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#F3B943",
+          "focus": "#9E321B",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1120,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 64,
+          "section_padding_mobile_px": 40,
+          "card_radius_px": 8,
+          "button_radius_px": 8,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 52,
+          "h1_mobile_px": 34,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 13.609,
+        "text/surface": 14.343,
+        "muted/background": 5.775,
+        "muted/surface": 6.086,
+        "on-primary/primary": 7.177,
+        "on-primary-hover/primary-hover": 8.498,
+        "control-border/background": 3.054,
+        "control-border/surface": 3.219,
+        "focus/background": 6.81,
+        "focus/surface": 7.177
+      }
+    },
+    {
+      "id": "F01",
+      "niche": "fitness",
+      "name": "Treino com energia",
+      "target": "Academias tradicionais, centros de treinamento e personal",
+      "fonts": {
+        "display": "Barlow Condensed",
+        "body": "Inter"
+      },
+      "shape": "poster",
+      "references": [
+        "R12"
+      ],
+      "copy": {
+        "headline": "Seu próximo treino pode começar em {bairro}.",
+        "subheadline": "Conheça a estrutura da {marca}, confira horários e veja qual plano cabe na sua rotina.",
+        "primary_cta": "Conhecer a academia",
+        "secondary_cta": "Ver planos e horários",
+        "objection_answer": "Compare horários, taxas e condições antes de escolher o plano.",
+        "microcopy": "Pergunte sobre visita e aula experimental, se disponíveis."
+      },
+      "layout": [
+        "Título grande + foto do espaço em uso",
+        "Estrutura e modalidades",
+        "Grade legível",
+        "Planos com condições",
+        "Professores, dúvidas e visita"
+      ],
+      "proof": [
+        "Fotos reais da estrutura",
+        "Grade atual",
+        "Condições completas dos planos"
+      ],
+      "photography": "Alunos e professores reais, diversidade de corpos e luz que mostre o espaço.",
+      "avoid": "Não prometer emagrecimento, transformação em prazo fixo ou esconder taxa de matrícula.",
+      "tokens": {
+        "color": {
+          "background": "#151817",
+          "surface": "#222824",
+          "text": "#F3F6EE",
+          "text_muted": "#B7BAB4",
+          "border_decorative": "#3F4240",
+          "border_control": "#80837E",
+          "primary": "#D3EE54",
+          "on_primary": "#151817",
+          "primary_hover": "#D8F069",
+          "on_primary_hover": "#151817",
+          "accent": "#A4B29B",
+          "focus": "#D3EE54",
+          "error": "#FFB4AA",
+          "success": "#B5DBB4"
+        },
+        "layout": {
+          "container_max_px": 1280,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 4,
+          "button_radius_px": 2,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 88,
+          "h1_mobile_px": 48,
+          "h1_line_height": 1.06,
+          "h1_tracking": "-0.02em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "none",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 16.365,
+        "text/surface": 13.764,
+        "muted/background": 9.104,
+        "muted/surface": 7.656,
+        "on-primary/primary": 13.727,
+        "on-primary-hover/primary-hover": 14.118,
+        "control-border/background": 4.652,
+        "control-border/surface": 3.912,
+        "focus/background": 13.727,
+        "focus/surface": 11.544
+      }
+    },
+    {
+      "id": "F02",
+      "niche": "fitness",
+      "name": "Pilates de estúdio",
+      "target": "Pilates, mobilidade e estúdios boutique",
+      "fonts": {
+        "display": "Fraunces",
+        "body": "DM Sans"
+      },
+      "shape": "editorial",
+      "references": [
+        "R13"
+      ],
+      "copy": {
+        "headline": "Um horário para cuidar do seu movimento.",
+        "subheadline": "Conheça as aulas de Pilates da {marca}, os profissionais e a rotina do estúdio em {bairro}.",
+        "primary_cta": "Consultar turmas e horários",
+        "secondary_cta": "Conhecer o estúdio",
+        "objection_answer": "A equipe explica como funciona a primeira aula e quais formatos estão disponíveis.",
+        "microcopy": "Conte quais dias e períodos funcionam para você."
+      },
+      "layout": [
+        "Foto de movimento + título editorial",
+        "Formatos de aula",
+        "Instrutores",
+        "Turmas e agenda",
+        "Primeira aula e contato"
+      ],
+      "proof": [
+        "Formação dos instrutores",
+        "Tamanho real das turmas",
+        "Fotos dos equipamentos"
+      ],
+      "photography": "Movimento natural e equipamentos reais; evitar somente modelos em poses avançadas.",
+      "avoid": "Não usar promessa terapêutica automática ou movimentos complexos como requisito para começar.",
+      "tokens": {
+        "color": {
+          "background": "#F8F3E9",
+          "surface": "#FFFDF8",
+          "text": "#383E2A",
+          "text_muted": "#6C6F5E",
+          "border_decorative": "#D4D1C5",
+          "border_control": "#8B8C7C",
+          "primary": "#56673D",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#4C5B36",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#D4BD8F",
+          "focus": "#56673D",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 128,
+          "section_padding_mobile_px": 72,
+          "card_radius_px": 8,
+          "button_radius_px": 6,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 72,
+          "h1_mobile_px": 42,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.02em",
+          "h1_weight": 400,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 10.043,
+        "text/surface": 10.926,
+        "muted/background": 4.662,
+        "muted/surface": 5.072,
+        "on-primary/primary": 6.171,
+        "on-primary-hover/primary-hover": 7.35,
+        "control-border/background": 3.092,
+        "control-border/surface": 3.364,
+        "focus/background": 5.58,
+        "focus/surface": 6.07
+      }
+    },
+    {
+      "id": "F03",
+      "niche": "fitness",
+      "name": "Lutas para começar",
+      "target": "Jiu-jitsu, judô, boxe e escolas de luta",
+      "fonts": {
+        "display": "Oswald",
+        "body": "Source Sans 3"
+      },
+      "shape": "poster",
+      "references": [
+        "R14"
+      ],
+      "copy": {
+        "headline": "Sua primeira aula de {modalidade} tem um lugar.",
+        "subheadline": "Veja os horários para iniciantes, conheça o professor e saiba o que levar para treinar na {marca}.",
+        "primary_cta": "Consultar aula para iniciantes",
+        "secondary_cta": "Ver a grade de treinos",
+        "objection_answer": "Nunca treinou? Consulte as turmas de iniciação e o material necessário.",
+        "microcopy": "Informe a modalidade, sua idade e o período desejado."
+      },
+      "layout": [
+        "Cartaz tipográfico + foto do treino",
+        "Como é a primeira aula",
+        "Modalidades e níveis",
+        "Professores e grade",
+        "Equipamento, dúvidas e inscrição"
+      ],
+      "proof": [
+        "Histórico real dos professores",
+        "Turmas por nível",
+        "Regras claras da primeira aula"
+      ],
+      "photography": "Treino acompanhado e interação entre alunos; mostrar também iniciantes.",
+      "avoid": "Evitar tom intimidatório e afirmações de defesa pessoal garantida.",
+      "tokens": {
+        "color": {
+          "background": "#F8F2E8",
+          "surface": "#FFFCF5",
+          "text": "#252222",
+          "text_muted": "#5E5A57",
+          "border_decorative": "#D0CAC2",
+          "border_control": "#8E8A85",
+          "primary": "#A02B26",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#8D2621",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#D7C4A4",
+          "focus": "#A02B26",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1280,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 4,
+          "button_radius_px": 2,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 88,
+          "h1_mobile_px": 48,
+          "h1_line_height": 1.06,
+          "h1_tracking": "-0.02em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 14.172,
+        "text/surface": 15.403,
+        "muted/background": 6.13,
+        "muted/surface": 6.663,
+        "on-primary/primary": 7.322,
+        "on-primary-hover/primary-hover": 8.636,
+        "control-border/background": 3.079,
+        "control-border/surface": 3.346,
+        "focus/background": 6.575,
+        "focus/surface": 7.145
+      }
+    },
+    {
+      "id": "F04",
+      "niche": "fitness",
+      "name": "Água e movimento",
+      "target": "Natação, atividades aquáticas e personal com foco em iniciação",
+      "fonts": {
+        "display": "Sora",
+        "body": "Inter"
+      },
+      "shape": "clinical",
+      "references": [
+        "R13",
+        "R14"
+      ],
+      "copy": {
+        "headline": "Uma turma de natação para sua fase e seu ritmo.",
+        "subheadline": "Consulte as faixas etárias, os níveis e os horários disponíveis na {marca}, em {bairro}.",
+        "primary_cta": "Encontrar minha turma",
+        "secondary_cta": "Conhecer a estrutura",
+        "objection_answer": "A equipe orienta qual turma consultar conforme idade e experiência.",
+        "microcopy": "Informe idade, experiência na água e horários desejados."
+      },
+      "layout": [
+        "Foto ampla da piscina + informações diretas",
+        "Turmas por idade e nível",
+        "Estrutura e professores",
+        "Grade e condições",
+        "Primeira visita e contato"
+      ],
+      "proof": [
+        "Faixas etárias confirmadas",
+        "Fotos da piscina",
+        "Professores identificados"
+      ],
+      "photography": "Piscina real e professores; autorização adequada para qualquer pessoa identificável.",
+      "avoid": "Não prometer aprendizagem em número fixo de aulas. Estrutura adaptada das referências de estúdio e iniciação.",
+      "tokens": {
+        "color": {
+          "background": "#EFF8FC",
+          "surface": "#FFFFFF",
+          "text": "#19374A",
+          "text_muted": "#536B7A",
+          "border_decorative": "#C6D3DA",
+          "border_control": "#7B909C",
+          "primary": "#17658B",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#14597A",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#9BDDD7",
+          "focus": "#17658B",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1160,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 12,
+          "button_radius_px": 8,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 56,
+          "h1_mobile_px": 36,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 11.563,
+        "text/surface": 12.45,
+        "muted/background": 5.198,
+        "muted/surface": 5.597,
+        "on-primary/primary": 6.421,
+        "on-primary-hover/primary-hover": 7.665,
+        "control-border/background": 3.09,
+        "control-border/surface": 3.327,
+        "focus/background": 5.963,
+        "focus/surface": 6.421
+      }
+    },
+    {
+      "id": "P01",
+      "niche": "pets",
+      "name": "Pet shop de vizinhança",
+      "target": "Pet shops, casas de ração e varejo pet",
+      "fonts": {
+        "display": "Nunito Sans",
+        "body": "Inter"
+      },
+      "shape": "playful",
+      "references": [
+        "R15"
+      ],
+      "copy": {
+        "headline": "A ração de sempre e o cuidado de perto.",
+        "subheadline": "Consulte rações, acessórios e serviços da {marca} em {bairro}. A equipe confirma disponibilidade e opções de retirada ou entrega.",
+        "primary_cta": "Consultar um produto",
+        "secondary_cta": "Ver categorias",
+        "objection_answer": "Envie a marca, a linha e o tamanho da embalagem para consultar o produto certo.",
+        "microcopy": "Preço e disponibilidade são confirmados pela loja."
+      },
+      "layout": [
+        "Foto do balcão e pets + categorias",
+        "Rações por espécie e fase",
+        "Produtos e serviços principais",
+        "Retirada ou entrega, conforme operação",
+        "Contato e localização"
+      ],
+      "proof": [
+        "Marcas realmente comercializadas",
+        "Fotos da loja",
+        "Condições de entrega confirmadas"
+      ],
+      "photography": "Loja real, embalagens legíveis e animais com contexto de cuidado.",
+      "avoid": "Não mostrar estoque fictício nem usar orientação alimentar clínica como argumento de venda.",
+      "tokens": {
+        "color": {
+          "background": "#FFF8EB",
+          "surface": "#FFFFFF",
+          "text": "#34412B",
+          "text_muted": "#6B725F",
+          "border_decorative": "#D8D5C7",
+          "border_control": "#8B907E",
+          "primary": "#46652E",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#3E5928",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#F3C66B",
+          "focus": "#46652E",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 20,
+          "button_radius_px": 12,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 60,
+          "h1_mobile_px": 38,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 10.262,
+        "text/surface": 10.841,
+        "muted/background": 4.736,
+        "muted/surface": 5.003,
+        "on-primary/primary": 6.643,
+        "on-primary-hover/primary-hover": 7.882,
+        "control-border/background": 3.112,
+        "control-border/surface": 3.287,
+        "focus/background": 6.288,
+        "focus/surface": 6.643
+      }
+    },
+    {
+      "id": "P02",
+      "niche": "pets",
+      "name": "Veterinária com confiança",
+      "target": "Clínicas veterinárias e hospitais veterinários",
+      "fonts": {
+        "display": "Manrope",
+        "body": "Source Sans 3"
+      },
+      "shape": "clinical",
+      "references": [
+        "R16"
+      ],
+      "copy": {
+        "headline": "Atendimento veterinário em {bairro}, com informação desde o primeiro contato.",
+        "subheadline": "Conheça a equipe, os serviços e como solicitar atendimento para seu pet na {marca}.",
+        "primary_cta": "Solicitar atendimento",
+        "secondary_cta": "Ver equipe e serviços",
+        "objection_answer": "A recepção informa horários e orienta o encaminhamento do pedido.",
+        "microcopy": "Se precisar de atendimento imediato, ligue para confirmar a disponibilidade."
+      },
+      "layout": [
+        "Foto de profissional com paciente + contato",
+        "Serviços e espécies atendidas",
+        "Equipe e estrutura",
+        "Como funciona o atendimento",
+        "Endereço, horário e rota de urgência, se existente"
+      ],
+      "proof": [
+        "Profissionais identificados",
+        "Estrutura real",
+        "Horário e telefone confirmados"
+      ],
+      "photography": "Equipe interagindo com animais; foco em acolhimento e infraestrutura.",
+      "avoid": "Separar consulta e urgência. Usar 24h somente quando a operação oferecer esse atendimento.",
+      "tokens": {
+        "color": {
+          "background": "#F0F7F7",
+          "surface": "#FFFFFF",
+          "text": "#203E44",
+          "text_muted": "#587074",
+          "border_decorative": "#C8D4D5",
+          "border_control": "#7C8F93",
+          "primary": "#21636D",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#1D5760",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#C4DDC1",
+          "focus": "#21636D",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1160,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 12,
+          "button_radius_px": 8,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 56,
+          "h1_mobile_px": 36,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 10.552,
+        "text/surface": 11.451,
+        "muted/background": 4.857,
+        "muted/surface": 5.27,
+        "on-primary/primary": 6.84,
+        "on-primary-hover/primary-hover": 8.126,
+        "control-border/background": 3.118,
+        "control-border/surface": 3.383,
+        "focus/background": 6.303,
+        "focus/surface": 6.84
+      }
+    },
+    {
+      "id": "P03",
+      "niche": "pets",
+      "name": "Banho e tosa leve",
+      "target": "Banho e tosa e pet grooming",
+      "fonts": {
+        "display": "Fredoka",
+        "body": "DM Sans"
+      },
+      "shape": "playful",
+      "references": [
+        "R17"
+      ],
+      "copy": {
+        "headline": "Banho marcado. Cuidado explicado.",
+        "subheadline": "Confira os serviços de banho e tosa da {marca} e consulte o atendimento para o porte e a pelagem do seu pet.",
+        "primary_cta": "Consultar banho e tosa",
+        "secondary_cta": "Ver serviços por porte",
+        "objection_answer": "O valor é confirmado conforme porte, pelagem e serviço solicitado.",
+        "microcopy": "Informe espécie, porte e o serviço que procura."
+      },
+      "layout": [
+        "Foto de pet atendido + CTA",
+        "Serviços por porte e pelagem",
+        "Etapas e cuidados",
+        "Equipe e ambiente",
+        "Dúvidas e agenda"
+      ],
+      "proof": [
+        "Critérios de preço",
+        "Fotos do ambiente",
+        "Etapas e condições de atendimento"
+      ],
+      "photography": "Animais reais em ambiente calmo; fotos que mostrem bancada e higiene.",
+      "avoid": "Não copiar garantias do template, como ausência de sedação, sem validar a prática da empresa.",
+      "tokens": {
+        "color": {
+          "background": "#FFF4ED",
+          "surface": "#FFFFFF",
+          "text": "#3D2B3B",
+          "text_muted": "#71616B",
+          "border_decorative": "#DACECB",
+          "border_control": "#98898F",
+          "primary": "#824563",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#723D57",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#A5D8D2",
+          "focus": "#824563",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 20,
+          "button_radius_px": 12,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 60,
+          "h1_mobile_px": 38,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 12.081,
+        "text/surface": 13.067,
+        "muted/background": 5.357,
+        "muted/surface": 5.794,
+        "on-primary/primary": 7.046,
+        "on-primary-hover/primary-hover": 8.331,
+        "control-border/background": 3.077,
+        "control-border/surface": 3.328,
+        "focus/background": 6.514,
+        "focus/surface": 7.046
+      }
+    },
+    {
+      "id": "P04",
+      "niche": "pets",
+      "name": "Aquarismo e exóticos",
+      "target": "Aquários, répteis e lojas especializadas",
+      "fonts": {
+        "display": "Space Grotesk",
+        "body": "Inter"
+      },
+      "shape": "precision",
+      "references": [
+        "R15"
+      ],
+      "copy": {
+        "headline": "Escolha os equipamentos para o seu aquário com mais informação.",
+        "subheadline": "Consulte filtros, iluminação, acessórios e itens de manutenção na {marca}. Informe o tipo e o volume do seu aquário.",
+        "primary_cta": "Consultar um equipamento",
+        "secondary_cta": "Explorar categorias",
+        "objection_answer": "A loja confirma compatibilidade e disponibilidade antes da compra.",
+        "microcopy": "Envie volume do aquário, tipo de sistema e o item procurado."
+      },
+      "layout": [
+        "Foto imersiva + categorias técnicas",
+        "Escolha por tipo de sistema",
+        "Equipamentos com especificações",
+        "Suporte comercial e manutenção",
+        "Disponibilidade e localização"
+      ],
+      "proof": [
+        "Especificações reais",
+        "Fotos da loja",
+        "Equipe e serviços efetivamente oferecidos"
+      ],
+      "photography": "Aquário real, plantas, equipamentos e detalhes; sem misturar espécies de forma ilustrativa enganosa.",
+      "avoid": "Adaptação autoral do padrão de serviços e categorias, não template específico de aquarismo. Para répteis, usar copy própria.",
+      "tokens": {
+        "color": {
+          "background": "#102526",
+          "surface": "#193638",
+          "text": "#EDF5E9",
+          "text_muted": "#B1BDB4",
+          "border_decorative": "#3A4D4B",
+          "border_control": "#7A8984",
+          "primary": "#A7D1A2",
+          "on_primary": "#102526",
+          "primary_hover": "#B2D7AD",
+          "on_primary_hover": "#102526",
+          "accent": "#CBA77A",
+          "focus": "#A7D1A2",
+          "error": "#FFB4AA",
+          "success": "#B5DBB4"
+        },
+        "layout": {
+          "container_max_px": 1280,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 112,
+          "section_padding_mobile_px": 64,
+          "card_radius_px": 4,
+          "button_radius_px": 4,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 72,
+          "h1_mobile_px": 42,
+          "h1_line_height": 1.06,
+          "h1_tracking": "-0.035em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "none",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 14.33,
+        "text/surface": 11.585,
+        "muted/background": 8.221,
+        "muted/surface": 6.646,
+        "on-primary/primary": 9.345,
+        "on-primary-hover/primary-hover": 10.053,
+        "control-border/background": 4.365,
+        "control-border/surface": 3.529,
+        "focus/background": 9.345,
+        "focus/surface": 7.555
+      }
+    },
+    {
+      "id": "R01",
+      "niche": "residencial",
+      "name": "Urgência residencial",
+      "target": "Encanadores, caça-vazamentos e desentupidoras",
+      "fonts": {
+        "display": "Archivo",
+        "body": "Inter"
+      },
+      "shape": "emergency",
+      "references": [
+        "R18",
+        "R19"
+      ],
+      "copy": {
+        "headline": "Vazamento ou entupimento em {bairro}? Consulte atendimento.",
+        "subheadline": "Explique o problema e informe a localização. A equipe confirma a área atendida, a disponibilidade e como funciona a visita.",
+        "primary_cta": "Ligar para consultar atendimento",
+        "secondary_cta": "Enviar o problema no WhatsApp",
+        "objection_answer": "Antes da visita, pergunte sobre deslocamento, avaliação e forma de cobrança.",
+        "microcopy": "Informe bairro, tipo de imóvel e o problema percebido."
+      },
+      "layout": [
+        "Problema, telefone e área na primeira tela",
+        "Tipos de atendimento",
+        "Como funciona a visita",
+        "Equipe e trabalhos reais",
+        "Horários e condições"
+      ],
+      "proof": [
+        "Área de cobertura verdadeira",
+        "Telefone funcional",
+        "Processo de orçamento"
+      ],
+      "photography": "Profissional e equipamento em ambiente real, sem fotos dramáticas de inundação.",
+      "avoid": "Não simular plantão, localização dinâmica ou chegada em poucos minutos.",
+      "tokens": {
+        "color": {
+          "background": "#F1F6FC",
+          "surface": "#FFFFFF",
+          "text": "#213349",
+          "text_muted": "#596879",
+          "border_decorative": "#C9D1DA",
+          "border_control": "#818D9B",
+          "primary": "#174F91",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#144680",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#F3BF53",
+          "focus": "#174F91",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1120,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 64,
+          "section_padding_mobile_px": 40,
+          "card_radius_px": 8,
+          "button_radius_px": 8,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 52,
+          "h1_mobile_px": 34,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 11.826,
+        "text/surface": 12.849,
+        "muted/background": 5.251,
+        "muted/surface": 5.705,
+        "on-primary/primary": 8.191,
+        "on-primary-hover/primary-hover": 9.47,
+        "control-border/background": 3.109,
+        "control-border/surface": 3.378,
+        "focus/background": 7.539,
+        "focus/surface": 8.191
+      }
+    },
+    {
+      "id": "R02",
+      "niche": "residencial",
+      "name": "Elétrica técnica",
+      "target": "Eletricistas e manutenção técnica",
+      "fonts": {
+        "display": "IBM Plex Sans",
+        "body": "Inter"
+      },
+      "shape": "technical",
+      "references": [
+        "R19"
+      ],
+      "copy": {
+        "headline": "Instalação e manutenção elétrica com escopo explicado.",
+        "subheadline": "Consulte os serviços da {marca} em {cidade}, informe sua necessidade e entenda como funciona o orçamento.",
+        "primary_cta": "Solicitar orçamento",
+        "secondary_cta": "Ver serviços elétricos",
+        "objection_answer": "Informe o tipo de serviço para a equipe explicar a avaliação necessária.",
+        "microcopy": "Envie bairro e uma descrição breve. Fotos são opcionais."
+      },
+      "layout": [
+        "Título técnico + profissional real",
+        "Serviços por tipo de demanda",
+        "Qualificação e processo",
+        "Trabalhos realizados",
+        "Área atendida e orçamento"
+      ],
+      "proof": [
+        "Qualificações verificáveis",
+        "Fotos de trabalhos",
+        "Descrição do que o orçamento inclui"
+      ],
+      "photography": "Execução profissional e materiais organizados, sem ensinar intervenções elétricas ao visitante.",
+      "avoid": "Não usar certificações decorativas ou instruções de reparo arriscadas como conteúdo de conversão.",
+      "tokens": {
+        "color": {
+          "background": "#F7F7F2",
+          "surface": "#FFFFFF",
+          "text": "#2C3034",
+          "text_muted": "#636667",
+          "border_decorative": "#D0D1CE",
+          "border_control": "#8B8E8D",
+          "primary": "#2D526F",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#284862",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#E8BE4A",
+          "focus": "#2D526F",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 80,
+          "section_padding_mobile_px": 48,
+          "card_radius_px": 6,
+          "button_radius_px": 6,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 60,
+          "h1_mobile_px": 38,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 12.372,
+        "text/surface": 13.296,
+        "muted/background": 5.388,
+        "muted/surface": 5.79,
+        "on-primary/primary": 8.242,
+        "on-primary-hover/primary-hover": 9.574,
+        "control-border/background": 3.077,
+        "control-border/surface": 3.306,
+        "focus/background": 7.669,
+        "focus/surface": 8.242
+      }
+    },
+    {
+      "id": "R03",
+      "niche": "residencial",
+      "name": "Manutenção de confiança",
+      "target": "Marido de aluguel e pequenos reparos",
+      "fonts": {
+        "display": "Bitter",
+        "body": "DM Sans"
+      },
+      "shape": "warm",
+      "references": [
+        "R20"
+      ],
+      "copy": {
+        "headline": "A lista de pequenos reparos pode sair do papel.",
+        "subheadline": "Montagem, instalação e manutenção em {bairro}. Mostre o que precisa ser feito e consulte o escopo e a disponibilidade.",
+        "primary_cta": "Enviar minha lista de reparos",
+        "secondary_cta": "Ver o que atendemos",
+        "objection_answer": "A equipe confirma quais tarefas pode atender e se os materiais estão incluídos.",
+        "microcopy": "Pode mandar uma lista e fotos dos itens."
+      },
+      "layout": [
+        "Foto do profissional + lista de tarefas",
+        "Serviços incluídos e não incluídos",
+        "Trabalhos realizados",
+        "Como é combinado o atendimento",
+        "Orçamento e localização"
+      ],
+      "proof": [
+        "Profissional identificado",
+        "Portfólio real",
+        "Escopo e materiais combinados"
+      ],
+      "photography": "Profissional real, casa organizada e resultado visível; evitar ícones de ferramentas como única imagem.",
+      "avoid": "Não anunciar faz tudo se houver serviços fora da capacidade da equipe.",
+      "tokens": {
+        "color": {
+          "background": "#F8F2E9",
+          "surface": "#FFFDF8",
+          "text": "#3A312A",
+          "text_muted": "#6D655E",
+          "border_decorative": "#D4CDC5",
+          "border_control": "#918A82",
+          "primary": "#76513C",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#684735",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#C8D2AA",
+          "focus": "#76513C",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1120,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 12,
+          "button_radius_px": 8,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 60,
+          "h1_mobile_px": 38,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.015em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 11.417,
+        "text/surface": 12.5,
+        "muted/background": 5.137,
+        "muted/surface": 5.624,
+        "on-primary/primary": 6.971,
+        "on-primary-hover/primary-hover": 8.263,
+        "control-border/background": 3.062,
+        "control-border/surface": 3.353,
+        "focus/background": 6.263,
+        "focus/surface": 6.857
+      }
+    },
+    {
+      "id": "R04",
+      "niche": "residencial",
+      "name": "Obra e acabamento",
+      "target": "Pedreiros, drenagem e reformas pequenas",
+      "fonts": {
+        "display": "Barlow",
+        "body": "Source Sans 3"
+      },
+      "shape": "utility",
+      "references": [
+        "R19",
+        "R20"
+      ],
+      "copy": {
+        "headline": "Sua reforma começa com um escopo bem combinado.",
+        "subheadline": "Veja os trabalhos de {marca}, consulte a área atendida e solicite uma avaliação para a sua obra.",
+        "primary_cta": "Conversar sobre minha obra",
+        "secondary_cta": "Ver trabalhos concluídos",
+        "objection_answer": "Prazo, materiais e valor dependem da avaliação e do escopo combinado.",
+        "microcopy": "Informe local, tipo de serviço e dimensão aproximada."
+      },
+      "layout": [
+        "Projeto concluído + descrição curta",
+        "Tipos de obra",
+        "Portfólio com escopo e contexto",
+        "Etapas do orçamento",
+        "Área atendida e contato"
+      ],
+      "proof": [
+        "Fotos de obras próprias",
+        "Escopo de cada projeto",
+        "Condições de contratação"
+      ],
+      "photography": "Obras reais com enquadramentos comparáveis; mostrar detalhes de acabamento.",
+      "avoid": "Não prometer prazo fechado antes de conhecer a obra nem usar portfólio de terceiros.",
+      "tokens": {
+        "color": {
+          "background": "#F7F3EC",
+          "surface": "#FFFFFF",
+          "text": "#302D28",
+          "text_muted": "#66625D",
+          "border_decorative": "#D1CDC7",
+          "border_control": "#8E8A84",
+          "primary": "#7E492D",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#6F4028",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#C7C2B2",
+          "focus": "#7E492D",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 72,
+          "section_padding_mobile_px": 48,
+          "card_radius_px": 6,
+          "button_radius_px": 6,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 56,
+          "h1_mobile_px": 36,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.02em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 12.396,
+        "text/surface": 13.711,
+        "muted/background": 5.471,
+        "muted/surface": 6.052,
+        "on-primary/primary": 7.297,
+        "on-primary-hover/primary-hover": 8.607,
+        "control-border/background": 3.103,
+        "control-border/surface": 3.432,
+        "focus/background": 6.597,
+        "focus/surface": 7.297
+      }
+    },
+    {
+      "id": "G01",
+      "niche": "comercio",
+      "name": "Restaurante de encontro",
+      "target": "Restaurantes, bistrôs e reservas",
+      "fonts": {
+        "display": "Cormorant Garamond",
+        "body": "DM Sans"
+      },
+      "shape": "editorial",
+      "references": [
+        "R23"
+      ],
+      "copy": {
+        "headline": "Hoje tem mesa para uma boa conversa.",
+        "subheadline": "Conheça o cardápio da {marca}, veja os horários e consulte reservas em {bairro}.",
+        "primary_cta": "Ver cardápio",
+        "secondary_cta": "Consultar uma reserva",
+        "objection_answer": "Consulte capacidade, horários e condições para grupos.",
+        "microcopy": "Para reserva, informe dia, horário e número de pessoas."
+      },
+      "layout": [
+        "Prato e ambiente em composição assimétrica",
+        "Cardápio HTML por categoria",
+        "Ambiente e proposta da casa",
+        "Horários, acesso e reservas",
+        "Contato final"
+      ],
+      "proof": [
+        "Pratos e ambiente reais",
+        "Preços atualizados",
+        "Condições de reserva"
+      ],
+      "photography": "Pratos servidos pela casa, luz natural e enquadramento que permita ver a porção.",
+      "avoid": "Não obrigar a baixar PDF para ler o cardápio nem esconder valores ou taxa de serviço aplicável.",
+      "tokens": {
+        "color": {
+          "background": "#F6F0E4",
+          "surface": "#FFFCF5",
+          "text": "#3B3027",
+          "text_muted": "#6D645A",
+          "border_decorative": "#D2CCC0",
+          "border_control": "#91887E",
+          "primary": "#6C3E32",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#5F372C",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#A8AF84",
+          "focus": "#6C3E32",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 128,
+          "section_padding_mobile_px": 72,
+          "card_radius_px": 8,
+          "button_radius_px": 6,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 72,
+          "h1_mobile_px": 42,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.02em",
+          "h1_weight": 400,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 11.296,
+        "text/surface": 12.512,
+        "muted/background": 5.11,
+        "muted/surface": 5.66,
+        "on-primary/primary": 8.851,
+        "on-primary-hover/primary-hover": 10.148,
+        "control-border/background": 3.07,
+        "control-border/surface": 3.401,
+        "focus/background": 7.798,
+        "focus/surface": 8.638
+      }
+    },
+    {
+      "id": "G02",
+      "niche": "comercio",
+      "name": "Pizza e pedido",
+      "target": "Pizzarias, hamburguerias e lanchonetes",
+      "fonts": {
+        "display": "Bricolage Grotesque",
+        "body": "Inter"
+      },
+      "shape": "poster",
+      "references": [
+        "R21"
+      ],
+      "copy": {
+        "headline": "Escolha o sabor. A gente prepara o pedido.",
+        "subheadline": "Veja o cardápio da {marca}, compare tamanhos e adicionais e consulte entrega ou retirada em {bairro}.",
+        "primary_cta": "Ver cardápio e pedir",
+        "secondary_cta": "Consultar área de entrega",
+        "objection_answer": "O prazo e a taxa de entrega são confirmados para seu endereço.",
+        "microcopy": "Escolha os itens e informe entrega ou retirada."
+      },
+      "layout": [
+        "Produto em close + acesso ao cardápio",
+        "Categorias e tamanhos",
+        "Itens com preço e adicionais",
+        "Entrega, retirada e taxas",
+        "Pedido e contato"
+      ],
+      "proof": [
+        "Fotos próprias",
+        "Tamanhos e ingredientes",
+        "Taxas e área de entrega confirmadas"
+      ],
+      "photography": "Comida real em luz quente, textura e tamanho de porção; evitar render 3D como prova do produto.",
+      "avoid": "Não mostrar carrinho ou pedido confirmado sem integração real; não inventar prazo de entrega.",
+      "tokens": {
+        "color": {
+          "background": "#1E1715",
+          "surface": "#302320",
+          "text": "#FFF3E4",
+          "text_muted": "#C2B8AC",
+          "border_decorative": "#49413C",
+          "border_control": "#8A8178",
+          "primary": "#F0B65B",
+          "on_primary": "#231A16",
+          "primary_hover": "#F2BF6F",
+          "on_primary_hover": "#231A16",
+          "accent": "#C46B4B",
+          "focus": "#F0B65B",
+          "error": "#FFB4AA",
+          "success": "#B5DBB4"
+        },
+        "layout": {
+          "container_max_px": 1280,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 4,
+          "button_radius_px": 2,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 88,
+          "h1_mobile_px": 48,
+          "h1_line_height": 1.06,
+          "h1_tracking": "-0.02em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "none",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 16.147,
+        "text/surface": 13.838,
+        "muted/background": 9.041,
+        "muted/surface": 7.748,
+        "on-primary/primary": 9.382,
+        "on-primary-hover/primary-hover": 10.121,
+        "control-border/background": 4.621,
+        "control-border/surface": 3.96,
+        "focus/background": 9.715,
+        "focus/surface": 8.326
+      }
+    },
+    {
+      "id": "G03",
+      "niche": "comercio",
+      "name": "Padaria expressiva",
+      "target": "Padarias, cafés, confeitarias e encomendas",
+      "fonts": {
+        "display": "Fraunces",
+        "body": "DM Sans"
+      },
+      "shape": "playful",
+      "references": [
+        "R22"
+      ],
+      "copy": {
+        "headline": "Uma pausa com café. Ou uma encomenda para a turma.",
+        "subheadline": "Veja os produtos da {marca}, consulte o balcão do dia e combine sua encomenda em {bairro}.",
+        "primary_cta": "Consultar produtos e encomendas",
+        "secondary_cta": "Ver como chegar",
+        "objection_answer": "A equipe confirma disponibilidade, quantidade mínima e prazo da encomenda.",
+        "microcopy": "Para encomendar, informe produto, quantidade e data desejada."
+      },
+      "layout": [
+        "Foto de produto + detalhe gráfico autoral",
+        "Produtos e categorias",
+        "Encomendas por ocasião",
+        "Horários e retirada",
+        "Contato e mapa"
+      ],
+      "proof": [
+        "Produtos próprios",
+        "Tamanhos e unidades",
+        "Antecedência real para encomendar"
+      ],
+      "photography": "Balcão, produção e produtos reais; fundo simples que preserve as cores da comida.",
+      "avoid": "Não dizer saiu agora se não houver atualização operacional dessa informação.",
+      "tokens": {
+        "color": {
+          "background": "#FFF4DA",
+          "surface": "#FFFCF5",
+          "text": "#283452",
+          "text_muted": "#626877",
+          "border_decorative": "#D6D0C0",
+          "border_control": "#8B8C91",
+          "primary": "#254AAB",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#214196",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#E5B44C",
+          "focus": "#254AAB",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 88,
+          "section_padding_mobile_px": 56,
+          "card_radius_px": 20,
+          "button_radius_px": 12,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 60,
+          "h1_mobile_px": 38,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.025em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 11.275,
+        "text/surface": 12.033,
+        "muted/background": 5.1,
+        "muted/surface": 5.442,
+        "on-primary/primary": 7.936,
+        "on-primary-hover/primary-hover": 9.287,
+        "control-border/background": 3.069,
+        "control-border/surface": 3.275,
+        "focus/background": 7.257,
+        "focus/surface": 7.745
+      }
+    },
+    {
+      "id": "G04",
+      "niche": "comercio",
+      "name": "Comércio com catálogo",
+      "target": "Mercados, materiais de construção e varejo local",
+      "fonts": {
+        "display": "Archivo",
+        "body": "Inter"
+      },
+      "shape": "utility",
+      "references": [
+        "R22",
+        "R19"
+      ],
+      "copy": {
+        "headline": "Sua lista de compras começa com uma consulta à {marca}.",
+        "subheadline": "Veja as categorias, envie os itens que procura e confirme preços, disponibilidade e entrega em {bairro}.",
+        "primary_cta": "Enviar minha lista",
+        "secondary_cta": "Explorar categorias",
+        "objection_answer": "A loja confirma marcas, quantidades e valores antes de fechar o pedido.",
+        "microcopy": "Pode enviar sua lista escrita ou uma foto legível."
+      },
+      "layout": [
+        "Categorias e acesso à lista na primeira tela",
+        "Produtos representativos com unidade",
+        "Como consultar estoque e preço",
+        "Retirada e condições de entrega",
+        "Horário e localização"
+      ],
+      "proof": [
+        "Fotos reais da loja",
+        "Unidade e especificação do produto",
+        "Condições de entrega verdadeiras"
+      ],
+      "photography": "Loja, equipe e produtos; identificação de unidade, peso ou volume sempre que houver preço.",
+      "avoid": "Adaptação autoral dos padrões de catálogo e orçamento. Materiais de construção devem usar copy específica do banco.",
+      "tokens": {
+        "color": {
+          "background": "#F6F7F0",
+          "surface": "#FFFFFF",
+          "text": "#28352A",
+          "text_muted": "#60695F",
+          "border_decorative": "#CFD2CA",
+          "border_control": "#878E85",
+          "primary": "#315E37",
+          "on_primary": "#FFFFFF",
+          "primary_hover": "#2B5330",
+          "on_primary_hover": "#FFFFFF",
+          "accent": "#E9BE53",
+          "focus": "#315E37",
+          "error": "#A52D24",
+          "success": "#266446"
+        },
+        "layout": {
+          "container_max_px": 1200,
+          "gutter_mobile_px": 20,
+          "gutter_desktop_px": 32,
+          "grid_columns_desktop": 12,
+          "grid_columns_mobile": 4,
+          "section_padding_desktop_px": 72,
+          "section_padding_mobile_px": 48,
+          "card_radius_px": 6,
+          "button_radius_px": 6,
+          "button_min_height_px": 52,
+          "input_min_height_px": 52,
+          "content_max_ch": 62,
+          "hero_text_max_ch": 20
+        },
+        "typography": {
+          "h1_desktop_px": 56,
+          "h1_mobile_px": 36,
+          "h1_line_height": 1.12,
+          "h1_tracking": "-0.02em",
+          "h1_weight": 700,
+          "h2": "clamp(1.75rem, 1.1rem + 2vw, 2.75rem)",
+          "body_px": 18,
+          "body_line_height": 1.6,
+          "small_px": 14,
+          "small_line_height": 1.5,
+          "label_weight": 600
+        },
+        "spacing_px": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          32,
+          40,
+          48,
+          64,
+          80,
+          96,
+          128
+        ],
+        "motion": {
+          "duration_micro_ms": 160,
+          "duration_enter_ms": 240,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "max_translate_px": 8,
+          "reduced_motion": "Sem translate, parallax, autoplay ou animação de entrada; conteúdo visível de imediato."
+        },
+        "effects": {
+          "shadow": "0 8px 24px rgb(0 0 0 / 0.06)",
+          "focus_outline": "3px solid var(--color-focus)",
+          "focus_offset_px": 3
+        }
+      },
+      "contrast": {
+        "text/background": 11.93,
+        "text/surface": 12.861,
+        "muted/background": 5.289,
+        "muted/surface": 5.702,
+        "on-primary/primary": 7.535,
+        "on-primary-hover/primary-hover": 8.814,
+        "control-border/background": 3.123,
+        "control-border/surface": 3.366,
+        "focus/background": 6.99,
+        "focus/surface": 7.535
+      }
+    }
+  ],
+  "copy_bank": [
+    {
+      "niche": "beleza",
+      "subniche": "Barbearia",
+      "theme": "B01",
+      "headline": "Corte e barba em {bairro}, com horário combinado.",
+      "subheadline": "Veja serviços e valores antes de escolher seu atendimento.",
+      "cta": "Consultar horário",
+      "qualification": "serviço e preferência de profissional"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Salão de beleza",
+      "theme": "B03",
+      "headline": "Seu próximo cuidado com o cabelo começa por uma conversa.",
+      "subheadline": "Conheça os serviços, a equipe e os horários da {marca}.",
+      "cta": "Conversar sobre meu cabelo",
+      "qualification": "serviço e dia desejado"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Cosméticos e beleza",
+      "theme": "B04",
+      "headline": "Encontre o produto que falta na sua rotina de cuidados.",
+      "subheadline": "Consulte marcas, tamanhos e disponibilidade na {marca}.",
+      "cta": "Consultar um produto",
+      "qualification": "marca, linha e tamanho"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Esteticista",
+      "theme": "B03",
+      "headline": "Conheça os cuidados estéticos oferecidos em {bairro}.",
+      "subheadline": "Veja como funciona a avaliação e quem realiza o atendimento.",
+      "cta": "Consultar avaliação",
+      "qualification": "serviço de interesse"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Nail designer",
+      "theme": "B04",
+      "headline": "Uma referência para suas próximas unhas.",
+      "subheadline": "Veja trabalhos, técnicas e informações sobre manutenção.",
+      "cta": "Escolher minha técnica",
+      "qualification": "técnica, data e referência opcional"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Manicure",
+      "theme": "B04",
+      "headline": "Mãos e pés com atendimento marcado em {bairro}.",
+      "subheadline": "Consulte serviços, valores e horários da {marca}.",
+      "cta": "Marcar manicure",
+      "qualification": "serviço e período"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Cabeleireiro",
+      "theme": "B03",
+      "headline": "Um corte pensado para o cabelo que você tem.",
+      "subheadline": "Conheça os trabalhos de {profissional} e consulte o atendimento.",
+      "cta": "Consultar um corte",
+      "qualification": "tipo de serviço"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Depilação a laser",
+      "theme": "B03",
+      "headline": "Antes de começar a depilação a laser, tire suas dúvidas.",
+      "subheadline": "Consulte as áreas atendidas e como funciona a avaliação na {marca}.",
+      "cta": "Conversar sobre a avaliação",
+      "qualification": "área de interesse; evitar dados clínicos no primeiro formulário"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Clínica de estética",
+      "theme": "B03",
+      "headline": "Entenda as opções de cuidado antes de escolher um procedimento.",
+      "subheadline": "Conheça a equipe e as etapas da avaliação individual.",
+      "cta": "Solicitar informações",
+      "qualification": "procedimento de interesse"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Sobrancelhas",
+      "theme": "B04",
+      "headline": "Um desenho que começa por conhecer suas sobrancelhas.",
+      "subheadline": "Veja os trabalhos da {marca} e consulte técnicas e manutenção.",
+      "cta": "Consultar design de sobrancelhas",
+      "qualification": "técnica e dia desejado"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Cílios",
+      "theme": "B04",
+      "headline": "Cílios: escolha o efeito com mais informação.",
+      "subheadline": "Compare técnicas, conheça os cuidados e consulte manutenção.",
+      "cta": "Consultar aplicação de cílios",
+      "qualification": "técnica e disponibilidade"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Spa",
+      "theme": "B03",
+      "headline": "Reserve um tempo para conhecer os cuidados do nosso spa.",
+      "subheadline": "Veja experiências, duração e condições de agendamento.",
+      "cta": "Consultar experiências",
+      "qualification": "experiência e data"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Massoterapia",
+      "theme": "B03",
+      "headline": "Uma sessão de massoterapia com os cuidados explicados.",
+      "subheadline": "Conheça as técnicas, a duração e quem realiza o atendimento.",
+      "cta": "Consultar uma sessão",
+      "qualification": "técnica de interesse e horário"
+    },
+    {
+      "niche": "beleza",
+      "subniche": "Bronzeamento",
+      "theme": "B03",
+      "headline": "Conheça a técnica e os cuidados antes de marcar seu bronzeamento.",
+      "subheadline": "A {marca} explica o procedimento, o preparo e as condições de atendimento.",
+      "cta": "Tirar dúvidas sobre o atendimento",
+      "qualification": "técnica e horário; validar a modalidade oferecida"
+    },
+    {
+      "niche": "saude",
+      "subniche": "Dentista autônomo",
+      "theme": "S02",
+      "headline": "Conheça seu dentista antes de marcar a consulta.",
+      "subheadline": "Veja a formação, os atendimentos e as etapas da primeira visita.",
+      "cta": "Falar com a recepção",
+      "qualification": "preferência de horário"
+    },
+    {
+      "niche": "saude",
+      "subniche": "Clínica odontológica",
+      "theme": "S01",
+      "headline": "Atendimento odontológico em {bairro}, da primeira consulta ao acompanhamento.",
+      "subheadline": "Conheça os serviços e os profissionais da {marca}.",
+      "cta": "Solicitar consulta",
+      "qualification": "atendimento procurado e horário"
+    },
+    {
+      "niche": "saude",
+      "subniche": "Clínica médica especializada",
+      "theme": "S03",
+      "headline": "Atendimento em {especialidade}, com informações claras para sua primeira consulta.",
+      "subheadline": "Consulte profissionais, modalidades e horários da {marca}.",
+      "cta": "Consultar disponibilidade",
+      "qualification": "especialidade e período"
+    },
+    {
+      "niche": "saude",
+      "subniche": "Bucomaxilofacial",
+      "theme": "S02",
+      "headline": "Informação e avaliação para entender seu atendimento bucomaxilofacial.",
+      "subheadline": "Conheça o profissional e como funciona a consulta.",
+      "cta": "Consultar atendimento",
+      "qualification": "contato e preferência de horário"
+    },
+    {
+      "niche": "saude",
+      "subniche": "Prótese dentária",
+      "theme": "S02",
+      "headline": "Entenda as opções de prótese para conversar com seu dentista.",
+      "subheadline": "Consulte como funciona a avaliação e o planejamento do atendimento.",
+      "cta": "Solicitar informações",
+      "qualification": "contato e disponibilidade"
+    },
+    {
+      "niche": "saude",
+      "subniche": "Fisioterapia e reabilitação",
+      "theme": "S04",
+      "headline": "Seu movimento merece uma avaliação individual.",
+      "subheadline": "Veja as áreas de atuação e o que esperar da primeira visita.",
+      "cta": "Solicitar avaliação",
+      "qualification": "disponibilidade; detalhes clínicos em canal apropriado"
+    },
+    {
+      "niche": "saude",
+      "subniche": "Radiologia odontológica",
+      "theme": "S01",
+      "headline": "Consulte seu exame odontológico em {bairro}.",
+      "subheadline": "Veja exames disponíveis, preparo informado pela clínica e horários.",
+      "cta": "Consultar exame e horário",
+      "qualification": "nome do exame; documentação em canal apropriado"
+    },
+    {
+      "niche": "saude",
+      "subniche": "Psicologia",
+      "theme": "S03",
+      "headline": "Um espaço para começar uma conversa sobre você.",
+      "subheadline": "Conheça a atuação de {profissional} e as modalidades de atendimento.",
+      "cta": "Consultar disponibilidade",
+      "qualification": "modalidade e horário; sem relato íntimo obrigatório"
+    },
+    {
+      "niche": "saude",
+      "subniche": "Oftalmologia",
+      "theme": "S03",
+      "headline": "Sua consulta oftalmológica em {bairro}.",
+      "subheadline": "Consulte profissionais, atendimentos e informações para a primeira visita.",
+      "cta": "Consultar horários",
+      "qualification": "preferência de dia"
+    },
+    {
+      "niche": "saude",
+      "subniche": "Nutrição",
+      "theme": "S03",
+      "headline": "Sua alimentação, sua rotina e um acompanhamento individual.",
+      "subheadline": "Conheça a abordagem de {profissional} e como funciona a consulta.",
+      "cta": "Consultar atendimento",
+      "qualification": "modalidade e período"
+    },
+    {
+      "niche": "saude",
+      "subniche": "Podologia",
+      "theme": "S03",
+      "headline": "Conheça os cuidados de podologia disponíveis em {bairro}.",
+      "subheadline": "Veja quem atende, os serviços e como solicitar um horário.",
+      "cta": "Consultar um atendimento",
+      "qualification": "serviço e horário"
+    },
+    {
+      "niche": "auto",
+      "subniche": "Oficina mecânica",
+      "theme": "A01",
+      "headline": "Seu carro apresentou um problema? Comece por uma avaliação.",
+      "subheadline": "Conheça os serviços e como funciona o orçamento na {marca}.",
+      "cta": "Solicitar avaliação",
+      "qualification": "modelo, ano e descrição do problema"
+    },
+    {
+      "niche": "auto",
+      "subniche": "Oficina de motos",
+      "theme": "A01",
+      "headline": "Manutenção de moto em {bairro}, com o serviço explicado.",
+      "subheadline": "Consulte revisão, manutenção e os modelos atendidos pela {marca}.",
+      "cta": "Consultar atendimento para minha moto",
+      "qualification": "modelo, ano e serviço"
+    },
+    {
+      "niche": "auto",
+      "subniche": "Autopeças e acessórios",
+      "theme": "A02",
+      "headline": "A peça certa começa pela aplicação correta.",
+      "subheadline": "Consulte marcas e disponibilidade informando seu veículo.",
+      "cta": "Consultar uma peça",
+      "qualification": "modelo, ano, motorização e peça"
+    },
+    {
+      "niche": "auto",
+      "subniche": "Guincho e reboque",
+      "theme": "A04",
+      "headline": "Precisa transportar seu veículo em {cidade}?",
+      "subheadline": "Informe origem e destino para consultar disponibilidade e valor.",
+      "cta": "Ligar para solicitar guincho",
+      "qualification": "localização, destino e tipo de veículo"
+    },
+    {
+      "niche": "auto",
+      "subniche": "Baterias",
+      "theme": "A02",
+      "headline": "Consulte a bateria indicada para seu veículo.",
+      "subheadline": "A {marca} confirma aplicação, disponibilidade e condições de instalação.",
+      "cta": "Consultar uma bateria",
+      "qualification": "modelo, ano e localização"
+    },
+    {
+      "niche": "auto",
+      "subniche": "Pneus e alinhamento",
+      "theme": "A02",
+      "headline": "Compare pneus e serviços para o seu carro.",
+      "subheadline": "Consulte medidas, marcas e condições de alinhamento na {marca}.",
+      "cta": "Consultar pneus e serviços",
+      "qualification": "medida do pneu, modelo e ano"
+    },
+    {
+      "niche": "auto",
+      "subniche": "Lanternagem e pintura",
+      "theme": "A03",
+      "headline": "Veja como a {marca} trabalha a recuperação e a pintura do veículo.",
+      "subheadline": "Conheça os projetos e solicite uma avaliação do serviço.",
+      "cta": "Solicitar avaliação de pintura",
+      "qualification": "fotos, modelo e local do dano"
+    },
+    {
+      "niche": "auto",
+      "subniche": "Car detailing",
+      "theme": "A03",
+      "headline": "Escolha o cuidado para o acabamento do seu carro.",
+      "subheadline": "Compare os serviços de limpeza, proteção e estética da {marca}.",
+      "cta": "Consultar serviço de detailing",
+      "qualification": "modelo e serviço de interesse"
+    },
+    {
+      "niche": "fitness",
+      "subniche": "Academia e centro de treinamento",
+      "theme": "F01",
+      "headline": "Uma academia que caiba na sua rotina em {bairro}.",
+      "subheadline": "Veja estrutura, modalidades, planos e horários.",
+      "cta": "Conhecer planos e horários",
+      "qualification": "objetivo de contato e período"
+    },
+    {
+      "niche": "fitness",
+      "subniche": "Pilates",
+      "theme": "F02",
+      "headline": "Conheça o Pilates da {marca} antes de escolher sua turma.",
+      "subheadline": "Veja profissionais, formatos de aula e horários disponíveis.",
+      "cta": "Consultar turmas",
+      "qualification": "dias e períodos"
+    },
+    {
+      "niche": "fitness",
+      "subniche": "Jiu-jitsu",
+      "theme": "F03",
+      "headline": "Seu primeiro treino de jiu-jitsu pode começar aqui.",
+      "subheadline": "Consulte turmas de iniciação, professores e o que levar.",
+      "cta": "Consultar turma de iniciantes",
+      "qualification": "idade e período"
+    },
+    {
+      "niche": "fitness",
+      "subniche": "Judô",
+      "theme": "F03",
+      "headline": "Judô para começar e continuar aprendendo.",
+      "subheadline": "Veja faixas etárias, professores e horários da {marca}.",
+      "cta": "Consultar uma turma de judô",
+      "qualification": "idade e experiência"
+    },
+    {
+      "niche": "fitness",
+      "subniche": "Boxe",
+      "theme": "F03",
+      "headline": "Quer começar no boxe? Conheça sua primeira aula.",
+      "subheadline": "Veja turmas, professores e equipamentos necessários.",
+      "cta": "Consultar aula de boxe",
+      "qualification": "nível de experiência e período"
+    },
+    {
+      "niche": "fitness",
+      "subniche": "Natação",
+      "theme": "F04",
+      "headline": "Encontre uma turma para sua fase na água.",
+      "subheadline": "Consulte idades, níveis, estrutura e horários.",
+      "cta": "Consultar turma de natação",
+      "qualification": "idade, experiência e período"
+    },
+    {
+      "niche": "fitness",
+      "subniche": "Personal trainer",
+      "theme": "F01",
+      "headline": "Treino planejado a partir da sua rotina.",
+      "subheadline": "Conheça {profissional}, os formatos de acompanhamento e a disponibilidade.",
+      "cta": "Conversar sobre acompanhamento",
+      "qualification": "formato e horários; avaliação física em etapa própria"
+    },
+    {
+      "niche": "pets",
+      "subniche": "Pet shop e casa de ração",
+      "theme": "P01",
+      "headline": "Ração, acessórios e uma loja perto de você.",
+      "subheadline": "Envie o produto que procura e consulte retirada ou entrega.",
+      "cta": "Consultar um produto",
+      "qualification": "marca, embalagem e bairro"
+    },
+    {
+      "niche": "pets",
+      "subniche": "Aquarismo",
+      "theme": "P04",
+      "headline": "Equipamentos e manutenção para o seu aquário.",
+      "subheadline": "Consulte especificações e disponibilidade para o seu tipo de sistema.",
+      "cta": "Consultar um equipamento",
+      "qualification": "volume, tipo de sistema e item"
+    },
+    {
+      "niche": "pets",
+      "subniche": "Répteis e loja especializada",
+      "theme": "P04",
+      "headline": "Itens para montar e manter o ambiente do seu réptil.",
+      "subheadline": "Consulte iluminação, aquecimento e acessórios para a espécie informada.",
+      "cta": "Consultar um item",
+      "qualification": "espécie, dimensões do recinto e item"
+    },
+    {
+      "niche": "pets",
+      "subniche": "Clínica veterinária",
+      "theme": "P02",
+      "headline": "Conheça quem vai atender seu pet em {bairro}.",
+      "subheadline": "Veja a equipe, os serviços e como solicitar atendimento.",
+      "cta": "Solicitar atendimento veterinário",
+      "qualification": "espécie e preferência de horário"
+    },
+    {
+      "niche": "pets",
+      "subniche": "Hospital veterinário 24h",
+      "theme": "P02",
+      "headline": "Precisa de atendimento veterinário agora? Ligue para a {marca}.",
+      "subheadline": "Confirme a disponibilidade para atendimento e veja como chegar.",
+      "cta": "Ligar para o hospital",
+      "qualification": "espécie e localização; usar esta copy só para operação 24h real"
+    },
+    {
+      "niche": "pets",
+      "subniche": "Banho e tosa",
+      "theme": "P03",
+      "headline": "Consulte o próximo banho e tosa do seu pet.",
+      "subheadline": "Conheça os serviços, os cuidados e os critérios de preço.",
+      "cta": "Consultar banho e tosa",
+      "qualification": "porte, pelagem e serviço"
+    },
+    {
+      "niche": "residencial",
+      "subniche": "Encanador",
+      "theme": "R01",
+      "headline": "Encanador em {bairro}: explique o problema e consulte atendimento.",
+      "subheadline": "Veja a área atendida e como funciona a visita.",
+      "cta": "Consultar atendimento",
+      "qualification": "bairro e descrição do problema"
+    },
+    {
+      "niche": "residencial",
+      "subniche": "Caça-vazamentos",
+      "theme": "R01",
+      "headline": "Suspeita de vazamento? Consulte uma avaliação.",
+      "subheadline": "Conheça os serviços e os métodos realmente utilizados pela {marca}.",
+      "cta": "Consultar caça-vazamento",
+      "qualification": "bairro, imóvel e sinais observados"
+    },
+    {
+      "niche": "residencial",
+      "subniche": "Marido de aluguel",
+      "theme": "R03",
+      "headline": "Sua lista de instalações e pequenos reparos em um contato.",
+      "subheadline": "Envie as tarefas e consulte quais podem ser atendidas pela {marca}.",
+      "cta": "Enviar minha lista",
+      "qualification": "lista de tarefas e fotos opcionais"
+    },
+    {
+      "niche": "residencial",
+      "subniche": "Eletricista",
+      "theme": "R02",
+      "headline": "Serviço elétrico em {bairro}, com orçamento explicado.",
+      "subheadline": "Consulte instalações, manutenção e os tipos de atendimento.",
+      "cta": "Solicitar orçamento elétrico",
+      "qualification": "bairro e tipo de serviço"
+    },
+    {
+      "niche": "residencial",
+      "subniche": "Desentupidora",
+      "theme": "R01",
+      "headline": "Entupimento em {bairro}? Consulte atendimento disponível.",
+      "subheadline": "Informe o local e entenda como funciona a avaliação.",
+      "cta": "Ligar para consultar atendimento",
+      "qualification": "bairro e ponto do entupimento"
+    },
+    {
+      "niche": "residencial",
+      "subniche": "Drenagem",
+      "theme": "R04",
+      "headline": "Planeje a drenagem com uma avaliação do local.",
+      "subheadline": "Converse sobre o problema, o terreno e o escopo do serviço.",
+      "cta": "Solicitar avaliação de drenagem",
+      "qualification": "local e dimensão aproximada"
+    },
+    {
+      "niche": "residencial",
+      "subniche": "Pedreiro",
+      "theme": "R04",
+      "headline": "Uma conversa para tirar sua obra do papel.",
+      "subheadline": "Veja trabalhos realizados e consulte avaliação para seu serviço.",
+      "cta": "Conversar sobre minha obra",
+      "qualification": "bairro, serviço e dimensão"
+    },
+    {
+      "niche": "comercio",
+      "subniche": "Restaurante",
+      "theme": "G01",
+      "headline": "Seu almoço ou jantar em {bairro} começa pelo cardápio.",
+      "subheadline": "Veja os pratos, os horários e as condições de reserva.",
+      "cta": "Ver cardápio",
+      "qualification": "dia e número de pessoas, se reserva"
+    },
+    {
+      "niche": "comercio",
+      "subniche": "Pizzaria",
+      "theme": "G02",
+      "headline": "Seu próximo sabor está no cardápio da {marca}.",
+      "subheadline": "Compare tamanhos, ingredientes e opções de entrega ou retirada.",
+      "cta": "Ver pizzas e pedir",
+      "qualification": "itens, tamanho e entrega ou retirada"
+    },
+    {
+      "niche": "comercio",
+      "subniche": "Lanchonete e hamburgueria",
+      "theme": "G02",
+      "headline": "Escolha seu lanche e monte o pedido do seu jeito.",
+      "subheadline": "Veja ingredientes, adicionais e condições de entrega.",
+      "cta": "Ver lanches e pedir",
+      "qualification": "itens, adicionais e endereço, quando necessário"
+    },
+    {
+      "niche": "comercio",
+      "subniche": "Padaria e confeitaria",
+      "theme": "G03",
+      "headline": "Do café da manhã à próxima encomenda.",
+      "subheadline": "Consulte produtos, quantidades e prazos na {marca}.",
+      "cta": "Consultar uma encomenda",
+      "qualification": "produto, quantidade e data"
+    },
+    {
+      "niche": "comercio",
+      "subniche": "Mercado",
+      "theme": "G04",
+      "headline": "Sua lista de compras, com preço e disponibilidade confirmados.",
+      "subheadline": "Consulte os itens da {marca} e as opções de retirada ou entrega.",
+      "cta": "Enviar lista de compras",
+      "qualification": "lista, quantidades e bairro"
+    },
+    {
+      "niche": "comercio",
+      "subniche": "Materiais de construção",
+      "theme": "G04",
+      "headline": "Envie a lista da obra e consulte os materiais.",
+      "subheadline": "A {marca} confirma especificações, unidades, disponibilidade e frete.",
+      "cta": "Cotar materiais da obra",
+      "qualification": "material, medida, unidade, quantidade e CEP"
+    }
+  ],
+  "shared_rules": {
+    "placeholder_policy": "Substituir todos os campos entre chaves e remover afirmações não confirmadas.",
+    "accent_policy": "Accent é decorativo; nenhum uso textual ou como CTA está automaticamente aprovado.",
+    "tracking": [
+      "cta_click",
+      "contact_request_submitted",
+      "qualified_contact",
+      "booking_confirmed",
+      "sale_confirmed"
+    ],
+    "privacy": "Formulário inicial só com dados necessários ao contato; não solicitar dados clínicos detalhados.",
+    "confirmation_policy": "Clique no WhatsApp não é mensagem enviada. Solicitação não é agendamento confirmado.",
+    "anti_clone": "Ao variar, mudar composição, hierarquia, tipografia, imagem e prova, além da cor."
+  }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DS Odontologia | Clínica Odontológica no Centro de Contagem - MG</title>
+    <meta name="description" content="Atendimento humanizado, equipamentos modernos e todas as especialidades odontológicas em Contagem. Implantes, Invisalign, Clareamento, Canal e Clínica Geral." />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="DS Odontologia | Centro de Contagem - MG" />
+    <meta property="og:description" content="Cuidado odontológico de excelência com acolhimento e tecnologia para toda a família. Agende pelo WhatsApp!" />
+    <meta property="og:image" content="./images/feed-clinica.jpg" />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/logo-sorriso.png" />
+
+    <!-- Google Fonts: Inter + Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org JSON-LD para SEO Local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "DS Odontologia",
+      "image": "./images/feed-clinica.jpg",
+      "telephone": "+55-31-3390-0979",
+      "url": "https://dsodontologia.com.br",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Antônio Bernardino Muniz, 155 - Loja 02, Centro",
+        "addressLocality": "Contagem",
+        "addressRegion": "MG",
+        "postalCode": "32040-630",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -19.9324,
+        "longitude": -44.0537
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "13:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.1",
+        "reviewCount": "22"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

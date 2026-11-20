@@ -1,0 +1,735 @@
+{
+  "title": "12 estruturas de landing page orientadas à decisão",
+  "date": "2026-11-03",
+  "locale": "pt-BR",
+  "method": "Planejar a partir da conversão e montar a leitura conforme a intenção de chegada.",
+  "evidence_status": "Estruturas autorais para teste; fontes fundamentam princípios, não comprovam ganho de conversão das estruturas.",
+  "structures": [
+    {
+      "id": "E01",
+      "name": "Atendimento imediato",
+      "use_cases": "Guincho, encanador, desentupidora e assistência operacional com atendimento disponível.",
+      "arrival_intent": "Pessoa procurando resolver uma necessidade já identificada; busca local específica.",
+      "primary_goal": "Solicitação de atendimento aceita pela operação.",
+      "main_blocker": "Não saber se a empresa atende o local e está disponível.",
+      "first_viewport": "Serviço + cidade/bairro + disponibilidade verdadeira + telefone legível. CTA de ligação na abertura; WhatsApp como alternativa do mesmo atendimento.",
+      "sections": [
+        {
+          "title": "Serviço e cobertura",
+          "visitor_question": "Vocês atendem o que preciso, aqui?",
+          "content": "Tipo de atendimento, área e horário real.",
+          "composition": "Abertura compacta; texto direto e telefone; fotografia secundária."
+        },
+        {
+          "title": "Contato imediato",
+          "visitor_question": "Como solicito?",
+          "content": "Ligação e alternativa de contato sem formulário obrigatório.",
+          "composition": "Barra de ação integrada à primeira tela."
+        },
+        {
+          "title": "Dados para atendimento",
+          "visitor_question": "O que preciso informar?",
+          "content": "Localização e tipo de problema; para guincho, veículo e destino.",
+          "composition": "Lista curta ao lado do contato."
+        },
+        {
+          "title": "Condições da visita",
+          "visitor_question": "Quanto custa e quando chegam?",
+          "content": "Explicar o que depende de avaliação, deslocamento e disponibilidade.",
+          "composition": "Faixa informativa com condições, sem preço inventado."
+        },
+        {
+          "title": "Empresa real",
+          "visitor_question": "Com quem estou falando?",
+          "content": "Identificação, equipe/veículo, endereço ou área operacional legítima.",
+          "composition": "Foto própria com legenda e informações verificáveis."
+        },
+        {
+          "title": "Contato final",
+          "visitor_question": "Posso solicitar agora?",
+          "content": "Repetir o canal e as condições atuais.",
+          "composition": "Bloco final simples, sem slogan longo."
+        }
+      ],
+      "cta": "Ligar para consultar atendimento",
+      "minimum_inputs": "Localização e problema; sem cadastro para visualizar o telefone.",
+      "required_evidence": "Telefone testado; cobertura confirmada; horário mantido; identidade da empresa.",
+      "avoid_when_or_risks": "Evitar em serviços eletivos de saúde ou ofertas sem operação disponível. Não usar contador, selo online permanente ou previsão fictícia.",
+      "mobile_priority": "Telefone antes da rolagem. Barra fixa só se não cobrir conteúdo ou foco; manter número como texto selecionável.",
+      "test_hypothesis": "Cobertura explícita antes do contato versus cobertura ao lado do contato; medir solicitações atendíveis, não apenas cliques.",
+      "compatible_visual_themes": [
+        "A04",
+        "R01",
+        "R02"
+      ]
+    },
+    {
+      "id": "E02",
+      "name": "Agenda primeiro",
+      "use_cases": "Barbearias, manicure, banho e tosa e serviços recorrentes com catálogo simples.",
+      "arrival_intent": "Visitante já conhece o serviço ou a marca e quer encaixar um horário.",
+      "primary_goal": "Agendamento confirmado; sem integração, solicitação de horário.",
+      "main_blocker": "Não saber preço, duração e como marcar.",
+      "first_viewport": "Nome do serviço + bairro + preço/duração quando fixos + próximo passo. Agenda visível se houver integração; caso contrário, botão para consultar.",
+      "sections": [
+        {
+          "title": "Serviço e próximo passo",
+          "visitor_question": "Consigo marcar o que quero?",
+          "content": "Oferta específica e canal real de agendamento.",
+          "composition": "Abertura dividida com seletor ou módulo de consulta."
+        },
+        {
+          "title": "Menu de serviços",
+          "visitor_question": "Qual serviço e quanto custa?",
+          "content": "Serviço, duração estimada, valor e condições publicáveis.",
+          "composition": "Tabela em linhas; evitar três cards artificiais."
+        },
+        {
+          "title": "Profissional ou preferência",
+          "visitor_question": "Quem vai me atender?",
+          "content": "Profissionais reais e suas especialidades; escolha opcional quando possível.",
+          "composition": "Lista de profissionais com fotos pequenas."
+        },
+        {
+          "title": "Prova do trabalho",
+          "visitor_question": "O atendimento combina comigo?",
+          "content": "Galeria curta e avaliações autorizadas, se disponíveis.",
+          "composition": "Faixa de trabalhos estáticos, com legendas."
+        },
+        {
+          "title": "Acesso e regras",
+          "visitor_question": "Onde é e como funciona?",
+          "content": "Local, expediente, atraso, cancelamento e manutenção quando relevantes.",
+          "composition": "Bloco prático perto do agendamento."
+        },
+        {
+          "title": "Escolha ou solicitação",
+          "visitor_question": "Qual horário posso pedir?",
+          "content": "Confirmar serviço e dados mínimos; mostrar estado real da solicitação.",
+          "composition": "Agenda ou contato com contexto preservado."
+        }
+      ],
+      "cta": "Consultar horário para {serviço}",
+      "minimum_inputs": "Serviço, preferência de dia/período e contato; profissional opcional.",
+      "required_evidence": "Preços/durações conferidos; agenda funcional ou responsável pelo retorno; fotos próprias.",
+      "avoid_when_or_risks": "Evitar quando a indicação do serviço exige avaliação prévia. Não mostrar horários fictícios ou dizer reservado após mero clique.",
+      "mobile_priority": "Menu em linhas com duração e preço sem scroll horizontal; seleção preservada ao abrir contato.",
+      "test_hypothesis": "Menu de serviços perto do topo versus depois da equipe; medir solicitação qualificada e confirmação de horário.",
+      "compatible_visual_themes": [
+        "B01",
+        "B02",
+        "B04",
+        "P03"
+      ]
+    },
+    {
+      "id": "E03",
+      "name": "Portfólio primeiro",
+      "use_cases": "Nails, cabelo, sobrancelhas, estética automotiva, pintura e obras com portfólio próprio.",
+      "arrival_intent": "Pessoa chegou por conteúdo visual ou quer verificar o padrão do trabalho.",
+      "primary_goal": "Pedido de serviço com referência de trabalho selecionada.",
+      "main_blocker": "Não saber se a empresa executa o estilo ou acabamento desejado.",
+      "first_viewport": "Uma seleção curta de trabalhos reais + identificação do serviço e local + CTA. Sem obrigar o visitante a percorrer a galeria inteira.",
+      "sections": [
+        {
+          "title": "Trabalho em destaque",
+          "visitor_question": "É esse tipo de resultado que procuro?",
+          "content": "Fotos próprias com técnica ou serviço identificado.",
+          "composition": "Mosaico assimétrico; título e ação sempre legíveis."
+        },
+        {
+          "title": "Seleção por técnica",
+          "visitor_question": "Vocês fazem o que quero?",
+          "content": "Categorias úteis e trabalhos representativos.",
+          "composition": "Filtro simples sem depender de hover."
+        },
+        {
+          "title": "Caso explicado",
+          "visitor_question": "O que foi feito aqui?",
+          "content": "Contexto, escopo e procedimento; sem prometer repetição idêntica.",
+          "composition": "Foto grande com legenda e relato curto."
+        },
+        {
+          "title": "Serviço e condições",
+          "visitor_question": "O que entra no atendimento?",
+          "content": "Escopo, faixa de preço só quando verdadeira, manutenção ou avaliação.",
+          "composition": "Menu ou ficha de serviço ligada à imagem."
+        },
+        {
+          "title": "Profissional e prova",
+          "visitor_question": "Quem executa?",
+          "content": "Responsável identificado e avaliações reais disponíveis.",
+          "composition": "Retrato e texto curto; evitar estatísticas decorativas."
+        },
+        {
+          "title": "Contato com referência",
+          "visitor_question": "Como peço algo parecido?",
+          "content": "Enviar o identificador do trabalho, disponibilidade e contato.",
+          "composition": "CTA contextual com resumo do item escolhido."
+        }
+      ],
+      "cta": "Consultar este serviço",
+      "minimum_inputs": "Serviço ou referência selecionada, contato e período; fotos do visitante opcionais.",
+      "required_evidence": "Galeria própria e autorizada; contexto do trabalho; identidade de quem executa.",
+      "avoid_when_or_risks": "Não usar sem portfólio real. Em saúde, uso de imagens, depoimentos e comparações exige validação específica do profissional; não aplicar como padrão automático.",
+      "mobile_priority": "Primeiras imagens otimizadas; legendas visíveis; filtros e galeria acessíveis por toque e teclado.",
+      "test_hypothesis": "Trabalho com legenda técnica versus imagem sem legenda; medir contatos que identificam corretamente o serviço.",
+      "compatible_visual_themes": [
+        "B02",
+        "B04",
+        "A03",
+        "R04"
+      ]
+    },
+    {
+      "id": "E04",
+      "name": "Profissional primeiro",
+      "use_cases": "Dentistas autônomos, psicologia, nutrição, fisioterapia, veterinária e personal trainer.",
+      "arrival_intent": "Pessoa precisa escolher em quem confiar e avaliar adequação do atendimento.",
+      "primary_goal": "Solicitação de consulta ou conversa de atendimento com escopo adequado.",
+      "main_blocker": "Incerteza sobre identidade, formação, abordagem e quem atenderá.",
+      "first_viewport": "Nome, atuação, local/modalidade, foto real e CTA de disponibilidade. Formação relevante e identificação verificável visíveis sem currículo longo.",
+      "sections": [
+        {
+          "title": "Profissional e atuação",
+          "visitor_question": "Quem é e com o que trabalha?",
+          "content": "Apresentação factual com área de atendimento e local.",
+          "composition": "Retrato e texto lado a lado; H1 informa a atuação."
+        },
+        {
+          "title": "Formação relevante",
+          "visitor_question": "Qual é a qualificação?",
+          "content": "Formação, registro e especialidades efetivamente confirmadas.",
+          "composition": "Lista curta e links verificáveis quando existirem."
+        },
+        {
+          "title": "Adequação do atendimento",
+          "visitor_question": "Esse atendimento faz sentido para mim?",
+          "content": "Escopo, público e modalidades; sem diagnóstico na página.",
+          "composition": "Bloco explicativo por contexto do visitante."
+        },
+        {
+          "title": "Primeiro encontro",
+          "visitor_question": "O que acontece na primeira vez?",
+          "content": "Etapas, duração quando aplicável e orientações administrativas.",
+          "composition": "Sequência editorial curta."
+        },
+        {
+          "title": "Condições e acesso",
+          "visitor_question": "Como me organizo?",
+          "content": "Modalidade, endereço, horários, valor/convênios se publicáveis e confirmados.",
+          "composition": "Ficha prática com mapa acessível."
+        },
+        {
+          "title": "Disponibilidade",
+          "visitor_question": "Como consulto um horário?",
+          "content": "Contato com dados mínimos e expectativa real de confirmação.",
+          "composition": "Formulário curto ou contato direto."
+        }
+      ],
+      "cta": "Consultar disponibilidade",
+      "minimum_inputs": "Contato, modalidade e preferência de horário; histórico clínico não obrigatório no primeiro contato.",
+      "required_evidence": "Identidade, formação e registros confirmados; fotos próprias; informações operacionais.",
+      "avoid_when_or_risks": "Evitar centralizar toda a clínica em um profissional que não realizará o atendimento. Não usar títulos ou especializações não comprovados.",
+      "mobile_priority": "Nome e atuação antes da biografia; qualificação legível, sem logos minúsculos como única evidência.",
+      "test_hypothesis": "Formação em lista curta versus resumo da abordagem perto da abertura; medir pedidos adequados à atuação e consultas confirmadas.",
+      "compatible_visual_themes": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "P02",
+        "F01"
+      ]
+    },
+    {
+      "id": "E05",
+      "name": "Primeira visita explicada",
+      "use_cases": "Odontologia, fisioterapia, clínicas, estética, Pilates e lutas para iniciantes.",
+      "arrival_intent": "Pessoa considera o serviço, mas tem dúvida ou receio do processo.",
+      "primary_goal": "Solicitação informada da primeira visita, avaliação ou aula.",
+      "main_blocker": "Não saber o que vai acontecer, o compromisso assumido e o que levar.",
+      "first_viewport": "O que é a primeira visita + quem atende + CTA disponível. Uma explicação curta do processo entra antes de uma lista ampla de benefícios.",
+      "sections": [
+        {
+          "title": "Primeira visita",
+          "visitor_question": "O que estou marcando?",
+          "content": "Nome do atendimento inicial, local e propósito sem promessa de resultado.",
+          "composition": "Título explicativo com foto do contexto real."
+        },
+        {
+          "title": "Etapas",
+          "visitor_question": "O que vai acontecer?",
+          "content": "Antes, durante e depois; explicar o que será definido presencialmente.",
+          "composition": "Linha do tempo vertical, não uma animação obrigatória."
+        },
+        {
+          "title": "Preparação",
+          "visitor_question": "O que preciso levar ou fazer?",
+          "content": "Orientações confirmadas; documentos ou equipamentos pertinentes.",
+          "composition": "Checklist de preparação."
+        },
+        {
+          "title": "Responsável e ambiente",
+          "visitor_question": "Com quem e onde?",
+          "content": "Profissional/equipe e espaço reais.",
+          "composition": "Retrato junto de fotografia do local."
+        },
+        {
+          "title": "Compromisso e condições",
+          "visitor_question": "Preciso fechar algo no dia?",
+          "content": "Valor da visita, duração, condições e decisões posteriores quando aplicáveis.",
+          "composition": "Bloco de condições explícitas, sem informação comercial escondida."
+        },
+        {
+          "title": "Agendamento",
+          "visitor_question": "Como marco a primeira vez?",
+          "content": "Solicitação ou agenda com confirmação real.",
+          "composition": "CTA ligado à visita inicial, não ao tratamento completo."
+        }
+      ],
+      "cta": "Consultar a primeira visita",
+      "minimum_inputs": "Contato e disponibilidade; para turmas, faixa etária e nível quando necessários.",
+      "required_evidence": "Processo validado pela equipe; condições da visita; identificação de quem atende.",
+      "avoid_when_or_risks": "Não chamar avaliação de gratuita se houver cobrança ou condição omitida. Não prometer ausência de dor nem usar medo como pressão.",
+      "mobile_priority": "Etapas curtas em coluna; informações essenciais abertas, dúvidas secundárias podem ser expansíveis.",
+      "test_hypothesis": "Etapas antes da lista de serviços versus depois; medir solicitações e comparecimento, se houver vínculo de dados confiável.",
+      "compatible_visual_themes": [
+        "S01",
+        "S02",
+        "S04",
+        "B03",
+        "F02",
+        "F03",
+        "P02"
+      ]
+    },
+    {
+      "id": "E06",
+      "name": "Escolha por necessidade",
+      "use_cases": "Salões com vários serviços, oficinas, centros de treinamento e varejo especializado.",
+      "arrival_intent": "Pessoa sabe o que procura resolver ou fazer, mas desconhece os nomes comerciais.",
+      "primary_goal": "Contato ou pedido já associado à categoria correta.",
+      "main_blocker": "Não conseguir traduzir sua necessidade para o catálogo da empresa.",
+      "first_viewport": "Uma pergunta simples com poucas opções claras. Cada opção leva ao conteúdo pertinente e mantém telefone ou visão geral acessíveis.",
+      "sections": [
+        {
+          "title": "Pergunta de entrada",
+          "visitor_question": "Por onde começo?",
+          "content": "Categorias de intenção: corte, cor e tratamento; manutenção, pneus e bateria; começar, voltar e conhecer turmas.",
+          "composition": "Seletor claro com rótulos em linguagem comum."
+        },
+        {
+          "title": "Opções relacionadas",
+          "visitor_question": "O que vocês oferecem para isso?",
+          "content": "Mostrar os serviços pertinentes à categoria escolhida.",
+          "composition": "Lista contextual, com estado de seleção visível."
+        },
+        {
+          "title": "Diferenças e limites",
+          "visitor_question": "Qual opção devo consultar?",
+          "content": "Comparar escopo e quando depende de avaliação.",
+          "composition": "Tabela ou explicação curta por opção."
+        },
+        {
+          "title": "Prova pertinente",
+          "visitor_question": "Vocês realmente fazem isso?",
+          "content": "Trabalho, profissional ou produto da categoria, sem prova genérica desconectada.",
+          "composition": "Imagem e legenda relacionadas à escolha."
+        },
+        {
+          "title": "Contato contextual",
+          "visitor_question": "Como continuo com essa opção?",
+          "content": "Levar a categoria ao formulário ou mensagem de contato.",
+          "composition": "Resumo editável com CTA específico."
+        }
+      ],
+      "cta": "Consultar {categoria selecionada}",
+      "minimum_inputs": "Categoria, contato e apenas a qualificação necessária àquela rota.",
+      "required_evidence": "Catálogo organizado; capacidade real de atender cada rota; conteúdo específico.",
+      "avoid_when_or_risks": "Não usar como diagnóstico automatizado em saúde. Não criar um quiz para um serviço que pode ser solicitado diretamente.",
+      "mobile_priority": "Seletores empilhados, voltar/trocar sem perder contato e opção de não sei; conteúdo útil mesmo sem seleção.",
+      "test_hypothesis": "Entrada por necessidade versus catálogo direto; medir escolha concluída e encaminhamento correto.",
+      "compatible_visual_themes": [
+        "B03",
+        "A01",
+        "A02",
+        "F01",
+        "P01",
+        "P04",
+        "G04"
+      ]
+    },
+    {
+      "id": "E07",
+      "name": "Orçamento guiado",
+      "use_cases": "Reformas, manutenção residencial, mecânica, projetos de aquário e encomendas sob medida.",
+      "arrival_intent": "Pessoa aceita fornecer contexto porque o orçamento depende do escopo.",
+      "primary_goal": "Solicitação de orçamento com informações suficientes para o próximo passo.",
+      "main_blocker": "Não saber o que informar ou receber uma proposta inadequada.",
+      "first_viewport": "Escopo atendido + explicação de como será orçado + início de formulário proporcional à complexidade. A condição de preço precisa estar clara.",
+      "sections": [
+        {
+          "title": "Escopo e avaliação",
+          "visitor_question": "Vocês atendem meu tipo de pedido?",
+          "content": "Exemplos de serviços e limites de atendimento.",
+          "composition": "Abertura com explicação e ponto de início do formulário."
+        },
+        {
+          "title": "Local e tipo de serviço",
+          "visitor_question": "Esse pedido pode ser atendido?",
+          "content": "Perguntar área/cobertura e categoria antes de dados extensos.",
+          "composition": "Primeira etapa curta com motivo das perguntas."
+        },
+        {
+          "title": "Detalhes necessários",
+          "visitor_question": "O que muda o orçamento?",
+          "content": "Medidas, modelo ou quantidade conforme a rota; fotos opcionais quando bastar descrição.",
+          "composition": "Campos condicionais; evitar perguntas irrelevantes."
+        },
+        {
+          "title": "Próximo passo",
+          "visitor_question": "O que acontece depois?",
+          "content": "Explicar se há visita, cobrança, validação e prazo real de resposta.",
+          "composition": "Resumo breve perto dos dados de contato."
+        },
+        {
+          "title": "Revisão e envio",
+          "visitor_question": "Estou enviando o pedido certo?",
+          "content": "Resumo editável, contato e ação de envio; mensagem real de sucesso/erro.",
+          "composition": "Etapa final com resumo, sem criar conta."
+        },
+        {
+          "title": "Prova e dúvidas de apoio",
+          "visitor_question": "Posso confiar no processo?",
+          "content": "Portfólio pertinente e condições comerciais consultáveis.",
+          "composition": "Conteúdo de apoio junto do fluxo; não obrigatório para concluir."
+        }
+      ],
+      "cta": "Enviar solicitação de orçamento",
+      "minimum_inputs": "Cobertura, escopo, detalhe que muda atendimento e contato; cada campo precisa de uso definido.",
+      "required_evidence": "Critérios de orçamento e visita; responsável pelo retorno; serviços e regiões confirmados.",
+      "avoid_when_or_risks": "Evitar múltiplas etapas para duas perguntas simples. Não apresentar valor estimado como orçamento final ou recolher dados antes de informar cobrança essencial.",
+      "mobile_priority": "Passos com voltar e respostas preservadas; teclado adequado; sem rolagem automática que tire o contexto.",
+      "test_hypothesis": "Formulário compacto versus etapas para a mesma informação; medir conclusão, qualidade do pedido e esforço comercial posterior.",
+      "compatible_visual_themes": [
+        "R02",
+        "R03",
+        "R04",
+        "A01",
+        "A03",
+        "P04",
+        "G03",
+        "G04"
+      ]
+    },
+    {
+      "id": "E08",
+      "name": "Planos e comparação",
+      "use_cases": "Academias, serviços com pacotes legítimos, banho e tosa e planos recorrentes.",
+      "arrival_intent": "Pessoa compara opções e precisa entender preço e escopo.",
+      "primary_goal": "Escolha consciente de plano ou consulta sobre uma opção definida.",
+      "main_blocker": "Não conseguir comparar o que muda entre as opções e o custo real.",
+      "first_viewport": "Tipo de serviço, público/local e acesso direto à comparação. Exibir as condições que mudam a decisão junto do preço.",
+      "sections": [
+        {
+          "title": "Proposta e opções",
+          "visitor_question": "Quais são minhas escolhas?",
+          "content": "Contexto curto e opções realmente existentes.",
+          "composition": "Abertura enxuta ligada à tabela."
+        },
+        {
+          "title": "Comparação",
+          "visitor_question": "O que muda entre os planos?",
+          "content": "Preço, periodicidade, itens, taxas, fidelidade e regras relevantes.",
+          "composition": "Tabela legível; cards somente se o conteúdo ficar comparável."
+        },
+        {
+          "title": "O que está incluído",
+          "visitor_question": "O que recebo na prática?",
+          "content": "Estrutura, acesso ou serviço com especificação.",
+          "composition": "Fotos reais e explicação de escopo."
+        },
+        {
+          "title": "Adequação e dúvidas",
+          "visitor_question": "Qual plano faz sentido para minha rotina?",
+          "content": "Diferenças de uso, regras e limitações; sem empurrar sempre a opção mais cara.",
+          "composition": "Exemplos objetivos de uso; dúvidas específicas."
+        },
+        {
+          "title": "Escolha contextual",
+          "visitor_question": "Como consulto esta opção?",
+          "content": "CTA por plano encaminha sua identificação; contratação só quando existir fluxo real.",
+          "composition": "Resumo da opção e próximo passo explícito."
+        }
+      ],
+      "cta": "Consultar o plano {nome}",
+      "minimum_inputs": "Plano, contato e condição que muda a elegibilidade; sem formulário extenso.",
+      "required_evidence": "Tabela de preços vigente; condições completas; benefícios realmente entregues.",
+      "avoid_when_or_risks": "Não usar para preço dependente de diagnóstico ou avaliação individual. Não inventar plano mais vendido, desconto ou preço riscado.",
+      "mobile_priority": "Comparação sem colunas ilegíveis; possibilidade de ver mesmos atributos por opção; preço e periodicidade juntos.",
+      "test_hypothesis": "Comparação no topo versus após a estrutura; medir escolha, fechamento e cancelamento quando houver dados.",
+      "compatible_visual_themes": [
+        "F01",
+        "F02",
+        "P03",
+        "B01",
+        "B02"
+      ]
+    },
+    {
+      "id": "E09",
+      "name": "Cardápio e pedido",
+      "use_cases": "Pizzarias, lanchonetes, padarias, mercados e catálogos de produtos.",
+      "arrival_intent": "Pessoa quer escolher itens e conhecer as condições de compra.",
+      "primary_goal": "Pedido enviado e aceito pela operação; compra confirmada apenas quando comprovada.",
+      "main_blocker": "Dificuldade para encontrar produto, preço, variação e entrega.",
+      "first_viewport": "Marca/local, entrega ou retirada, horários reais e primeiras categorias. Os itens ficam acessíveis cedo; história longa vem depois, se necessária.",
+      "sections": [
+        {
+          "title": "Operação e acesso",
+          "visitor_question": "Posso pedir aqui?",
+          "content": "Tipo de pedido, área e funcionamento; entrada para cardápio.",
+          "composition": "Cabeçalho compacto com informação prática."
+        },
+        {
+          "title": "Categorias e itens",
+          "visitor_question": "O que vou escolher?",
+          "content": "Nome, foto própria quando disponível, descrição, unidade e preço.",
+          "composition": "Lista ou grade de produto, com navegação por categoria."
+        },
+        {
+          "title": "Variações e adicionais",
+          "visitor_question": "Qual tamanho ou configuração?",
+          "content": "Opções compatíveis, adicionais e atualização do valor se calculável.",
+          "composition": "Detalhe do item; seleções necessárias evidentes."
+        },
+        {
+          "title": "Logística e resumo",
+          "visitor_question": "Como recebo e quanto pago?",
+          "content": "Retirada/entrega, frete ou regra para confirmação e resumo dos itens.",
+          "composition": "Resumo persistente quando útil, sem cobrir produtos."
+        },
+        {
+          "title": "Envio do pedido",
+          "visitor_question": "O pedido foi recebido?",
+          "content": "Dados necessários e integração verdadeira. Se houver só WhatsApp, informar que será revisado no canal.",
+          "composition": "Finalização curta com status fiel à operação."
+        },
+        {
+          "title": "Informações da loja",
+          "visitor_question": "Onde e com quem compro?",
+          "content": "Endereço, contato e condições acessíveis em todo o fluxo.",
+          "composition": "Rodapé utilitário, sem substituir o catálogo."
+        }
+      ],
+      "cta": "Ver cardápio e montar pedido",
+      "minimum_inputs": "Itens, variações, retirada/entrega e contato; endereço completo somente quando necessário.",
+      "required_evidence": "Catálogo vigente; preços/unidades; logística real; canal de recebimento funcional.",
+      "avoid_when_or_risks": "Não criar carrinho cenográfico. Se a loja não mantiver o catálogo atualizado, usar lista de consulta com preço/disponibilidade confirmados no contato.",
+      "mobile_priority": "Categorias tocáveis; itens em lista legível; resumo recolhível acessível; valores junto das opções.",
+      "test_hypothesis": "Categorias por tipo de produto versus ocasião de consumo; medir pedidos aceitos e erro de configuração.",
+      "compatible_visual_themes": [
+        "G02",
+        "G03",
+        "G04",
+        "P01"
+      ]
+    },
+    {
+      "id": "E10",
+      "name": "Cobertura antes da oferta",
+      "use_cases": "Entrega de ração, materiais de construção, mercados, técnicos e operações com restrição geográfica.",
+      "arrival_intent": "Pessoa quer o serviço ou produto, mas a região e o deslocamento decidem a viabilidade.",
+      "primary_goal": "Pedido de orçamento ou compra dentro da área atendida.",
+      "main_blocker": "Incerteza sobre cobertura, frete e condições de atendimento.",
+      "first_viewport": "O que a empresa fornece e onde atende + consulta simples de bairro/CEP ou lista visível. Não exigir contato para revelar cobertura básica.",
+      "sections": [
+        {
+          "title": "Produto/serviço e região",
+          "visitor_question": "Vocês atendem meu endereço?",
+          "content": "Área atendida e forma verdadeira de consulta.",
+          "composition": "Abertura utilitária com localizador ou lista."
+        },
+        {
+          "title": "Condição por região",
+          "visitor_question": "Qual é a condição para mim?",
+          "content": "Entrega, deslocamento, retirada ou consulta manual; não estimar sem dados.",
+          "composition": "Resposta objetiva com origem da informação."
+        },
+        {
+          "title": "Itens ou serviços locais",
+          "visitor_question": "O que posso solicitar?",
+          "content": "Catálogo pertinente e eventuais restrições.",
+          "composition": "Lista útil depois da cobertura."
+        },
+        {
+          "title": "Operação e prova",
+          "visitor_question": "Quem vai entregar ou atender?",
+          "content": "Loja/equipe, endereço e contato reais.",
+          "composition": "Fotografia e dados verificáveis."
+        },
+        {
+          "title": "Pedido com local",
+          "visitor_question": "Como faço minha solicitação?",
+          "content": "Preservar bairro/CEP e permitir corrigir; pedir detalhes do pedido.",
+          "composition": "CTA contextual com resumo do local."
+        }
+      ],
+      "cta": "Consultar entrega para meu bairro",
+      "minimum_inputs": "Bairro ou CEP primeiro; lista ou serviço e contato depois.",
+      "required_evidence": "Tabela ou regras de cobertura mantidas; taxas e restrições conhecidas; identificação da operação.",
+      "avoid_when_or_risks": "Evitar se a cobertura quase nunca restringe o pedido. Um campo desnecessário também cria atrito. Sem integração, mostrar informação estática verdadeira e permitir consulta humana.",
+      "mobile_priority": "Não pedir geolocalização obrigatória; bairro/CEP digitável e opção de consultar manualmente.",
+      "test_hypothesis": "Cobertura antes versus depois do catálogo; medir pedidos atendíveis e abandono na checagem.",
+      "compatible_visual_themes": [
+        "P01",
+        "G04",
+        "R01",
+        "R02",
+        "A04"
+      ]
+    },
+    {
+      "id": "E11",
+      "name": "Campanha de oferta única",
+      "use_cases": "Uma oferta concreta: serviço específico, aula inicial, combo real ou encomenda sazonal.",
+      "arrival_intent": "Visitante clicou em anúncio ou mensagem com uma promessa comercial específica.",
+      "primary_goal": "Solicitação ou compra daquela oferta, não exploração geral da empresa.",
+      "main_blocker": "Não entender o que a oferta inclui, suas condições e como obtê-la.",
+      "first_viewport": "Mesma oferta anunciada + itens/benefício factual + preço e condição essencial + CTA. Identificar claramente marca e local.",
+      "sections": [
+        {
+          "title": "Oferta correspondente",
+          "visitor_question": "É a oferta que vi no anúncio?",
+          "content": "Título coerente com o anúncio, preço e condição principal.",
+          "composition": "Abertura centrada em uma oferta; imagem pertinente."
+        },
+        {
+          "title": "Escopo",
+          "visitor_question": "O que exatamente está incluído?",
+          "content": "Itens, duração/unidade, exclusões e disponibilidade real.",
+          "composition": "Ficha de oferta; não catálogo completo."
+        },
+        {
+          "title": "Prova específica",
+          "visitor_question": "A empresa consegue entregar isso?",
+          "content": "Trabalho, estrutura ou profissional relacionado à oferta.",
+          "composition": "Prova próxima do argumento, sem faixa genérica de logos."
+        },
+        {
+          "title": "Condições",
+          "visitor_question": "O que preciso saber antes de pedir?",
+          "content": "Validade somente se real, regras, taxas e confirmação.",
+          "composition": "Condições visíveis junto da ação; dúvidas complementares em expansão."
+        },
+        {
+          "title": "Solicitação",
+          "visitor_question": "Como peço esta oferta?",
+          "content": "Oferta pré-selecionada no contato e próximos passos claros.",
+          "composition": "Formulário curto ou canal direto contextual."
+        }
+      ],
+      "cta": "Consultar {oferta}",
+      "minimum_inputs": "Oferta pré-selecionada, contato e informação necessária para executar.",
+      "required_evidence": "Oferta aprovada pela operação; preço e regras; anúncio correspondente e prova pertinente.",
+      "avoid_when_or_risks": "Não criar desconto, escassez, vagas limitadas ou gratuidade para preencher o template. Links de acesso, contato e condições continuam disponíveis.",
+      "mobile_priority": "Condição essencial perto do preço; CTA específico; nenhuma barreira de popup antes da leitura.",
+      "test_hypothesis": "Duas apresentações da mesma oferta; medir aquisição confirmada e qualidade, sem alterar preço e estrutura ao mesmo tempo.",
+      "compatible_visual_themes": [
+        "B01",
+        "B04",
+        "F01",
+        "F03",
+        "P03",
+        "G02",
+        "G03"
+      ]
+    },
+    {
+      "id": "E12",
+      "name": "Experiência e reserva",
+      "use_cases": "Restaurantes, spas e estúdios que vendem experiência presencial e possuem material próprio.",
+      "arrival_intent": "Pessoa explora uma opção de passeio ou cuidado e quer avaliar se combina com a ocasião.",
+      "primary_goal": "Pedido de reserva ou consulta de experiência.",
+      "main_blocker": "Não conseguir imaginar a ocasião, o ambiente e as condições.",
+      "first_viewport": "Foto do ambiente/produto + proposta concreta + bairro + acesso imediato ao menu/experiências e reserva. Evitar narrativa que bloqueie tarefas.",
+      "sections": [
+        {
+          "title": "Experiência e ocasião",
+          "visitor_question": "Que lugar é esse e por que eu iria?",
+          "content": "Proposta da casa, local e uma imagem própria expressiva.",
+          "composition": "Fotografia ampla e título editorial legível."
+        },
+        {
+          "title": "Escolha prática",
+          "visitor_question": "O que posso consumir ou reservar?",
+          "content": "Cardápio, experiências, duração ou preços publicáveis.",
+          "composition": "Menu editorial de leitura fácil."
+        },
+        {
+          "title": "Ambiente e contexto",
+          "visitor_question": "Como é estar aí?",
+          "content": "Fotos reais do espaço, acesso e informações sobre a ocasião.",
+          "composition": "Ensaio fotográfico curto com legendas."
+        },
+        {
+          "title": "Quem faz e como funciona",
+          "visitor_question": "O cuidado com a experiência é real?",
+          "content": "Equipe, preparo ou atendimento com fatos específicos.",
+          "composition": "Bloco de bastidores opcional; sem manifesto longo."
+        },
+        {
+          "title": "Regras de visita",
+          "visitor_question": "Como planejo minha ida?",
+          "content": "Funcionamento, reservas, acesso, política para grupos e condições pertinentes.",
+          "composition": "Ficha prática e mapa."
+        },
+        {
+          "title": "Reserva",
+          "visitor_question": "Como consulto uma data?",
+          "content": "Dia, período e quantidade de pessoas quando aplicável; confirmação real.",
+          "composition": "Formulário curto ou contato, sem prometer mesa/vaga sem sistema."
+        }
+      ],
+      "cta": "Consultar uma reserva",
+      "minimum_inputs": "Data, horário, quantidade de pessoas quando aplicável e contato.",
+      "required_evidence": "Fotos do local; cardápio/experiências vigentes; regras e operação de reserva.",
+      "avoid_when_or_risks": "Evitar em atendimento urgente e compra utilitária simples. Não usar vídeo pesado, scroll bloqueado ou introdução longa antes do cardápio.",
+      "mobile_priority": "Imagem otimizada, ação legível sem overlay complexo, cardápio e contato alcançáveis cedo.",
+      "test_hypothesis": "Imagem de ambiente versus produto na abertura; medir reserva confirmada por origem e ocasião.",
+      "compatible_visual_themes": [
+        "G01",
+        "G03",
+        "B03",
+        "F02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "F1",
+      "title": "Unbounce — Conversion-Centered Design",
+      "url": "https://unbounce.com/conversion-centered-design/",
+      "application": "Fundamenta foco em um objetivo de campanha. A aplicação aos negócios locais é uma adaptação deste guia."
+    },
+    {
+      "id": "F2",
+      "title": "Unbounce — Message Match",
+      "url": "https://unbounce.com/conversion-glossary/definition/message-match/",
+      "application": "Alinhamento entre a mensagem que trouxe o visitante e a oferta da página."
+    },
+    {
+      "id": "F3",
+      "title": "GOV.UK — Structuring forms",
+      "url": "https://www.gov.uk/service-manual/design/form-structure",
+      "application": "Justificar cada pergunta e usar rotas pertinentes ao serviço. Guia de serviço público, adaptado aqui para formulários comerciais."
+    },
+    {
+      "id": "F4",
+      "title": "Nielsen Norman Group — Progressive Disclosure",
+      "url": "https://www.nngroup.com/articles/progressive-disclosure/",
+      "application": "Mostrar o essencial primeiro e revelar detalhes secundários sob demanda. Não é recomendação de esconder preço ou condições."
+    }
+  ]
+}

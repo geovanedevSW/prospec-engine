@@ -1,0 +1,189 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-heading: 'Manrope', system-ui, -apple-system, sans-serif;
+    --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+    --ease-in-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+    /* Unslop Light Theme (Calm Neutral Ramp) */
+    --ground: #fafafa;
+    --surface-deep: #f4f4f5;
+    --surface: #ffffff;
+    --surface-card: #ffffff;
+    --surface-elevated: #f4f4f5;
+    --border-subtle: rgba(0, 0, 0, 0.08);
+    --border-hover: rgba(0, 0, 0, 0.16);
+    --text-primary: #171717;
+    --text-secondary: #525252;
+    --text-muted: #737373;
+    --accent: #EB5E28;
+    --accent-hover: #d8521d;
+  }
+
+  html.dark {
+    /* Obsidian & Graphite Palette matching reference image */
+    --ground: #0b0b0e;
+    --surface-deep: #0e0e12;
+    --surface: #121216;
+    --surface-card: #15151a;
+    --surface-elevated: #1e1e24;
+    --border-subtle: rgba(255, 255, 255, 0.07);
+    --border-hover: rgba(255, 255, 255, 0.14);
+    --text-primary: #f4f4f6;
+    --text-secondary: #9b9ba3;
+    --text-muted: #6e6e78;
+    --accent: #EB5E28;
+    --accent-hover: #f06935;
+  }
+
+  body {
+    background-color: var(--ground);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    letter-spacing: -0.011em;
+    overflow-x: hidden;
+    transition: background-color 150ms cubic-bezier(0.22, 1, 0.36, 1), color 150ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.022em;
+  }
+
+  /* Custom high-contrast selection with Spicy Paprika */
+  ::selection {
+    background-color: rgba(235, 94, 40, 0.35);
+    color: #FFFCF2;
+  }
+
+  /* Accessible focus indicators for keyboard navigation */
+  *:focus-visible {
+    outline: 2px solid rgba(235, 94, 40, 0.85);
+    outline-offset: 2px;
+  }
+
+  /* Precision scrollbars adaptive to theme */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(90, 85, 78, 0.22);
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(90, 85, 78, 0.4);
+  }
+
+  html.dark ::-webkit-scrollbar-thumb {
+    background: rgba(204, 197, 185, 0.22);
+  }
+
+  html.dark ::-webkit-scrollbar-thumb:hover {
+    background: rgba(204, 197, 185, 0.4);
+  }
+}
+
+.font-heading {
+  font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+}
+
+.font-sans {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Animations with purpose (< 300ms, natural ease-out) */
+@keyframes toastSlideIn {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes modalIn {
+  from {
+    transform: translateY(6px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-toast-in {
+  animation: toastSlideIn 200ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-modal-in {
+  animation: modalIn 180ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 150ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Skeleton Shimmer Loading States (Zero CLS, high perceived performance) */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(226, 219, 208, 0.35) 0%,
+    rgba(226, 219, 208, 0.75) 50%,
+    rgba(226, 219, 208, 0.35) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.6s infinite linear;
+}
+
+html.dark .skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(45, 43, 40, 0.45) 0%,
+    rgba(64, 61, 57, 0.85) 50%,
+    rgba(45, 43, 40, 0.45) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.6s infinite linear;
+}
+
+/* Respect user's motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

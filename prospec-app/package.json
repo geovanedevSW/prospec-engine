@@ -1,0 +1,41 @@
+{
+  "name": "prospec-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prospec App — Central de Aquisição & Venda de Sites",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build:client": "vite build",
+    "build": "npm run build:client",
+    "start": "tsx src/index.ts",
+    "test": "npx tsx --test --test-concurrency=1 --test-force-exit tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "@types/gsap": "^1.20.2",
+    "compression": "^1.8.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "gsap": "^3.15.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/compression": "^1.8.1",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,60 @@
+﻿niche,subniche,theme,headline,subheadline,cta,qualification
+beleza,Barbearia,B01,"Corte e barba em {bairro}, com horário combinado.",Veja serviços e valores antes de escolher seu atendimento.,Consultar horário,serviço e preferência de profissional
+beleza,Salão de beleza,B03,Seu próximo cuidado com o cabelo começa por uma conversa.,"Conheça os serviços, a equipe e os horários da {marca}.",Conversar sobre meu cabelo,serviço e dia desejado
+beleza,Cosméticos e beleza,B04,Encontre o produto que falta na sua rotina de cuidados.,"Consulte marcas, tamanhos e disponibilidade na {marca}.",Consultar um produto,"marca, linha e tamanho"
+beleza,Esteticista,B03,Conheça os cuidados estéticos oferecidos em {bairro}.,Veja como funciona a avaliação e quem realiza o atendimento.,Consultar avaliação,serviço de interesse
+beleza,Nail designer,B04,Uma referência para suas próximas unhas.,"Veja trabalhos, técnicas e informações sobre manutenção.",Escolher minha técnica,"técnica, data e referência opcional"
+beleza,Manicure,B04,Mãos e pés com atendimento marcado em {bairro}.,"Consulte serviços, valores e horários da {marca}.",Marcar manicure,serviço e período
+beleza,Cabeleireiro,B03,Um corte pensado para o cabelo que você tem.,Conheça os trabalhos de {profissional} e consulte o atendimento.,Consultar um corte,tipo de serviço
+beleza,Depilação a laser,B03,"Antes de começar a depilação a laser, tire suas dúvidas.",Consulte as áreas atendidas e como funciona a avaliação na {marca}.,Conversar sobre a avaliação,área de interesse; evitar dados clínicos no primeiro formulário
+beleza,Clínica de estética,B03,Entenda as opções de cuidado antes de escolher um procedimento.,Conheça a equipe e as etapas da avaliação individual.,Solicitar informações,procedimento de interesse
+beleza,Sobrancelhas,B04,Um desenho que começa por conhecer suas sobrancelhas.,Veja os trabalhos da {marca} e consulte técnicas e manutenção.,Consultar design de sobrancelhas,técnica e dia desejado
+beleza,Cílios,B04,Cílios: escolha o efeito com mais informação.,"Compare técnicas, conheça os cuidados e consulte manutenção.",Consultar aplicação de cílios,técnica e disponibilidade
+beleza,Spa,B03,Reserve um tempo para conhecer os cuidados do nosso spa.,"Veja experiências, duração e condições de agendamento.",Consultar experiências,experiência e data
+beleza,Massoterapia,B03,Uma sessão de massoterapia com os cuidados explicados.,"Conheça as técnicas, a duração e quem realiza o atendimento.",Consultar uma sessão,técnica de interesse e horário
+beleza,Bronzeamento,B03,Conheça a técnica e os cuidados antes de marcar seu bronzeamento.,"A {marca} explica o procedimento, o preparo e as condições de atendimento.",Tirar dúvidas sobre o atendimento,técnica e horário; validar a modalidade oferecida
+saude,Dentista autônomo,S02,Conheça seu dentista antes de marcar a consulta.,"Veja a formação, os atendimentos e as etapas da primeira visita.",Falar com a recepção,preferência de horário
+saude,Clínica odontológica,S01,"Atendimento odontológico em {bairro}, da primeira consulta ao acompanhamento.",Conheça os serviços e os profissionais da {marca}.,Solicitar consulta,atendimento procurado e horário
+saude,Clínica médica especializada,S03,"Atendimento em {especialidade}, com informações claras para sua primeira consulta.","Consulte profissionais, modalidades e horários da {marca}.",Consultar disponibilidade,especialidade e período
+saude,Bucomaxilofacial,S02,Informação e avaliação para entender seu atendimento bucomaxilofacial.,Conheça o profissional e como funciona a consulta.,Consultar atendimento,contato e preferência de horário
+saude,Prótese dentária,S02,Entenda as opções de prótese para conversar com seu dentista.,Consulte como funciona a avaliação e o planejamento do atendimento.,Solicitar informações,contato e disponibilidade
+saude,Fisioterapia e reabilitação,S04,Seu movimento merece uma avaliação individual.,Veja as áreas de atuação e o que esperar da primeira visita.,Solicitar avaliação,disponibilidade; detalhes clínicos em canal apropriado
+saude,Radiologia odontológica,S01,Consulte seu exame odontológico em {bairro}.,"Veja exames disponíveis, preparo informado pela clínica e horários.",Consultar exame e horário,nome do exame; documentação em canal apropriado
+saude,Psicologia,S03,Um espaço para começar uma conversa sobre você.,Conheça a atuação de {profissional} e as modalidades de atendimento.,Consultar disponibilidade,modalidade e horário; sem relato íntimo obrigatório
+saude,Oftalmologia,S03,Sua consulta oftalmológica em {bairro}.,"Consulte profissionais, atendimentos e informações para a primeira visita.",Consultar horários,preferência de dia
+saude,Nutrição,S03,"Sua alimentação, sua rotina e um acompanhamento individual.",Conheça a abordagem de {profissional} e como funciona a consulta.,Consultar atendimento,modalidade e período
+saude,Podologia,S03,Conheça os cuidados de podologia disponíveis em {bairro}.,"Veja quem atende, os serviços e como solicitar um horário.",Consultar um atendimento,serviço e horário
+auto,Oficina mecânica,A01,Seu carro apresentou um problema? Comece por uma avaliação.,Conheça os serviços e como funciona o orçamento na {marca}.,Solicitar avaliação,"modelo, ano e descrição do problema"
+auto,Oficina de motos,A01,"Manutenção de moto em {bairro}, com o serviço explicado.","Consulte revisão, manutenção e os modelos atendidos pela {marca}.",Consultar atendimento para minha moto,"modelo, ano e serviço"
+auto,Autopeças e acessórios,A02,A peça certa começa pela aplicação correta.,Consulte marcas e disponibilidade informando seu veículo.,Consultar uma peça,"modelo, ano, motorização e peça"
+auto,Guincho e reboque,A04,Precisa transportar seu veículo em {cidade}?,Informe origem e destino para consultar disponibilidade e valor.,Ligar para solicitar guincho,"localização, destino e tipo de veículo"
+auto,Baterias,A02,Consulte a bateria indicada para seu veículo.,"A {marca} confirma aplicação, disponibilidade e condições de instalação.",Consultar uma bateria,"modelo, ano e localização"
+auto,Pneus e alinhamento,A02,Compare pneus e serviços para o seu carro.,"Consulte medidas, marcas e condições de alinhamento na {marca}.",Consultar pneus e serviços,"medida do pneu, modelo e ano"
+auto,Lanternagem e pintura,A03,Veja como a {marca} trabalha a recuperação e a pintura do veículo.,Conheça os projetos e solicite uma avaliação do serviço.,Solicitar avaliação de pintura,"fotos, modelo e local do dano"
+auto,Car detailing,A03,Escolha o cuidado para o acabamento do seu carro.,"Compare os serviços de limpeza, proteção e estética da {marca}.",Consultar serviço de detailing,modelo e serviço de interesse
+fitness,Academia e centro de treinamento,F01,Uma academia que caiba na sua rotina em {bairro}.,"Veja estrutura, modalidades, planos e horários.",Conhecer planos e horários,objetivo de contato e período
+fitness,Pilates,F02,Conheça o Pilates da {marca} antes de escolher sua turma.,"Veja profissionais, formatos de aula e horários disponíveis.",Consultar turmas,dias e períodos
+fitness,Jiu-jitsu,F03,Seu primeiro treino de jiu-jitsu pode começar aqui.,"Consulte turmas de iniciação, professores e o que levar.",Consultar turma de iniciantes,idade e período
+fitness,Judô,F03,Judô para começar e continuar aprendendo.,"Veja faixas etárias, professores e horários da {marca}.",Consultar uma turma de judô,idade e experiência
+fitness,Boxe,F03,Quer começar no boxe? Conheça sua primeira aula.,"Veja turmas, professores e equipamentos necessários.",Consultar aula de boxe,nível de experiência e período
+fitness,Natação,F04,Encontre uma turma para sua fase na água.,"Consulte idades, níveis, estrutura e horários.",Consultar turma de natação,"idade, experiência e período"
+fitness,Personal trainer,F01,Treino planejado a partir da sua rotina.,"Conheça {profissional}, os formatos de acompanhamento e a disponibilidade.",Conversar sobre acompanhamento,formato e horários; avaliação física em etapa própria
+pets,Pet shop e casa de ração,P01,"Ração, acessórios e uma loja perto de você.",Envie o produto que procura e consulte retirada ou entrega.,Consultar um produto,"marca, embalagem e bairro"
+pets,Aquarismo,P04,Equipamentos e manutenção para o seu aquário.,Consulte especificações e disponibilidade para o seu tipo de sistema.,Consultar um equipamento,"volume, tipo de sistema e item"
+pets,Répteis e loja especializada,P04,Itens para montar e manter o ambiente do seu réptil.,"Consulte iluminação, aquecimento e acessórios para a espécie informada.",Consultar um item,"espécie, dimensões do recinto e item"
+pets,Clínica veterinária,P02,Conheça quem vai atender seu pet em {bairro}.,"Veja a equipe, os serviços e como solicitar atendimento.",Solicitar atendimento veterinário,espécie e preferência de horário
+pets,Hospital veterinário 24h,P02,Precisa de atendimento veterinário agora? Ligue para a {marca}.,Confirme a disponibilidade para atendimento e veja como chegar.,Ligar para o hospital,espécie e localização; usar esta copy só para operação 24h real
+pets,Banho e tosa,P03,Consulte o próximo banho e tosa do seu pet.,"Conheça os serviços, os cuidados e os critérios de preço.",Consultar banho e tosa,"porte, pelagem e serviço"
+residencial,Encanador,R01,Encanador em {bairro}: explique o problema e consulte atendimento.,Veja a área atendida e como funciona a visita.,Consultar atendimento,bairro e descrição do problema
+residencial,Caça-vazamentos,R01,Suspeita de vazamento? Consulte uma avaliação.,Conheça os serviços e os métodos realmente utilizados pela {marca}.,Consultar caça-vazamento,"bairro, imóvel e sinais observados"
+residencial,Marido de aluguel,R03,Sua lista de instalações e pequenos reparos em um contato.,Envie as tarefas e consulte quais podem ser atendidas pela {marca}.,Enviar minha lista,lista de tarefas e fotos opcionais
+residencial,Eletricista,R02,"Serviço elétrico em {bairro}, com orçamento explicado.","Consulte instalações, manutenção e os tipos de atendimento.",Solicitar orçamento elétrico,bairro e tipo de serviço
+residencial,Desentupidora,R01,Entupimento em {bairro}? Consulte atendimento disponível.,Informe o local e entenda como funciona a avaliação.,Ligar para consultar atendimento,bairro e ponto do entupimento
+residencial,Drenagem,R04,Planeje a drenagem com uma avaliação do local.,"Converse sobre o problema, o terreno e o escopo do serviço.",Solicitar avaliação de drenagem,local e dimensão aproximada
+residencial,Pedreiro,R04,Uma conversa para tirar sua obra do papel.,Veja trabalhos realizados e consulte avaliação para seu serviço.,Conversar sobre minha obra,"bairro, serviço e dimensão"
+comercio,Restaurante,G01,Seu almoço ou jantar em {bairro} começa pelo cardápio.,"Veja os pratos, os horários e as condições de reserva.",Ver cardápio,"dia e número de pessoas, se reserva"
+comercio,Pizzaria,G02,Seu próximo sabor está no cardápio da {marca}.,"Compare tamanhos, ingredientes e opções de entrega ou retirada.",Ver pizzas e pedir,"itens, tamanho e entrega ou retirada"
+comercio,Lanchonete e hamburgueria,G02,Escolha seu lanche e monte o pedido do seu jeito.,"Veja ingredientes, adicionais e condições de entrega.",Ver lanches e pedir,"itens, adicionais e endereço, quando necessário"
+comercio,Padaria e confeitaria,G03,Do café da manhã à próxima encomenda.,"Consulte produtos, quantidades e prazos na {marca}.",Consultar uma encomenda,"produto, quantidade e data"
+comercio,Mercado,G04,"Sua lista de compras, com preço e disponibilidade confirmados.",Consulte os itens da {marca} e as opções de retirada ou entrega.,Enviar lista de compras,"lista, quantidades e bairro"
+comercio,Materiais de construção,G04,Envie a lista da obra e consulte os materiais.,"A {marca} confirma especificações, unidades, disponibilidade e frete.",Cotar materiais da obra,"material, medida, unidade, quantidade e CEP"

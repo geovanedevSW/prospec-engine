@@ -1,0 +1,13 @@
+{
+  "name": "prospec-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prospec Engine — Plataforma de Prospecção Ativa, Qualificação e Venda de Sites Locais",
+  "type": "module",
+  "scripts": {
+    "start": "npm --prefix prospec-app start",
+    "dev": "npm --prefix prospec-app run dev",
+    "build": "npm --prefix prospec-app run build",
+    "test": "npm --prefix prospec-app run test"
+  }
+}
